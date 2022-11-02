@@ -1,7 +1,7 @@
 # Political Resource Hub (PRH)
 The PRH aims to present the politcally curious with different materials that provide more information on politics. Utilizing the Google Civic Information API, the PRH can give users information on elections, polling locations, representatives, and candidates based on their home address.
 
-## Setup
+## Setup & First Run of the Project
 1. Clone the repo
 2. Run `git checkout -b <branch-name>` to start a branch for what you're working on
 3. If you're working on the same thing as somebody else it may be usful to create a branch for the task and sub branches for each member
@@ -12,8 +12,10 @@ The PRH aims to present the politcally curious with different materials that pro
     - `PORT=<port-of-choice>` (5500 is what I use)
     - `CIVIC_INFO_API_KEY=<api-key>` **Note:** Follow [this guide](https://support.google.com/googleapi/answer/6158862?hl=en) to generate an API key in the Google Cloud Dashboard
     - **Note:** Here's a helpful [link](https://github.com/motdotla/dotenv)
+8. In the top level directory of the project run `npm run dev`
+    - **Note:** This script uses concurrently to run the start scripts for the server and the frontend
 
-## Important files and directories
+## Important files & directories
 There are a couple of files that may be easily described here. Generally, you'll notice that the application has the root directory, a frontend directory, and a backend directory. Each directory has a .gitignore, package.json, and package-lock.json. This was intentional due to each part of the application having different dependencies, scripts, etc. Because of this make sure...
 - **When doing anything with git make sure you are working in the root directory of the project.**
 - **When installing npm packages make sure you're in the appropriate directory (ask if you're not sure)**
