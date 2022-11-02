@@ -11,12 +11,12 @@ jobs:
     steps:
       - checkout
       - node/install-packages:
-          pkg-manager: yarn
+          pkg-manager: npm
       - run:
-          command: cd frontend && yarn test
+          command: cd frontend && npm run test
           name: Run tests
       - run:
-          command: yarn build && cd ..
+          command: npm run build && cd ..
           name: Build app
       - persist_to_workspace:
           root: ~/project
