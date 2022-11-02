@@ -13,10 +13,10 @@ jobs:
       - node/install-packages:
           pkg-manager: yarn
       - run:
-          command: yarn test
+          command: cd frontend && yarn test
           name: Run tests
       - run:
-          command: yarn build
+          command: yarn build && cd ..
           name: Build app
       - persist_to_workspace:
           root: ~/project
