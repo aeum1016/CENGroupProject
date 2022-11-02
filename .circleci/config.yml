@@ -12,6 +12,8 @@ jobs:
       - checkout
       - node/install-packages:
           pkg-manager: yarn
+      - node/install-packages:
+          pkg-manager: npm
       - run:
           command: yarn client
           name: Run client side
