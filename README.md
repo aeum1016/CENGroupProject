@@ -8,7 +8,10 @@ The PRH aims to present the politcally curious with different materials that pro
 4. [Install node.js](https://nodejs.org/en/download/) if you haven't
 5. Run `npm i` in the top level, frontend, and backend directories
 6. In the top level directory of the project create a file named ".env"
-7. Define the environment variables in .env PORT (5500 is what I use) and CIVIC_INFO_API_KEY **Note:** Here's a helpful [link](https://github.com/motdotla/dotenv)
+7. Define the necessary environment variables in .env
+    - `PORT=<port-of-choice>` (5500 is what I use)
+    - `CIVIC_INFO_API_KEY=<api-key>` **Note:** Follow [this guide](https://support.google.com/googleapi/answer/6158862?hl=en) to generate an API key in the Google Cloud Dashboard
+    - **Note:** Here's a helpful [link](https://github.com/motdotla/dotenv)
 
 ## Important files and directories
 There are a couple of files that may be easily described here. Generally, you'll notice that the application has the root directory, a frontend directory, and a backend directory. Each directory has a .gitignore, package.json, and package-lock.json. This was intentional due to each part of the application having different dependencies, scripts, etc. Because of this make sure...
