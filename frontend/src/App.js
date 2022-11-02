@@ -7,9 +7,9 @@ import {
 } from "react-router-dom";
 
 import './App.css';
-import accountPage from './components/pages/accountPage';
-import informationPage from './components/pages/informationPage';
-import landingPage from './components/pages/landingPage';
+import AccountPage from './components/pages/AccountPage';
+import InformationPage from './components/pages/InformationPage';
+import LandingPage from './components/pages/LandingPage';
 
 
 function App() {
@@ -18,13 +18,13 @@ function App() {
       <Router>
         <Routes>
           <Route path="/">
-            <landingPage />
+            <LandingPage />
           </Route>
           <Route path="/info">
-            <informationPage />
+            <InformationPage />
           </Route>
           <Route path="/account">
-            <accountPage />
+            <AccountPage />
           </Route>
         </Routes>
       </Router>

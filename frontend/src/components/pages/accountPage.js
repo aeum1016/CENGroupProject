@@ -1,9 +1,9 @@
 import React from 'react'
 
-function accountPage() {
+function AccountPage() {
   return (
-    <div>accountPage</div>
+    <div>AccountPage</div>
   )
 }
 
-export default accountPage
+export default AccountPage

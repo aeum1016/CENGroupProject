@@ -1,9 +1,9 @@
 import React from 'react'
 
-function informationPage() {
+function InformationPage() {
   return (
-    <div>informationPage</div>
+    <div>InformationPage</div>
   )
 }
 
-export default informationPage
+export default InformationPage
