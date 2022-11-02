@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "concurrently": "^7.5.0",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "client": "npm start --prefix frontend",
+    "server": "nodemon backend/server.js",
+    "dev": "concurrently \"npm run client\" \"npm run server\" "
+  }
+}

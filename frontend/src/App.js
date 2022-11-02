@@ -11,21 +11,15 @@ import AccountPage from './components/pages/AccountPage';
 import InformationPage from './components/pages/InformationPage';
 import LandingPage from './components/pages/LandingPage';
 
-
 function App() {
+  console.log(process.env.REACT_APP_TEST);
   return (
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/">
-            <LandingPage />
-          </Route>
-          <Route path="/info">
-            <InformationPage />
-          </Route>
-          <Route path="/account">
-            <AccountPage />
-          </Route>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/info" element={<InformationPage />} />
+          <Route path="/account" element={<AccountPage />} />
         </Routes>
       </Router>
     </div>
