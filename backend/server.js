@@ -37,14 +37,16 @@ const getCivicInfoConfig = (url, address = null) => {
 
 apiRouter.get('/voterinfo/:address', (req, res) => {
   const address = req.params.address; // takes the address that was given from the user as input
+
+	const config = getCivicInfoConfig('/voterinfo', address);
 	
-	axios(getCivicInfoConfig('/voterinfo', address))
+	axios(config)
 		.then((axiosResponse) => {
 			const axiosData = axiosResponse.data; // take the axios response as a function parameter and get the data
 			res.send(axiosData); // send the data from axios as a response
 		})
 		.catch((err) => {
-			res.status(500).send(err);
+			res.status(500).send(err); // send an HTTP error code along with the error if something fails
 		});
 });
 
