@@ -8,8 +8,9 @@ const app = express();
 const apiRouter = express.Router();
 
 // Middleware
-app.use(cors()); // mitigates cors errors
+//app.use(cors()); // mitigates cors errors -> put this back in if there are issues
 app.use(express.json()); // allows us to parse json (built on body-parser)
+app.disable("x-powered-by");
 
 // Define constants to be used in server implementation
 const PORT = process.env.PORT;
