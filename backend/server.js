@@ -8,7 +8,7 @@ const app = express();
 const apiRouter = express.Router();
 
 // Middleware
-app.use(cors); // mitigates cors errors
+app.use(cors()); // mitigates cors errors
 app.use(express.json()); // allows us to parse json (built on body-parser)
 
 // Define constants to be used in server implementation
@@ -35,12 +35,13 @@ const getCivicInfoConfig = (url, address = null) => {
 	return(config);
 };
 
-apiRouter.get('/voterinfo', (req, res) => {
-  // const address = req.params.address;
-	axios(getCivicInfoConfig('/voterinfo', '607 Carpenter Way Auburn, Alabama(AL)'))
+apiRouter.get('/voterinfo/:address', (req, res) => {
+  const address = req.params.address; // takes the address that was given from the user as input
+	
+	axios(getCivicInfoConfig('/voterinfo', address))
 		.then((axiosResponse) => {
-			const axiosData = axiosResponse.data;
-			res.send(axiosData);
+			const axiosData = axiosResponse.data; // take the axios response as a function parameter and get the data
+			res.send(axiosData); // send the data from axios as a response
 		})
 		.catch((err) => {
 			res.status(500).send(err);
@@ -49,9 +50,10 @@ apiRouter.get('/voterinfo', (req, res) => {
 
 //TODO: Write other internal API routues for specific queries to the APIs EX: a route that returns the top 5 polling locations as the response
 
-// Use different routers for different routes
+// Use different router objects for different routes
 app.use('/api', apiRouter); // use the apiRouter for all routes starting with /api
 
-const server = app.listen(PORT, () => {
-  console.log(`Starting server on port ${PORT}`);
-})
+// Start the server when this file is run with node
+app.listen(PORT, () => {
+  console.log(`Starting server on port ${PORT} ...`);
+});

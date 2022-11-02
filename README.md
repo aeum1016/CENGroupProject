@@ -7,8 +7,8 @@ The PRH aims to present the politcally curious with different materials that pro
 3. If you're working on the same thing as somebody else it may be usful to create a branch for the task and sub branches for each member
 4. [Install node.js](https://nodejs.org/en/download/) if you haven't
 5. Run `npm i` in the top level, frontend, and backend directories
-6. In the backend directory create a file named ".env"
-7. Define the environment variables PORT and CIVIC_INFO_API_KEY **Note:** Here's a helpful [link](https://github.com/motdotla/dotenv)
+6. In the top level directory of the project create a file named ".env"
+7. Define the environment variables in .env PORT (5500 is what I use) and CIVIC_INFO_API_KEY **Note:** Here's a helpful [link](https://github.com/motdotla/dotenv)
 
 ## Important files and directories
 There are a couple of files that may be easily described here. Generally, you'll notice that the application has the root directory, a frontend directory, and a backend directory. Each directory has a .gitignore, package.json, and package-lock.json. This was intentional due to each part of the application having different dependencies, scripts, etc. Because of this make sure...
