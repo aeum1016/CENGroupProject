@@ -18,7 +18,7 @@ jobs:
           name: Install!
           command: npm install
       - run:
-          command: yarn client
+          command: npm run client
           name: Run client side
       - persist_to_workspace:
           root: ~/project
