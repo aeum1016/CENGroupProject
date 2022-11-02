@@ -1,10 +1,14 @@
 const express = require('express');
+const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
 
+// Middleware
+app.use(cors);
+
+//Routes
 app.get('/', (req, res) => {
-  console.log(process.env);
   // TODO: Write response for what we need
 });
 
