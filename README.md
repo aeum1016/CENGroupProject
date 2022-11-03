@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Political Resource Hub (PRH)
+The PRH aims to present the politcally curious with different materials that provide more information on politics. Utilizing the Google Civic Information API, the PRH can give users information on elections, polling locations, representatives, and candidates based on their home address.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup & First Run of the Project
+1. Clone the repo
+2. Run `git checkout -b <branch-name>` to start a branch for what you're working on
+3. If you're working on the same thing as somebody else it may be usful to create a branch for the task and sub branches for each member
+4. [Install node.js](https://nodejs.org/en/download/) if you haven't
+5. Run `npm i` in the top level, frontend, and backend directories
+6. In the top level directory of the project create a file named ".env"
+7. Define the necessary environment variables in .env
+    - `PORT=<port-of-choice>` (5500 is what I use)
+    - `CIVIC_INFO_API_KEY=<api-key>` **Note:** Follow [this guide](https://support.google.com/googleapi/answer/6158862?hl=en) to generate an API key in the Google Cloud Dashboard
+    - **Note:** Here's a helpful [link](https://github.com/motdotla/dotenv)
+8. In the top level directory of the project run `npm run dev`
+    - **Note:** This script uses concurrently to run the start scripts for the server and the frontend
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Important files & directories
+There are a couple of files that may be easily described here. Generally, you'll notice that the application has the root directory, a frontend directory, and a backend directory. Each directory has a .gitignore, package.json, and package-lock.json. This was intentional due to each part of the application having different dependencies, scripts, etc. Because of this make sure...
+- **When doing anything with git make sure you are working in the root directory of the project.**
+- **When installing npm packages make sure you're in the appropriate directory (ask if you're not sure)**
+### Frontend
+- The frontend folder contains the React app created using create-react-app
+- The frontend will make HTTP requests to the backend api using [axios](https://axios-http.com/docs/intro) (a library that makes HTTP requests easier)
+- **frontend > src > components > pages** - components for the different pages the application can display (i.e., landing, information, and account pages)
+- **frontend > src > components > assets** - components that we intend to reuse for styling consistency (e.g., buttons, boxes, text, etc.)
+    - **Note:** The frontend library [Material UI (MUI)](https://mui.com/) will help us achieve styling consistency but we may (or may not) end up wrapping groupings of MUI components in our own assests
+- **App.js** - the highest level component of our application that is parent to all our other components
+    - **Note:** Generally App.js should reamin untouched so that the "lower level" components can remain abstracted
+### Backend
+- The backend folder contains the server code which will make calls to the civic information api and expose the data to our apllication via an internal api
+- **backend > .env** - contains environment variables that are appended to the system's variables using the [dotenv](https://www.npmjs.com/package/dotenv) npm package
+- **backend > authentication.js** - this is ideally where we'll be able to isolate our authentication functionality for later use but this may need to be moved depending on the functional requirements of the authentication
