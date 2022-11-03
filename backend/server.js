@@ -51,6 +51,18 @@ apiRouter.get('/voterinfo/:address', (req, res) => {
 		});
 });
 
+// apiRouter.get('/voterinfo', (req, res) => {
+// 	const config = getCivicInfoConfig('/voterinfo', '607 Carpenter Way Auburn, Alabama(AL)');
+// 	axios(config)
+// 	.then((axiosResponse) => {
+// 		const axiosData = axiosResponse.data;
+// 		res.send(axiosData);
+// 	})
+// 	.catch((err) => {
+// 		res.status(500).send(err);
+// 	})
+// });
+
 //TODO: Write other internal API routues for specific queries to the APIs EX: a route that returns the top 5 polling locations as the response
 
 // Use different router objects for different routes
