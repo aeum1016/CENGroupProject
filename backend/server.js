@@ -44,6 +44,7 @@ apiRouter.get('/voterinfo/:address', (req, res) => {
 	axios(config)
 		.then((axiosResponse) => {
 
+			// get desired details of location
 			function locationDetails(obj) {
 				let address = obj.address;
 				let pollingHours = obj.pollingHours;
@@ -53,6 +54,7 @@ apiRouter.get('/voterinfo/:address', (req, res) => {
 				return {address, pollingHours, startDate, endDate};
 			}
 
+			// get desired urls
 			function getUrls(obj) {
 				let electionInfo = obj.electionInfoUrl;
 				let electionRegistration = obj.electionRegistrationUrl;
@@ -66,26 +68,29 @@ apiRouter.get('/voterinfo/:address', (req, res) => {
 
 			const axiosData = axiosResponse.data; // take the axios response as a function parameter and get the data
 
-
 			/* ======================= Voting information - pollingLocations, earlyVoteSites, dropOffLocations ======================= */
+			// polling locations info
 			let pollingLocationsArray;
 			if (axiosData.pollingLocations) {
-				const tenPollingLocations = axiosData.pollingLocations.slice(0, 10);
+				const tenPollingLocations = axiosData.pollingLocations.slice(0, 10); // decrease size of array if needed
 				pollingLocationsArray = tenPollingLocations.map((location) => locationDetails(location));
 			}
 
+			// early voting sites info
 			let earlyVoteSitesArray;
 			if (axiosData.earlyVoteSites) {
-				const tenEarlyVoteSites = axiosData.earlyVoteSites.slice(0, 10);
+				const tenEarlyVoteSites = axiosData.earlyVoteSites.slice(0, 10); // decrease size of array if needed
 				earlyVoteSitesArray = tenEarlyVoteSites.map((location) => locationDetails(location));
 			}
 
+			// drop off locations info
 			let dropOffLocationsArray;
 			if (axiosData.dropOffLocations) {
-				const tenDropOffLocations = axiosData.dropOffLocations.slice(0, 10);
+				const tenDropOffLocations = axiosData.dropOffLocations.slice(0, 10); // decrease size of array if needed
 				dropOffLocationsArray = tenDropOffLocations.map((location) => locationDetails(location));
 			}
 
+			// variable for all info pertaining to polling locations, early vote sites, and drop off locations
 			let votingInfo = {pollingLocations: pollingLocationsArray, earlyVoteSites: earlyVoteSitesArray, dropOffLocations: dropOffLocationsArray};
 
 			/* ==================================================== Helpful URLs =================================================== */
@@ -93,10 +98,9 @@ apiRouter.get('/voterinfo/:address', (req, res) => {
 			let urls = getUrls(state);
 
 			/* ================================================= Result/Send Response ================================================ */
-			let result = {votingInformation: votingInfo, helpfulUrls: urls};
+			let result = {votingInformation: votingInfo, helpfulUrls: urls}; // variable for storing all pertinent info from voterinfo call
 
 			res.send(result); // send the data from axios as a response
-
 		})
 		.catch((err) => {
 			res.status(500)
@@ -111,10 +115,39 @@ apiRouter.get('/representatives/:address', (req, res) => {
 	  
 	  axios(config)
 		  .then((axiosResponse) => {
-  
-			  const axiosData = axiosResponse.data; // take the axios response as a function parameter and get the data
+			let representatives = []; // array with each element representing an office and its official
+			const axiosData = axiosResponse.data; // take the axios response as a function parameter and get the data
+			let offices = axiosData.offices;
+			let officials = axiosData.officials;
 
-			  res.send(axiosData); // send the data from axios as a response
+			// get desired info of official
+			function getOfficialInfo(official) {
+				let name = official.name;
+				let party = official.party;
+				let phones = official.phones;
+				let urls = official.urls;
+				let photoUrl = official.photoUrl;
+				let emails = official.emails;
+
+				return {name, party, phones, urls, photoUrl, emails};
+			}
+
+			// add office and corresponding official to representatives array
+			function getRepresentativeInfo(role) {
+				let office = role.name;
+				let numOfficials = role.officialIndices.length;
+				
+				// loop through each element of the office
+				for (let i = 0; i < numOfficials; i++) {
+					let officialObject = officials[role.officialIndices[i]]; // use index to get official
+					let official = getOfficialInfo(officialObject); // get info on official
+					representatives.push({office, official}); // add info to representatives array
+				}
+			}
+
+			offices.map((office) => getRepresentativeInfo(office)); // loop through offices
+
+			res.send(representatives); // send the data from axios as a response
   
 		  })
 		  .catch((err) => {
@@ -133,7 +166,7 @@ apiRouter.get('/representatives/:address', (req, res) => {
 
 // TODO: '/helpfulurls/:address' - {electionInfo, electionRegistration, electionRegistrationConfirmation, absenteeVoting, votingLocationFinder, ballotInfo}
 
-// TODO: '/representatives/:address' - {...}
+// TODO: '/representatives/:address' - [{position, official},...] where official has format {name, party, phones, urls, photoUrl, emails}
 
 // Use different router objects for different routes
 app.use('/api', apiRouter); // use the apiRouter for all routes starting with /api
