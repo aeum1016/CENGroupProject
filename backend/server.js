@@ -44,7 +44,7 @@ apiRouter.get('/voterinfo/:address', (req, res) => {
 	axios(config)
 		.then((axiosResponse) => {
 
-			function desiredResponse(obj) {
+			function locationDetails(obj) {
 				let address = obj.address;
 				let pollingHours = obj.pollingHours;
 				let startDate = obj.startDate;
@@ -71,19 +71,19 @@ apiRouter.get('/voterinfo/:address', (req, res) => {
 			let pollingLocationsArray;
 			if (axiosData.pollingLocations) {
 				const tenPollingLocations = axiosData.pollingLocations.slice(0, 10);
-				pollingLocationsArray = tenPollingLocations.map((location) => desiredResponse(location));
+				pollingLocationsArray = tenPollingLocations.map((location) => locationDetails(location));
 			}
 
 			let earlyVoteSitesArray;
 			if (axiosData.earlyVoteSites) {
 				const tenEarlyVoteSites = axiosData.earlyVoteSites.slice(0, 10);
-				earlyVoteSitesArray = tenEarlyVoteSites.map((location) => desiredResponse(location));
+				earlyVoteSitesArray = tenEarlyVoteSites.map((location) => locationDetails(location));
 			}
 
 			let dropOffLocationsArray;
 			if (axiosData.dropOffLocations) {
 				const tenDropOffLocations = axiosData.dropOffLocations.slice(0, 10);
-				dropOffLocationsArray = tenDropOffLocations.map((location) => desiredResponse(location));
+				dropOffLocationsArray = tenDropOffLocations.map((location) => locationDetails(location));
 			}
 
 			let votingInfo = {pollingLocations: pollingLocationsArray, earlyVoteSites: earlyVoteSitesArray, dropOffLocations: dropOffLocationsArray};
@@ -91,9 +91,6 @@ apiRouter.get('/voterinfo/:address', (req, res) => {
 			/* ==================================================== Helpful URLs =================================================== */
 			let state = axiosData.state[0].electionAdministrationBody;
 			let urls = getUrls(state);
-
-			/* =================================================== Representatives ================================================== */
-			
 
 			/* ================================================= Result/Send Response ================================================ */
 			let result = {votingInformation: votingInfo, helpfulUrls: urls};
@@ -106,6 +103,25 @@ apiRouter.get('/voterinfo/:address', (req, res) => {
 			res.send(err); // send an HTTP error code along with the error if something fails
 		});
 });
+
+apiRouter.get('/representatives/:address', (req, res) => {
+	const address = req.params.address; // takes the address that was given from the user as input
+  
+	  const config = getCivicInfoConfig('/representatives', address);
+	  
+	  axios(config)
+		  .then((axiosResponse) => {
+  
+			  const axiosData = axiosResponse.data; // take the axios response as a function parameter and get the data
+
+			  res.send(axiosData); // send the data from axios as a response
+  
+		  })
+		  .catch((err) => {
+			  res.status(500)
+			  res.send(err); // send an HTTP error code along with the error if something fails
+		  });
+  });
 
 // TODO: Write other internal API routues for specific queries to the APIs EX: a route that returns the top 5 polling locations as the response
 
