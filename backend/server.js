@@ -43,11 +43,63 @@ apiRouter.get('/voterinfo/:address', (req, res) => {
 	
 	axios(config)
 		.then((axiosResponse) => {
+
+			function desiredResponse(obj) {
+				let address = obj.address;
+				let pollingHours = obj.pollingHours;
+				let startDate = obj.startDate;
+				let endDate = obj.startDate;
+				 
+				return {address, pollingHours, startDate, endDate};
+			}
+
+			function getUrls(obj) {
+				let electionInfo = obj.electionInfoUrl;
+				let electionRegistration = obj.electionRegistrationUrl;
+				let electionRegistrationConfirmation = obj.electionRegistrationConfirmationUrl;
+				let absenteeVoting = obj.absenteeVotingInfoUrl;
+				let votingLocationFinder = obj.votingLocationFinderUrl;
+				let ballotInfo = obj.ballotInfoUrl;
+
+				return {electionInfo, electionRegistration, electionRegistrationConfirmation, absenteeVoting, votingLocationFinder, ballotInfo};
+			}
+
 			const axiosData = axiosResponse.data; // take the axios response as a function parameter and get the data
 
-			// TODO: Parse response and construct a new object with the properties we want 
 
-			res.send(axiosData); // send the data from axios as a response
+			/* ======================= Voting information - pollingLocations, earlyVoteSites, dropOffLocations ======================= */
+			let pollingLocationsArray;
+			if (axiosData.pollingLocations) {
+				const tenPollingLocations = axiosData.pollingLocations.slice(0, 10);
+				pollingLocationsArray = tenPollingLocations.map((location) => desiredResponse(location));
+			}
+
+			let earlyVoteSitesArray;
+			if (axiosData.earlyVoteSites) {
+				const tenEarlyVoteSites = axiosData.earlyVoteSites.slice(0, 10);
+				earlyVoteSitesArray = tenEarlyVoteSites.map((location) => desiredResponse(location));
+			}
+
+			let dropOffLocationsArray;
+			if (axiosData.dropOffLocations) {
+				const tenDropOffLocations = axiosData.dropOffLocations.slice(0, 10);
+				dropOffLocationsArray = tenDropOffLocations.map((location) => desiredResponse(location));
+			}
+
+			let votingInfo = {pollingLocations: pollingLocationsArray, earlyVoteSites: earlyVoteSitesArray, dropOffLocations: dropOffLocationsArray};
+
+			/* ==================================================== Helpful URLs =================================================== */
+			let state = axiosData.state[0].electionAdministrationBody;
+			let urls = getUrls(state);
+
+			/* =================================================== Representatives ================================================== */
+			
+
+			/* ================================================= Result/Send Response ================================================ */
+			let result = {votingInformation: votingInfo, helpfulUrls: urls};
+
+			res.send(result); // send the data from axios as a response
+
 		})
 		.catch((err) => {
 			res.status(500)
