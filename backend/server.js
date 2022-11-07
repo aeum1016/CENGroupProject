@@ -176,53 +176,6 @@ apiRouter.get("/representatives/:address", (req, res) => {
 
 // TODO: '/electionname/:address' - Get the election name
 
-apiRouter.get("/representatives/:address", (req, res) => {
-  const address = req.params.address; // takes the address that was given from the user as input
-
-  const config = getCivicInfoConfig("/representatives", address);
-
-  axios(config)
-    .then((axiosResponse) => {
-      let representatives = []; // array with each element representing an office and its official
-      const axiosData = axiosResponse.data; // take the axios response as a function parameter and get the data
-      let offices = axiosData.offices;
-      let officials = axiosData.officials;
-
-      // get desired info of official
-      function getOfficialInfo(official) {
-        let name = official.name;
-        let party = official.party;
-        let phones = official.phones;
-        let urls = official.urls;
-        let photoUrl = official.photoUrl;
-        let emails = official.emails;
-
-        return { name, party, phones, urls, photoUrl, emails };
-      }
-
-      // add office and corresponding official to representatives array
-      function getRepresentativeInfo(role) {
-        let office = role.name;
-        let numOfficials = role.officialIndices.length;
-
-        // loop through each element of the office
-        for (let i = 0; i < numOfficials; i++) {
-          let officialObject = officials[role.officialIndices[i]]; // use index to get official
-          let official = getOfficialInfo(officialObject); // get info on official
-          representatives.push({ office, official }); // add info to representatives array
-        }
-      }
-
-      offices.map((office) => getRepresentativeInfo(office)); // loop through offices
-
-      res.send(representatives); // send the data from axios as a response
-    })
-    .catch((err) => {
-      res.status(500);
-      res.send(err); // send an HTTP error code along with the error if something fails
-    });
-});
-
 // TODO: '/contests/:address' - Get the contests and respond in the form [ballotTitle : {office, position, referrendumTitle, referrendumUrl,[candidateName : {party, phone, email}]}, ...]
 
 apiRouter.get("/contests/:address", (req, res) => {
