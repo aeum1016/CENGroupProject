@@ -1,8 +1,10 @@
 import React from 'react'
+import LoginInput from '../assets/LoginInput';
+
 
 function LandingPage() {
   return (
-    <div>LandingPage</div>
+    <div> <LoginInput /></div>
   )
 }
 
