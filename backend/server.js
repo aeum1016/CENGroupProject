@@ -176,6 +176,29 @@ apiRouter.get("/representatives/:address", (req, res) => {
 
 // TODO: '/electionname/:address' - Get the election name
 
+apiRouter.get("/electionname/:address", (req, res) => {
+  const address = req.params.address; // takes the address that was given from the user as input
+
+  const config = getCivicInfoConfig("/elections", address);
+
+  axios(config)
+    .then((axiosResponse) => {
+      let elections = []; // array with each element representing an office and its official
+      const axiosData = axiosResponse.data; // take the axios response as a function parameter and get the data
+      let electionData = axiosData.elections;
+
+      // get desired info of official
+
+      electionData.map((election) => elections.push(election.name)); // loop through offices
+
+      res.send(elections); // send the data from axios as a response
+    })
+    .catch((err) => {
+      res.status(500);
+      res.send(err); // send an HTTP error code along with the error if something fails
+    });
+});
+
 // TODO: '/contests/:address' - Get the contests and respond in the form [ballotTitle : {office, position, referrendumTitle, referrendumUrl,[candidateName : {party, phone, email}]}, ...]
 
 apiRouter.get("/contests/:address", (req, res) => {
