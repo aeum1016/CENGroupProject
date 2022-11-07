@@ -1,8 +1,9 @@
 import React from 'react'
+import AddressInput from '../assets/AddressInput';
 
 function InformationPage() {
   return (
-    <div>InformationPage</div>
+    <div>InformationPage <AddressInput /></div>
   )
 }
 
