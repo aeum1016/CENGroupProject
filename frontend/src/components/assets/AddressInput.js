@@ -3,7 +3,7 @@ import { Stack, FormControl, TextField, InputLabel, MenuItem, Select, IconButton
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 import states from '../../data/states'; // TODO: consider replacing with npm package such as react-select-us-states
-
+import axios, * as others from 'axios';
 
 function AddressInput() {
 	// state for the different address components
@@ -14,6 +14,11 @@ function AddressInput() {
 	const [cityError, setCityError] = useState(false);
 
 	const [state, setState] = useState(''); // don't need error checking here because it's a dropdown
+
+	const [resultsReady, setResultsReady] = useState(false);
+	const [voterInfo, setVoterInfo] = useState('');
+	const [contests, setContests] = useState('');
+	const [representatives, setRepresentatives] = useState('');
 
 	// functions to change the state
 	const handleStreetAddressChange = (event) => {
@@ -34,11 +39,20 @@ function AddressInput() {
 	const submitAddress = () => {
 		const address = `${streetAddress} ${city}, ${state}`;
 		localStorage['address'] = address;
+		let response = axios.get(`http://localhost:5500/api/contests/${address}`, {})
+		.then((res) => {
+			console.log(res);
+			setResultsReady(true);
+			setContests(res);
+		}, (error => {
+			console.log(error);
+		}));
 	}
 
 	// TODO: Find a better way other than maxWidth to set the width
 	// TODO: Make the form look nicer
   return (
+	<div>
     <Stack direction='row' spacing={2} justifyContent='center' alignItems='flex-start' maxWidth={600}>
       <TextField
       	id="street-address"
@@ -72,6 +86,28 @@ function AddressInput() {
 				<SearchOutlinedIcon fontSize='inherit'/>
 			</IconButton>
     </Stack>
+	<Stack direction='row' spacing={2} justifyContent='center' alignItems='flex-start' maxWidth={600}>
+		{resultsReady ?
+			<div>
+				<h1> Contests </h1>
+				{console.log(contests.data)}
+				{contests.data.map((obj) => {
+					return (
+						<div>
+							<h2> {obj.ballotTitle} </h2>
+							{obj.candidates.map((cand) => {
+								return (
+									<h4> {cand.name} </h4>
+								)
+							})}
+						</div>
+					);
+				})};
+			</div>
+		:
+		{}}
+	</Stack>
+	</div>
   )
 }
 
