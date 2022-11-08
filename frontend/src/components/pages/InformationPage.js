@@ -4,7 +4,7 @@ import AddressInput from '../assets/AddressInput';
 
 function InformationPage() {
   return (
-    <div>InformationPage <AddressInput /></div>
+    <div> <AddressInput /></div>
   )
 }
 

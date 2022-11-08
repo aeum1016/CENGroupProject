@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from 'react';
-import { Stack, FormControl, TextField, InputLabel, MenuItem, Select, IconButton } from '@mui/material';
+import { Typography, Divider, Stack, FormControl, TextField, InputLabel, MenuItem, Select, IconButton } from '@mui/material';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 import states from '../../data/states'; // TODO: consider replacing with npm package such as react-select-us-states
@@ -36,24 +36,41 @@ function AddressInput() {
 	};
 
 	// store address in local storage
-	const submitAddress = () => {
+	// const submitAddress = () => {
+	// 	const address = `${streetAddress} ${city}, ${state}`;
+	// 	localStorage['address'] = address;
+	// 	let contests = axios.get(`http://localhost:5500/api/contests/${address}`, {})
+	// 	.then((res) => {
+	// 		console.log(res);
+	// 		setContests(res);
+	// 	}, (error => {
+	// 		console.log(error);
+	// 	}));
+	// 	let info = axios.get(`http://localhost:5500/api/voterinfo/${address}`, {})
+	// 	.then((res) => {
+	// 		console.log(res);
+	// 		setVoterInfo(res);
+	// 		setResultsReady(true);
+	// 	}, (error => {
+	// 		console.log(error);
+	// 	}));
+	// }
+	async function submitAddress() {
 		const address = `${streetAddress} ${city}, ${state}`;
 		localStorage['address'] = address;
-		let response = axios.get(`http://localhost:5500/api/contests/${address}`, {})
-		.then((res) => {
-			console.log(res);
-			setResultsReady(true);
-			setContests(res);
-		}, (error => {
-			console.log(error);
-		}));
+		let contests = await axios.get(`http://localhost:5500/api/contests/${address}`, {});
+		setContests(contests);
+
+		let info = await axios.get(`http://localhost:5500/api/voterinfo/${address}`, {});
+		setVoterInfo(info);
+		setResultsReady(true);
 	}
 
 	// TODO: Find a better way other than maxWidth to set the width
 	// TODO: Make the form look nicer
   return (
 	<div>
-    <Stack direction='row' spacing={2} justifyContent='center' alignItems='flex-start' maxWidth={600}>
+    <Stack direction='row' spacing={2} justifyContent='center' alignItems='flex-start' maxWidth={600} sx={{m:3}}>
       <TextField
       	id="street-address"
       	label="Street Address"    
@@ -86,27 +103,44 @@ function AddressInput() {
 				<SearchOutlinedIcon fontSize='inherit'/>
 			</IconButton>
     </Stack>
-	<Stack direction='row' spacing={2} justifyContent='center' alignItems='flex-start' maxWidth={600}>
+
 		{resultsReady ?
 			<div>
-				<h1> Contests </h1>
-				{console.log(contests.data)}
+			 	<Typography variant="h3" sx={{m: 4}}> Voting Information </Typography>
+			 	<Typography variant="h5" sx={{m: 3}}> Polling Locations </Typography>
+			 	{voterInfo.data.votingInformation.pollingLocations.map((obj) => {
+					return (
+						<div>
+							<Typography variant="body1" sx={{m: 0.5}}> {obj.address.locationName} </Typography>
+						</div>
+					);
+				})}
+				{/* <Typography variant="h5" sx={{m: 1}}> Early Vote Sites </Typography>
+				{voterInfo.data.votingInformation.earlyVoteSites.map((obj) => {
+					return (
+						<div>
+							<Typography variant="body1" sx={{m: 0.5}}> {obj.address.locationName} </Typography>
+						</div>
+					);
+				})} */}
+				<Divider sx={{m: 7}}/>
+				<Typography variant="h3" sx={{m: 4}}> Contests </Typography>
 				{contests.data.map((obj) => {
 					return (
 						<div>
-							<h2> {obj.ballotTitle} </h2>
+							<Typography variant="h5" sx={{m: 3}}>  {obj.ballotTitle} </Typography>
 							{obj.candidates.map((cand) => {
 								return (
-									<h4> {cand.name} </h4>
+									<Typography variant="body1" sx={{m: 0.5}}> {cand.name} </Typography>
 								)
 							})}
 						</div>
 					);
-				})};
+				})}
 			</div>
 		:
-		{}}
-	</Stack>
+		<Typography> </Typography>}
+
 	</div>
   )
 }
