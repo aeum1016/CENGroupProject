@@ -1,31 +1,42 @@
-import React from 'react'
+import React from 'react';
 import { Box, Button, TextField, Stack } from '@mui/material';
-import { Link } from 'react-router-dom'
-function LoginInput() {
-    return (
-      <Stack direction='column' width={'30%'} margin={'auto'} spacing={4}>
-        <h1>Political Resource Hub</h1>
-        <TextField 
-          fullwidth id="outlined-email" 
-          label=" Enter Email" 
-          variant="outlined"
-        />
-        <TextField 
-          id="outlined-password" 
-          label="Enter Password" 
-          variant="outlined" 
-        />
-        <Link to='/info' style={{textDecoration: 'none'}}>
-          <Button variant="contained">Login</Button>
-        </Link>
-        <div>
-          - OR -
-        </div>
-        <div>
-          GOOGLE LOGIN
-        </div>
-      </Stack>
-    )
-  }
+import { Link } from 'react-router-dom';
+import { GoogleLogin } from 'react-google-login';
 
-  export default LoginInput
+function LoginInput({ clientId, setUser }) {
+	const onSuccess = (res) => {
+		setUser(res.profileObj);
+	};
+	const onFailure = (err) => {
+		console.log(`Error: ${err}`);
+	};
+
+	return (
+		<Stack direction='column' width={'30%'} margin={'auto'} spacing={4}>
+			<TextField
+				fullwidth
+				id='email'
+				label=' Enter Email'
+				variant='outlined'
+			/>
+			<TextField
+				id='password'
+				label='Enter Password'
+				variant='outlined'
+			/>
+			<Button variant='contained'>Login</Button>
+			<div>- OR -</div>
+			<div>
+				<GoogleLogin
+					clientId={clientId}
+					buttonText='Sign in with Google'
+					onSuccess={onSuccess}
+					onFailure={onFailure}
+					cookiePolicy={'single_host_origin'}
+				/>
+			</div>
+		</Stack>
+	);
+}
+
+export default LoginInput;
