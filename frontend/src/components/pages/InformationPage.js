@@ -1,8 +1,9 @@
 import { React, useEffect, useState } from 'react';
-import { Container, Box, CircularProgress } from '@mui/material';
+import { Container, Box, CircularProgress, Typography } from '@mui/material';
 import axios from 'axios';
 
 import AddressInput from '../assets/AddressInput';
+import { Stack } from '@mui/system';
 
 function InformationPage() {
 	const [isLoading, setIsLoading] = useState(true);
@@ -16,7 +17,12 @@ function InformationPage() {
 				alignItems: 'center',
 			}}
 		>
-			<CircularProgress color='secondary' size={150} />
+			<Stack spacing={4} alignItems='center'>
+				<CircularProgress color='secondary' size={150} />
+				<Typography color='secondary' variant='h2'>
+					Loading ...
+				</Typography>
+			</Stack>
 		</Box>
 	);
 
