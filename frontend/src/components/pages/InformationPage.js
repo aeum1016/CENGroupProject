@@ -1,9 +1,26 @@
+import { React, useEffect, useState } from 'react';
+import { Container, Box, CircularProgress } from '@mui/material';
 import axios from 'axios';
-import React from 'react';
+
 import AddressInput from '../assets/AddressInput';
 
-function InformationPage({ user }) {
-	return <div></div>;
+function InformationPage() {
+	const [isLoading, setIsLoading] = useState(true);
+
+	const spinningWheel = (
+		<Box
+			sx={{
+				height: '70vh',
+				display: 'flex',
+				justifyContent: 'center',
+				alignItems: 'center',
+			}}
+		>
+			<CircularProgress color='secondary' size={150} />
+		</Box>
+	);
+
+	return spinningWheel;
 }
 
 export default InformationPage;
