@@ -1,8 +1,7 @@
 import { React } from 'react';
-import { AppBar as MUIAppBar, Box, Typography } from '@mui/material';
+import { AppBar as MUIAppBar, Box, Typography, Link } from '@mui/material';
 import { Stack } from '@mui/system';
 import LanguageIcon from '@mui/icons-material/Language';
-import { Link } from 'react-router-dom';
 import AddressInput from './AddressInput';
 
 function AppBar({ user }) {
@@ -14,13 +13,15 @@ function AppBar({ user }) {
 					direction='row'
 					justifyContent='space-between'
 				>
-					<Typography variant='h3'>
-						<LanguageIcon
-							fontSize='inherit'
-							sx={{ marginRight: 2 }}
-						/>
-						Political Resource Hub
-					</Typography>
+					<Link href='/' underline='none' color={'inherit'}>
+						<Typography variant='h3'>
+							<LanguageIcon
+								fontSize='inherit'
+								sx={{ marginRight: 2 }}
+							/>
+							Political Resource Hub
+						</Typography>
+					</Link>
 					{user && <AddressInput />}
 				</Stack>
 			</Box>
