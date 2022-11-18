@@ -1,9 +1,16 @@
 import { React, useState, useEffect } from 'react';
-import { Stack, FormControl, TextField, InputLabel, MenuItem, Select, IconButton } from '@mui/material';
+import {
+	Stack,
+	FormControl,
+	TextField,
+	InputLabel,
+	MenuItem,
+	Select,
+	IconButton,
+} from '@mui/material';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 import states from '../../data/states'; // TODO: consider replacing with npm package such as react-select-us-states
-
 
 function AddressInput() {
 	// state for the different address components
@@ -34,45 +41,51 @@ function AddressInput() {
 	const submitAddress = () => {
 		const address = `${streetAddress} ${city}, ${state}`;
 		localStorage['address'] = address;
-	}
+	};
 
 	// TODO: Find a better way other than maxWidth to set the width
 	// TODO: Make the form look nicer
-  return (
-    <Stack direction='row' spacing={2} justifyContent='center' alignItems='flex-start' maxWidth={600}>
-      <TextField
-      	id="street-address"
-      	label="Street Address"    
-      	helperText="Ex: 607 Carpenter Way"
+	return (
+		<Stack
+			direction='row'
+			spacing={2}
+			justifyContent='center'
+			alignItems='flex-start'
+			maxWidth={600}
+		>
+			<TextField
+				id='street-address'
+				label='Street Address'
+				helperText='Ex: 607 Carpenter Way'
 				onChange={handleStreetAddressChange}
 				error={streetAddressError}
 				fullWidth
-      />
+			/>
 			<TextField
-      	id="city"
-      	label="City"    
-      	helperText="Ex: Auburn"
+				id='city'
+				label='City'
+				helperText='Ex: Auburn'
 				onChange={handleCityChange}
 				error={cityError}
 				fullWidth
-      />
-			<TextField select
-				id="state"
+			/>
+			<TextField
+				select
+				id='state'
 				value={state}
-				label="State"
+				label='State'
 				onChange={handleStateChange}
 				fullWidth
-				
 			>
 				{states.map((state) => {
-					return <MenuItem value={state}>{state}</MenuItem>
+					return <MenuItem value={state}>{state}</MenuItem>;
 				})}
 			</TextField>
 			<IconButton size='large' onClick={submitAddress}>
-				<SearchOutlinedIcon fontSize='inherit'/>
+				<SearchOutlinedIcon fontSize='inherit' />
 			</IconButton>
-    </Stack>
-  )
+		</Stack>
+	);
 }
 
-export default AddressInput
+export default AddressInput;

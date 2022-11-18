@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 import LoginInput from '../assets/LoginInput';
 
-
-function LandingPage() {
-  return (
-    <div> <LoginInput /></div>
-  )
+function LandingPage({ clientId, setUser }) {
+	return (
+		<div>
+			<h1>Political Resource Hub</h1>
+			<LoginInput clientId={clientId} setUser={setUser} />
+		</div>
+	);
 }
 
-export default LandingPage
+export default LandingPage;
