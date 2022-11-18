@@ -19,7 +19,7 @@ function App() {
 	// initialize client once for every render
 	useEffect(() => {
 		const initClient = () => {
-			gapi.client.init({
+			gapi.auth2.getAuthInstance({
 				clientId: CLIENT_ID,
 				scope: '',
 			});
