@@ -18,7 +18,7 @@ function App() {
 	useEffect(() => {
 		console.log(CLIENT_ID);
 		const initClient = () => {
-			gapi.client.init({
+			gapi.auth2.getAuthInstance({
 				clientId: CLIENT_ID,
 				scope: '',
 			});
