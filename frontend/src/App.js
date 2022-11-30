@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react';
+import { React, useState, useEffect, useMemo, createContext } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { gapi } from 'gapi-script';
 
@@ -10,6 +10,8 @@ import AppBar from './components/assets/AppBar';
 import AccountPage from './components/pages/AccountPage';
 import InformationPage from './components/pages/InformationPage';
 import LandingPage from './components/pages/LandingPage';
+
+export const InformationContext = createContext();
 
 function App() {
 	const [user, setUser] = useState(null); // profile object from google sign in
@@ -34,8 +36,22 @@ function App() {
 		<LandingPage clientId={CLIENT_ID} setUser={setUser} />
 	);
 
+	// Context variables to store information from API calls
+	const [contests, setContests] = useState([]);
+	const [representatives, setRepresentatives] = useState([]);
+	const [pollingLocations, setPollingLocations] = useState([]);
+	const [dropOffLocations, setDropOffLocations] = useState([]);
+	const [earlyVoteSites, setEarlyVoteSites] = useState([]);
+	const value = useMemo(
+	() => ({ contests, setContests, representatives, setRepresentatives,
+		pollingLocations, setPollingLocations, dropOffLocations, setDropOffLocations,
+		earlyVoteSites, setEarlyVoteSites}),
+	[contests, representatives, pollingLocations, dropOffLocations, earlyVoteSites]
+  );
+
 	return (
 		<div className='App'>
+		<InformationContext.Provider value={value}>
 			<ThemeProvider theme={DefaultTheme}>
 				<CssBaseline />
 				<AppBar user={user} />
@@ -48,6 +64,8 @@ function App() {
 					</Router>
 				</Container>
 			</ThemeProvider>
+		</InformationContext.Provider>
+
 		</div>
 	);
 }
