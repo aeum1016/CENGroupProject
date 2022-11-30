@@ -1,4 +1,4 @@
-export default contests = [
+export default [
 	{
 		ballotTitle: 'U.S. Senator',
 		office: 'U.S. Senator',

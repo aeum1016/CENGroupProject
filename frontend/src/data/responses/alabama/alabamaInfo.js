@@ -1,4 +1,4 @@
-export default info = {
+export default {
 	votingInformation: {
 		pollingLocations: [
 			{

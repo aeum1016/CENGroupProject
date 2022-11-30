@@ -1,4 +1,4 @@
-export default contests = [
+export default [
 	{
 		office: 'President of the United States',
 		official: {
