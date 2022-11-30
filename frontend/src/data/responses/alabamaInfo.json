@@ -1,0 +1,24 @@
+{
+	"votingInformation": {
+		"pollingLocations": [
+			{
+				"address": {
+					"locationName": "06/4 - CLARION INN",
+					"line1": "1577 South College Street",
+					"city": "Auburn",
+					"state": "AL",
+					"zip": "36832"
+				},
+				"pollingHours": "07:00 AM - 07:00 PM"
+			}
+		]
+	},
+	"helpfulUrls": {
+		"electionInfo": "https://sos.alabama.gov/alabama-votes",
+		"electionRegistration": "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action",
+		"electionRegistrationConfirmation": "https://myinfo.alabamavotes.gov/voterview",
+		"absenteeVoting": "https://www.sos.alabama.gov/alabama-votes/absentee-ballot-applications",
+		"votingLocationFinder": "https://myinfo.alabamavotes.gov/voterview",
+		"ballotInfo": "https://myinfo.alabamavotes.gov/voterview"
+	}
+}
