@@ -8,6 +8,16 @@ import { Stack } from '@mui/system';
 function InformationPage() {
 	const [isLoading, setIsLoading] = useState(true);
 
+	//TODO: Using dummy data for response for now but will replace this with actual logic
+	const [voterInfo, setVoterInfo] = useState();
+	const [contests, setContests] = useState();
+
+	useEffect(() => {
+		if (voterInfo && contests) {
+			setIsLoading(false);
+		}
+	}, [voterInfo, contests]);
+
 	const spinningWheel = (
 		<Box
 			sx={{
