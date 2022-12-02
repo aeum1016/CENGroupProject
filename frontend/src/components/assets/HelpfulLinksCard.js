@@ -11,7 +11,7 @@ const ResourceLink = ({ text, link }) => {
 };
 
 function HelpfulLinksCard({ links }) {
-	console.log(links);
+	//console.log(links);
 	const content = (
 		<>
 			{links.map((link) => {

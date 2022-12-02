@@ -1,6 +1,14 @@
 import React from 'react';
 
-import { Box, Stack, IconButton, Link } from '@mui/material';
+import {
+	Box,
+	Stack,
+	IconButton,
+	Link,
+	Divider,
+	Toolbar,
+	Tooltip,
+} from '@mui/material';
 
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -18,59 +26,83 @@ export default function ElectionAccordions({ contests }) {
 		setExpanded(isExpanded ? ballotTitle : false);
 	};
 
-	// 	{
-	// 	ballotTitle: 'U.S. Senator',
-	// 	office: 'U.S. Senator ((unexpired))',
-	// 	candidates: [
-	// 		{
-	// 			name: 'Mark P. Meuser',
-	// 			party: 'Republican Party',
-	// 			phone: '(209) 763-8737',
-	// 			email: 'contact@markmeuser.com',
-	// 		},
-	// 		{
-	// 			name: 'Alex Padilla',
-	// 			party: 'Democratic Party',
-	// 			phone: '(213) 342-6869',
-	// 			email: 'info@alex-padilla.com',
-	// 		},
-	// 	],
-	// },
+	const ContactInformation = ({ phone, email }) => {
+		const phoneTooltipText = 'Copy Phone Number';
+		const emailTooltipText = 'Copy Email';
 
-	const Candidate = ({ candidate }) => {
-		const name = candidate['name'];
-		const party = candidate['party'];
-		const phone = candidate['phone'];
-		const email = candidate['email'];
+		const [phoneTooltip, setPhoneTooltip] =
+			React.useState(phoneTooltipText);
+		const [emailTooltip, setEmailTooltip] =
+			React.useState(emailTooltipText);
 
-		const phoneToClipboard = () => {
+		const phoneToClipboard = (event) => {
 			navigator.clipboard.writeText(phone);
+			setPhoneTooltip(`Copied: ${phone}`);
+		};
+		const emailToClipboard = (event) => {
+			navigator.clipboard.writeText(email);
+			setEmailTooltip(`Copied: ${email}`);
 		};
 
-		const emailToClipboard = () => {
-			navigator.clipboard.writeText(email);
+		const resetPhoneTooltip = () => {
+			setPhoneTooltip(phoneTooltipText);
+		};
+		const resetEmailTooltip = () => {
+			setEmailTooltip(emailTooltipText);
 		};
 
 		return (
-			<Stack direction={'row'} alignItems={'center'} spacing={2}>
-				<Typography variant={'body1'}>{name}</Typography>
-				<Typography variant={'body2'}>{party}</Typography>
-
-				<Box justifySelf={'flex-end'}>
-					{phone && (
+			<Box>
+				{phone && (
+					<Tooltip
+						title={phoneTooltip}
+						onTransitionEnd={resetPhoneTooltip}
+					>
 						<IconButton onClick={phoneToClipboard}>
 							<PhoneIcon />
 						</IconButton>
-					)}
-					{email && (
-						<Link>
-							<IconButton onClick={emailToClipboard}>
-								<EmailIcon />
-							</IconButton>
-						</Link>
-					)}
+					</Tooltip>
+				)}
+				{email && (
+					<Tooltip
+						title={emailTooltip}
+						onTransitionEnd={resetEmailTooltip}
+					>
+						<IconButton onClick={emailToClipboard}>
+							<EmailIcon />
+						</IconButton>
+					</Tooltip>
+				)}
+			</Box>
+		);
+	};
+	const Candidate = ({ candidate }) => {
+		const name = candidate['name'];
+		let party = candidate['party'];
+		const phone = candidate['phone'];
+		const email = candidate['email'];
+
+		if (party) {
+			party = party.replace(' Party', '');
+			party = party.replace('Democratic', 'Democrat');
+		}
+
+		return (
+			<Box p={1}>
+				<Stack direction={'row'} alignItems={'center'} spacing={2}>
+					<Box width={'80%'}>
+						<Typography variant={'body1'}>{name}</Typography>
+						<Typography variant={'body2'} color={'text.secondary'}>
+							{party}
+						</Typography>
+					</Box>
+
+					<ContactInformation phone={phone} email={email} />
+				</Stack>
+				<Box pt={2}>
+					<Divider />
 				</Box>
-			</Stack>
+			</Box>
 		);
 	};
 	const CandidatesList = ({ candidates }) => {
@@ -81,10 +113,14 @@ export default function ElectionAccordions({ contests }) {
 		return candidatesList;
 	};
 	const ContestAccordian = ({ contest }) => {
-		console.log(contest);
+		//console.log(contest);
 		const ballotTitle = contest['ballotTitle'];
-		const office = contest['office'];
+		let office = contest['office'];
 		const candidates = contest['candidates'];
+
+		if (office && office !== ballotTitle) {
+			office = office.replace(ballotTitle, '');
+		}
 
 		return (
 			<Accordion
@@ -96,11 +132,16 @@ export default function ElectionAccordions({ contests }) {
 					aria-controls={`${office}-content`}
 					id={`${office}-header`}
 				>
-					<Typography sx={{ width: '33%', flexShrink: 0 }}>
+					<Typography sx={{ width: '70%', flexShrink: 0 }}>
 						{ballotTitle}
 					</Typography>
 					{office !== ballotTitle && (
-						<Typography sx={{ color: 'text.secondary' }}>
+						<Typography
+							variant='body2'
+							sx={{
+								color: 'text.secondary',
+							}}
+						>
 							{office}
 						</Typography>
 					)}
@@ -113,7 +154,11 @@ export default function ElectionAccordions({ contests }) {
 	};
 
 	const ContestAccordians = ({ contests }) => {
-		const accordians = contests.map((contest) => {
+		const filteredContests = contests.filter((contest) => {
+			return contest['candidates'].length > 0;
+		});
+
+		const accordians = filteredContests.map((contest) => {
 			return <ContestAccordian contest={contest} />;
 		});
 
@@ -122,54 +167,6 @@ export default function ElectionAccordions({ contests }) {
 
 	return (
 		<div>
-			{/* <Accordion
-				expanded={expanded === 'panel1'}
-				onChange={handleChange('panel1')}
-			>
-				<AccordionSummary
-					expandIcon={<ExpandMoreIcon />}
-					aria-controls='panel1bh-content'
-					id='panel1bh-header'
-				>
-					<Typography sx={{ width: '33%', flexShrink: 0 }}>
-						Accordian Title
-					</Typography>
-					<Typography sx={{ color: 'text.secondary' }}>
-						Accordian Description
-					</Typography>
-				</AccordionSummary>
-				<AccordionDetails>
-					<Typography>
-						Nulla facilisi. Phasellus sollicitudin nulla et quam
-						mattis feugiat. Aliquam eget maximus est, id dignissim
-						quam.
-					</Typography>
-				</AccordionDetails>
-			</Accordion>
-			<Accordion
-				expanded={expanded === 'panel2'}
-				onChange={handleChange('panel2')}
-			>
-				<AccordionSummary
-					expandIcon={<ExpandMoreIcon />}
-					aria-controls='panel2bh-content'
-					id='panel2bh-header'
-				>
-					<Typography sx={{ width: '33%', flexShrink: 0 }}>
-						Users
-					</Typography>
-					<Typography sx={{ color: 'text.secondary' }}>
-						You are currently not an owner
-					</Typography>
-				</AccordionSummary>
-				<AccordionDetails>
-					<Typography>
-						Donec placerat, lectus sed mattis semper, neque lectus
-						feugiat lectus, varius pulvinar diam eros in elit.
-						Pellentesque convallis laoreet laoreet.
-					</Typography>
-				</AccordionDetails>
-			</Accordion> */}
 			<ContestAccordians contests={contests} />
 		</div>
 	);

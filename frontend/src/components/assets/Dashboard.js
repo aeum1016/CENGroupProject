@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Grid, Typography, IconButton } from '@mui/material';
+import { Stack, Box, Grid, Typography, IconButton } from '@mui/material';
 
 import ElectionsCard from './ElectionsCard';
 import OfficialsCard from './OfficialsCard';
@@ -16,7 +16,7 @@ function Dashboard({ voterInfo, contests, representatives }) {
 				gridTemplateColumns: 'repeat(4, 1fr)',
 				gap: 1,
 				gridTemplateRows: 'auto',
-				gridTemplateAreas: `"top top top top" "left left rightTop rightTop" "left left rightBottom rightBottom"`,
+				gridTemplateAreas: `"top top top top" "left left right right" "left left right right"`,
 			}}
 		>
 			<Box sx={{ gridArea: 'top' }}>
@@ -25,12 +25,10 @@ function Dashboard({ voterInfo, contests, representatives }) {
 			<Box sx={{ gridArea: 'left' }}>
 				<ElectionsCard contests={contests} />
 			</Box>
-			<Box sx={{ gridArea: 'rightTop' }}>
+			<Stack spacing={1} sx={{ gridArea: 'right' }}>
 				<OfficialsCard />
-			</Box>
-			<Box sx={{ gridArea: 'rightBottom' }}>
 				<PollingLocationsCard />
-			</Box>
+			</Stack>
 		</Box>
 	);
 
