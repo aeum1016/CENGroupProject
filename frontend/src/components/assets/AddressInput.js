@@ -43,7 +43,7 @@ function AddressInput() {
 		localStorage['city'] = city;
 		localStorage['state'] = state;
 		localStorage['address'] = address;
-		console.log('New address set');
+		//console.log('New address set');
 	}, [address]);
 
 	// helper function to wipe the application state and local storage
