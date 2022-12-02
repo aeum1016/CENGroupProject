@@ -1,4 +1,6 @@
 import { React, useState, useEffect } from 'react';
+import { update } from './addressSlice';
+import { useDispatch } from 'react-redux';
 import {
 	Stack,
 	TextField,
@@ -12,7 +14,10 @@ import EditIcon from '@mui/icons-material/Edit';
 
 import states from '../../data/states'; // TODO: consider replacing with npm package such as react-select-us-states
 
+
 function AddressInput() {
+	const dispatch = useDispatch();
+
 	// state for the different address components
 	const [streetAddress, setStreetAddress] = useState(
 		localStorage['streetAddress']
@@ -43,6 +48,7 @@ function AddressInput() {
 		localStorage['city'] = city;
 		localStorage['state'] = state;
 		localStorage['address'] = address;
+		dispatch(update(address))
 		console.log('New address set');
 	}, [address]);
 

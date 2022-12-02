@@ -4,9 +4,12 @@ import axios from 'axios';
 
 import AddressInput from '../assets/AddressInput';
 import { Stack } from '@mui/system';
+import { useSelector } from 'react-redux';
+import { selectAddress } from '../assets/addressSlice';
 
 function InformationPage() {
 	const [isLoading, setIsLoading] = useState(true);
+	const address = useSelector(selectAddress);
 
 	const spinningWheel = (
 		<Box
@@ -21,6 +24,7 @@ function InformationPage() {
 				<CircularProgress color='secondary' size={150} />
 				<Typography color='secondary' variant='h2'>
 					Loading ...
+					{address}
 				</Typography>
 			</Stack>
 		</Box>
