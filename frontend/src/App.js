@@ -39,7 +39,7 @@ function App() {
 			<ThemeProvider theme={DefaultTheme}>
 				<CssBaseline />
 				<AppBar user={user} />
-				<Container>
+				<Container disableGutters>
 					<Router>
 						<Routes>
 							<Route path='/' element={mainPage} />
