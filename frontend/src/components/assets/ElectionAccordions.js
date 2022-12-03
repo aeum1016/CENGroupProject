@@ -16,9 +16,10 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import PhoneIcon from '@mui/icons-material/Phone'; //  // Copy the text inside the text field --> navigator.clipboard.writeText(copyText.value);
-import EmailIcon from '@mui/icons-material/Email'; // <a href = "mailto: abc@example.com">Send Email</a>
+import PhoneIcon from '@mui/icons-material/Phone';
+import EmailIcon from '@mui/icons-material/Email';
 
+// TODO: this component could probably be moved into the ElectionsCard component
 export default function ElectionAccordions({ contests }) {
 	const [expanded, setExpanded] = React.useState(false);
 
@@ -26,6 +27,7 @@ export default function ElectionAccordions({ contests }) {
 		setExpanded(isExpanded ? ballotTitle : false);
 	};
 
+	// TODO: We could move these components into their own individual files if necessary but they were kind of small so I just kept them in here
 	const ContactInformation = ({ phone, email }) => {
 		const phoneTooltipText = 'Copy Phone Number';
 		const emailTooltipText = 'Copy Email';
@@ -152,7 +154,6 @@ export default function ElectionAccordions({ contests }) {
 			</Accordion>
 		);
 	};
-
 	const ContestAccordians = ({ contests }) => {
 		const filteredContests = contests.filter((contest) => {
 			return contest['candidates'].length > 0;
