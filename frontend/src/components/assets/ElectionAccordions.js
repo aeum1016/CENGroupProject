@@ -1,14 +1,6 @@
 import React from 'react';
 
-import {
-	Box,
-	Stack,
-	IconButton,
-	Link,
-	Divider,
-	Toolbar,
-	Tooltip,
-} from '@mui/material';
+import { Box, Stack, IconButton, Divider, Tooltip } from '@mui/material';
 
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -94,7 +86,7 @@ export default function ElectionAccordions({ contests }) {
 				<Stack direction={'row'} alignItems={'center'} spacing={2}>
 					<Box width={'80%'}>
 						<Typography variant={'body1'}>{name}</Typography>
-						<Typography variant={'body2'} color={'text.secondary'}>
+						<Typography variant={'body2'} color={'text.primary'}>
 							{party}
 						</Typography>
 					</Box>
@@ -128,6 +120,7 @@ export default function ElectionAccordions({ contests }) {
 			<Accordion
 				expanded={expanded === office}
 				onChange={handleChange(office)}
+				sx={{ bgcolor: 'primary.dark' }}
 			>
 				<AccordionSummary
 					expandIcon={<ExpandMoreIcon />}
@@ -148,7 +141,7 @@ export default function ElectionAccordions({ contests }) {
 						</Typography>
 					)}
 				</AccordionSummary>
-				<AccordionDetails>
+				<AccordionDetails sx={{ bgcolor: 'secondary.dark' }}>
 					<CandidatesList candidates={candidates} />
 				</AccordionDetails>
 			</Accordion>
