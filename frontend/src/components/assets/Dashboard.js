@@ -8,6 +8,9 @@ import HelpfulLinksCard from './HelpfulLinksCard';
 
 function Dashboard({ voterInfo, contests, representatives }) {
 	const links = Object.values(voterInfo['helpfulUrls']);
+	const locations = voterInfo['votingInformation'];
+	const pollingLocations = locations['pollingLocations'];
+	const dropOffLocations = locations['dropOffLocations'];
 
 	const grid = (
 		<Box
@@ -27,7 +30,7 @@ function Dashboard({ voterInfo, contests, representatives }) {
 			</Box>
 			<Stack spacing={1} sx={{ gridArea: 'right' }}>
 				<OfficialsCard />
-				<PollingLocationsCard />
+				<PollingLocationsCard locations={pollingLocations} />
 			</Stack>
 		</Box>
 	);
