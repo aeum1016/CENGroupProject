@@ -4,14 +4,19 @@ import DashboardCard from './DashboardCard';
 
 const ResourceLink = ({ text, link }) => {
 	return (
-		<Link href={link} underline='hover' variant={'body2'} color={'white'}>
+		<Link
+			href={link}
+			underline='hover'
+			variant={'body2'}
+			color={'white'}
+			target='_blank'
+		>
 			{text}
 		</Link>
 	);
 };
 
 function HelpfulLinksCard({ links }) {
-	//console.log(links);
 	const content = (
 		<>
 			{links.map((link) => {
