@@ -1,9 +1,17 @@
 import React from 'react';
-import { Container, Box, Divider, IconButton, Typography } from '@mui/material';
+import {
+	Container,
+	Box,
+	Divider,
+	Link,
+	IconButton,
+	Typography,
+} from '@mui/material';
 import DashboardCard from './DashboardCard';
 
 import MapIcon from '@mui/icons-material/Map';
 import { Stack } from '@mui/system';
+
 const capitalize = (str) => {
 	let newStr = str.toLowerCase();
 	return newStr.charAt(0).toUpperCase() + newStr.slice(1);
@@ -29,21 +37,21 @@ const titleCase = (str) => {
 const LocationIconButton = ({ line1, city, state, zipCode }) => {
 	let URL = `https://www.google.com/maps/place/${line1}, ${city}, ${state} ${zipCode}/`;
 
-	const onClick = (event) => {
-		window.open(URL, '_blank');
-	};
-
 	return (
-		<IconButton onClick={onClick}>
-			<MapIcon />
-		</IconButton>
+		<Link href={URL} target={'_blank'}>
+			<IconButton>
+				<MapIcon />
+			</IconButton>
+		</Link>
 	);
 };
 const LocationCard = ({ location }) => {
 	const pollingHours = location['pollingHours'];
-	const startDate = location['startDate'];
-	const endDate = location['endDate'];
 	const addressObject = location['address'];
+
+	// TODO: Polling hours for CA includes this information so leaving it out until needed
+	// const startDate = location['startDate'];
+	// const endDate = location['endDate'];
 
 	const locationName = titleCase(addressObject['locationName']);
 	const line1 = titleCase(addressObject['line1']);
