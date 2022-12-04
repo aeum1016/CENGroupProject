@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react';
+import { React, useState, useEffect, useContext } from 'react';
 import {
 	Stack,
 	TextField,
@@ -11,6 +11,8 @@ import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import EditIcon from '@mui/icons-material/Edit';
 
 import states from '../../data/states'; // TODO: consider replacing with npm package such as react-select-us-states
+import JSONParser from '../../logic/JSONParser'
+import { InformationContext } from '../../App';
 
 function AddressInput() {
 	// state for the different address components
@@ -30,6 +32,8 @@ function AddressInput() {
 
 	// state for making the form disabled
 	const [isDisabled, setIsDisabled] = useState(false);
+
+	const { contests, setContests, representatives, setRepresentatives, pollingLocations, setPollingLocations, earlyVoteSites, setEarlyVoteSites, dropOffLocations, setDropOffLocations } = useContext(InformationContext);
 
 	useEffect(() => {
 		// clearAddress(); // uncomment this to clear the localStorage when this component is rendered
