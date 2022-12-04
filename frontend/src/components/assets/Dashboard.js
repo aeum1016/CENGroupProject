@@ -8,10 +8,10 @@ import PollingLocationsCard from './PollingLocationsCard';
 import HelpfulLinksCard from './HelpfulLinksCard';
 
 function Dashboard({ voterInfo, contests, representatives }) {
-	var links;
-	if(voterInfo['helpfulUrls']) {
-		links = Object.values(voterInfo['helpfulUrls']);
-	}
+	const links = Object.values(voterInfo['helpfulUrls']);
+	const locations = voterInfo['votingInformation'];
+	const pollingLocations = locations['pollingLocations'];
+	const dropOffLocations = locations['dropOffLocations'];
 
 	const grid = (
 		<Box
@@ -31,7 +31,7 @@ function Dashboard({ voterInfo, contests, representatives }) {
 			</Box>
 			<Stack spacing={1} sx={{ gridArea: 'right' }}>
 				<OfficialsCard />
-				<PollingLocationsCard />
+				<PollingLocationsCard locations={pollingLocations} />
 			</Stack>
 		</Box>
 	);
