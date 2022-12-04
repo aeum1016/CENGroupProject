@@ -1,0 +1,359 @@
+export default [
+	{
+		office: 'President of the United States',
+		official: {
+			name: 'Joseph R. Biden',
+			party: 'Democratic Party',
+			phones: ['(202) 456-1111'],
+			urls: [
+				'https://www.whitehouse.gov/',
+				'https://en.wikipedia.org/wiki/Joe_Biden',
+			],
+		},
+	},
+	{
+		office: 'Vice President of the United States',
+		official: {
+			name: 'Kamala D. Harris',
+			party: 'Democratic Party',
+			phones: ['(202) 456-1111'],
+			urls: [
+				'https://www.whitehouse.gov/',
+				'https://en.wikipedia.org/wiki/Kamala_Harris',
+			],
+		},
+	},
+	{
+		office: 'U.S. Senator',
+		official: {
+			name: 'Alex Padilla',
+			party: 'Democratic Party',
+			phones: ['(202) 224-3553'],
+			urls: [
+				'https://www.padilla.senate.gov/',
+				'https://en.wikipedia.org/wiki/Alex_Padilla',
+			],
+		},
+	},
+	{
+		office: 'U.S. Senator',
+		official: {
+			name: 'Dianne Feinstein',
+			party: 'Democratic Party',
+			phones: ['(202) 224-3841'],
+			urls: [
+				'https://www.feinstein.senate.gov/',
+				'https://en.wikipedia.org/wiki/Dianne_Feinstein',
+			],
+			photoUrl:
+				'http://bioguide.congress.gov/bioguide/photo/F/F000062.jpg',
+		},
+	},
+	{
+		office: 'U.S. Representative',
+		official: {
+			name: 'Mike Levin',
+			party: 'Democratic Party',
+			phones: ['(202) 225-3906'],
+			urls: [
+				'https://mikelevin.house.gov/',
+				'https://en.wikipedia.org/wiki/Mike_Levin',
+			],
+		},
+	},
+	{
+		office: 'Governor of California',
+		official: {
+			name: 'Gavin Newsom',
+			party: 'Democratic Party',
+			phones: ['(916) 445-2841'],
+			urls: [
+				'https://www.gov.ca.gov/',
+				'https://en.wikipedia.org/wiki/Gavin_Newsom',
+			],
+			photoUrl: 'http://www.ltg.ca.gov/images/newsimages/i2.png',
+		},
+	},
+	{
+		office: 'Lieutenant Governor of California',
+		official: {
+			name: 'Eleni Kounalakis',
+			party: 'Democratic Party',
+			phones: ['(916) 445-8994'],
+			urls: [
+				'https://ltg.ca.gov/',
+				'https://en.wikipedia.org/wiki/Eleni_Kounalakis',
+			],
+		},
+	},
+	{
+		office: 'CA Secretary of State',
+		official: {
+			name: 'Shirley N. Weber',
+			party: 'Democratic Party',
+			phones: ['(916) 653-6814'],
+			urls: [
+				'https://www.sos.ca.gov/',
+				'https://en.wikipedia.org/wiki/Shirley_Weber',
+			],
+		},
+	},
+	{
+		office: 'CA State Attorney General',
+		official: {
+			name: 'Rob Bonta',
+			party: 'Democratic Party',
+			phones: ['(916) 445-9555'],
+			urls: [
+				'https://oag.ca.gov/',
+				'https://en.wikipedia.org/wiki/Rob_Bonta',
+			],
+		},
+	},
+	{
+		office: 'CA State Superintendent of Public Instruction',
+		official: {
+			name: 'Tony Thurmond',
+			party: 'Nonpartisan',
+			phones: ['(916) 319-0800'],
+			urls: [
+				'https://www.cde.ca.gov/eo/',
+				'https://en.wikipedia.org/wiki/Tony_Thurmond',
+			],
+		},
+	},
+	{
+		office: 'CA State Treasurer',
+		official: {
+			name: 'Fiona Ma',
+			party: 'Democratic Party',
+			phones: ['(916) 653-2995'],
+			urls: [
+				'https://www.treasurer.ca.gov/',
+				'https://en.wikipedia.org/wiki/Fiona_Ma',
+			],
+		},
+	},
+	{
+		office: 'CA State Controller',
+		official: {
+			name: 'Betty T. Yee',
+			party: 'Democratic Party',
+			phones: ['(916) 445-2636'],
+			urls: [
+				'https://sco.ca.gov/',
+				'https://en.wikipedia.org/wiki/Betty_Yee',
+			],
+		},
+	},
+	{
+		office: 'CA State Insurance Commissioner',
+		official: {
+			name: 'Ricardo Lara',
+			party: 'Democratic Party',
+			phones: ['(800) 927-4357'],
+			urls: [
+				'http://www.insurance.ca.gov/',
+				'https://en.wikipedia.org/wiki/Ricardo_Lara',
+			],
+		},
+	},
+	{
+		office: 'CA State Senator',
+		official: {
+			name: 'Patricia C. Bates',
+			party: 'Republican Party',
+			phones: ['(916) 651-4036'],
+			urls: [
+				'https://bates.cssrc.us/',
+				'https://en.wikipedia.org/wiki/Patricia_Bates',
+			],
+			photoUrl:
+				'http://senate.ca.gov/sites/senate.ca.gov/files/senator_photos/bates-patricia.jpg',
+			emails: ['senator.bates@sen.ca.gov'],
+		},
+	},
+	{
+		office: 'CA State Assembly Member',
+		official: {
+			name: 'Tasha Boerner Horvath',
+			party: 'Democratic Party',
+			phones: ['(916) 319-2076'],
+			urls: [
+				'https://a76.asmdc.org/',
+				'https://en.wikipedia.org/wiki/Tasha_Boerner_Horvath',
+			],
+			emails: ['assemblymember.horvath@assembly.ca.gov'],
+		},
+	},
+	{
+		office: 'CA State Supreme Court Justice',
+		official: {
+			name: 'Carol A. Corrigan',
+			party: 'Nonpartisan',
+			phones: ['(415) 865-7000'],
+			urls: [
+				'https://www.courts.ca.gov/supremecourt.htm',
+				'https://en.wikipedia.org/wiki/Carol_Corrigan',
+			],
+		},
+	},
+	{
+		office: 'CA State Supreme Court Justice',
+		official: {
+			name: 'Goodwin H. Liu',
+			party: 'Nonpartisan',
+			phones: ['(415) 865-7000'],
+			urls: [
+				'https://www.courts.ca.gov/supremecourt.htm',
+				'https://en.wikipedia.org/wiki/Goodwin_Liu',
+			],
+		},
+	},
+	{
+		office: 'CA State Supreme Court Justice',
+		official: {
+			name: 'Joshua P. Groban',
+			party: 'Nonpartisan',
+			phones: ['(415) 865-7000'],
+			urls: [
+				'https://www.courts.ca.gov/supremecourt.htm',
+				'https://en.wikipedia.org/wiki/Joshua_Groban',
+			],
+		},
+	},
+	{
+		office: 'CA State Supreme Court Justice',
+		official: {
+			name: 'Leondra R. Kruger',
+			party: 'Nonpartisan',
+			phones: ['(415) 865-7000'],
+			urls: [
+				'https://www.courts.ca.gov/supremecourt.htm',
+				'https://en.wikipedia.org/wiki/Leondra_Kruger',
+			],
+		},
+	},
+	{
+		office: 'CA State Supreme Court Justice',
+		official: {
+			name: 'Martin J. Jenkins',
+			party: 'Nonpartisan',
+			phones: ['(415) 865-7000'],
+			urls: [
+				'https://www.courts.ca.gov/supremecourt.htm',
+				'https://en.wikipedia.org/wiki/Martin_Jenkins',
+			],
+		},
+	},
+	{
+		office: 'CA State Supreme Court Justice',
+		official: {
+			name: 'Patricia Guerrero',
+			party: 'Nonpartisan',
+			phones: ['(415) 865-7000'],
+			urls: [
+				'https://www.courts.ca.gov/supremecourt.htm',
+				'https://en.wikipedia.org/wiki/Patricia_Guerrero_%28judge%29',
+			],
+		},
+	},
+	{
+		office: 'CA State Supreme Court Justice',
+		official: {
+			name: 'Tani G. Cantil-Sakauye',
+			party: 'Nonpartisan',
+			phones: ['(415) 865-7000'],
+			urls: [
+				'https://www.courts.ca.gov/supremecourt.htm',
+				'https://en.wikipedia.org/wiki/Tani_Cantil-Sakauye',
+			],
+		},
+	},
+	{
+		office: 'San Diego County Assessor-Recorder-Clerk',
+		official: {
+			name: 'Ernest J. Dronenburg, Jr.',
+			party: 'Nonpartisan',
+			phones: ['(619) 236-3771', '(619) 237-0502'],
+			urls: ['https://arcc.sdcounty.ca.gov/Pages/default.aspx'],
+			emails: ['arcc.fgg@sdcounty.ca.gov'],
+		},
+	},
+	{
+		office: 'San Diego County Sheriff',
+		official: {
+			name: 'Anthony Ray',
+			party: 'Nonpartisan',
+			phones: ['(858) 974-2222'],
+			urls: ['https://www.sdsheriff.gov/'],
+			emails: ['sdsheriff.webmaster@sdsheriff.gov'],
+		},
+	},
+	{
+		office: 'San Diego County District Attorney',
+		official: {
+			name: 'Summer Stephan',
+			party: 'Nonpartisan',
+			phones: ['(619) 531-4040'],
+			urls: [
+				'https://www.sdcda.org/index.php',
+				'https://en.wikipedia.org/wiki/Summer_Stephan',
+			],
+			emails: ['sandiegoda@sdcda.org'],
+		},
+	},
+	{
+		office: 'San Diego County Treasurer-Tax Collector',
+		official: {
+			name: 'Dan McAllister',
+			party: 'Nonpartisan',
+			phones: ['(877) 829-4732'],
+			urls: ['https://www.sdttc.com/'],
+			emails: ['taxman@sdcounty.ca.gov'],
+		},
+	},
+	{
+		office: 'San Diego County Supervisor',
+		official: {
+			name: 'Jim Desmond',
+			party: 'Nonpartisan',
+			phones: ['(619) 531-5555'],
+			urls: [
+				'https://www.sandiegocounty.gov/content/sdc/general/bos.html',
+				'https://en.wikipedia.org/wiki/Jim_Desmond',
+			],
+			emails: ['jim.desmond@sdcounty.ca.gov'],
+		},
+	},
+	{
+		office: 'Mayor of Oceanside',
+		official: {
+			name: 'Esther C. Sanchez',
+			party: 'Nonpartisan',
+			phones: ['(760) 435-3057'],
+			urls: ['https://www.ci.oceanside.ca.us/gov/council/default.asp'],
+			emails: ['esanchez@oceansideca.org'],
+		},
+	},
+	{
+		office: 'Oceanside City Clerk',
+		official: {
+			name: 'Zeb Navarro',
+			party: 'Nonpartisan',
+			phones: ['(760) 435-3001'],
+			urls: ['https://www.ci.oceanside.ca.us/gov/clerk/default.asp'],
+			emails: ['cityclerk@oceansideca.org'],
+		},
+	},
+	{
+		office: 'Oceanside City Treasurer',
+		official: {
+			name: 'Victor Roy',
+			party: 'Nonpartisan',
+			phones: ['(760) 435-3550'],
+			urls: ['https://www.ci.oceanside.ca.us/gov/treasurer/default.asp'],
+			emails: ['vroy@oceansideca.org'],
+		},
+	},
+];
