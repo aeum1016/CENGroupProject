@@ -1,16 +1,17 @@
 import React from 'react';
+
 import {
 	Container,
 	Box,
+	Stack,
 	Divider,
 	Link,
 	IconButton,
 	Typography,
 } from '@mui/material';
-import DashboardCard from './DashboardCard';
-
 import MapIcon from '@mui/icons-material/Map';
-import { Stack } from '@mui/system';
+
+import DashboardCard from './DashboardCard';
 
 const LocationIconButton = ({ line1, city, state, zipCode }) => {
 	let URL = `https://www.google.com/maps/place/${line1}, ${city}, ${state} ${zipCode}/`;
@@ -24,14 +25,13 @@ const LocationIconButton = ({ line1, city, state, zipCode }) => {
 	);
 };
 const LocationCard = ({ location }) => {
-	const pollingHours = location['pollingHours'];
 	const addressObject = location['address'];
+	const pollingHours = location['pollingHours'];
 
 	const capitalize = (str) => {
 		let newStr = str.toLowerCase();
 		return newStr.charAt(0).toUpperCase() + newStr.slice(1);
 	};
-
 	const titleCase = (str) => {
 		console.log(str);
 		let newStr = str.toLowerCase();
