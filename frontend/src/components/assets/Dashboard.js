@@ -26,7 +26,7 @@ function Dashboard({ voterInfo, contests, representatives }) {
 				<ElectionsCard contests={contests} />
 			</Box>
 			<Stack spacing={1} sx={{ gridArea: 'right' }}>
-				<OfficialsCard />
+				<OfficialsCard representatives={representatives} />
 				<PollingLocationsCard />
 			</Stack>
 		</Box>

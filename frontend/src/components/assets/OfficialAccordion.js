@@ -17,39 +17,33 @@ import Typography from '@mui/material/Typography';
 
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import PhoneIcon from '@mui/icons-material/Phone'; //  // Copy the text inside the text field --> navigator.clipboard.writeText(copyText.value);
-import EmailIcon from '@mui/icons-material/Email'; // <a href = "mailto: abc@example.com">Send Email</a>
 
-export default function ElectionAccordions({ contests }) {
+export default function OfficialAccordion ({ representatives }) {
 	const [expanded, setExpanded] = React.useState(false);
 
-	const handleChange = (ballotTitle) => (event, isExpanded) => {
+    const handleChange = (ballotTitle) => (event, isExpanded) => {
 		setExpanded(isExpanded ? ballotTitle : false);
 	};
 
-	const ContactInformation = ({ phone, email }) => {
+
+	const ContactInformation = ({ phone }) => {
 		const phoneTooltipText = 'Copy Phone Number';
-		const emailTooltipText = 'Copy Email';
+		
 
 		const [phoneTooltip, setPhoneTooltip] =
 			React.useState(phoneTooltipText);
-		const [emailTooltip, setEmailTooltip] =
-			React.useState(emailTooltipText);
+		
 
 		const phoneToClipboard = (event) => {
 			navigator.clipboard.writeText(phone);
 			setPhoneTooltip(`Copied: ${phone}`);
 		};
-		const emailToClipboard = (event) => {
-			navigator.clipboard.writeText(email);
-			setEmailTooltip(`Copied: ${email}`);
-		};
+	
 
 		const resetPhoneTooltip = () => {
 			setPhoneTooltip(phoneTooltipText);
 		};
-		const resetEmailTooltip = () => {
-			setEmailTooltip(emailTooltipText);
-		};
+	
 
 		return (
 			<Box>
@@ -63,24 +57,14 @@ export default function ElectionAccordions({ contests }) {
 						</IconButton>
 					</Tooltip>
 				)}
-				{email && (
-					<Tooltip
-						title={emailTooltip}
-						onTransitionEnd={resetEmailTooltip}
-					>
-						<IconButton onClick={emailToClipboard}>
-							<EmailIcon />
-						</IconButton>
-					</Tooltip>
-				)}
 			</Box>
 		);
 	};
-	const Candidate = ({ candidate }) => {
-		const name = candidate['name'];
-		let party = candidate['party'];
-		const phone = candidate['phone'];
-		const email = candidate['email'];
+	const TheOfficial = ({ official }) => {
+		const name = official['name'];
+		let party = official['party'];
+		const phone = official['phones'];
+	
 
 		if (party) {
 			party = party.replace(' Party', '');
@@ -97,7 +81,7 @@ export default function ElectionAccordions({ contests }) {
 						</Typography>
 					</Box>
 
-					<ContactInformation phone={phone} email={email} />
+					<ContactInformation phone={phone} />
 				</Stack>
 				<Box pt={2}>
 					<Divider />
@@ -105,27 +89,18 @@ export default function ElectionAccordions({ contests }) {
 			</Box>
 		);
 	};
-	const CandidatesList = ({ candidates }) => {
-		const candidatesList = candidates.map((candidate) => {
-			return <Candidate candidate={candidate} />;
-		});
+    
 
-		return candidatesList;
-	};
-	const ContestAccordian = ({ contest }) => {
+	const RepresentativeAccordian = ({ representative}) => {
 		//console.log(contest);
-		const ballotTitle = contest['ballotTitle'];
-		let office = contest['office'];
-		const candidates = contest['candidates'];
+		let office = representative['office'];
+		const official = representative['official'];
 
-		if (office && office !== ballotTitle) {
-			office = office.replace(ballotTitle, '');
-		}
-
+	
 		return (
 			<Accordion
 				expanded={expanded === office}
-				onChange={handleChange(office)}
+                onChange={handleChange(office)}
 			>
 				<AccordionSummary
 					expandIcon={<ExpandMoreIcon />}
@@ -133,35 +108,23 @@ export default function ElectionAccordions({ contests }) {
 					id={`${office}-header`}
 				>
 					<Typography sx={{ width: '70%', flexShrink: 0 }}>
-						{ballotTitle}
+						{office}
 					</Typography>
-					{office !== ballotTitle && (
-						<Typography
-							variant='body2'
-							sx={{
-								color: 'text.secondary',
-							}}
-						>
-							{office}
-						</Typography>
-					)}
+					
 				</AccordionSummary>
 				<AccordionDetails>
-					<CandidatesList candidates={candidates} />
+                   <TheOfficial official={official} />
 				</AccordionDetails>
 			</Accordion>
 		);
 	};
 
-	const ContestAccordians = ({ contests }) => {
-		const filteredContests = contests.filter((contest) => {
-			return contest['candidates'].length > 0;
-		});
-		console.log(filteredContests);
+	const RepresentativeAccordians = ({ representatives }) => {
+	
+        console.log(representatives);
 
-		const accordians = filteredContests.map((contest) => {
-		
-		return <ContestAccordian contest={contest} />;
+		const accordians = representatives.map((representative) => {
+			return <RepresentativeAccordian representative={representative} />;
 		});
 
 		return accordians;
@@ -169,7 +132,7 @@ export default function ElectionAccordions({ contests }) {
 
 	return (
 		<div>
-			<ContestAccordians contests={contests} />
+			<RepresentativeAccordians representatives={representatives} />
 		</div>
 	);
 }
