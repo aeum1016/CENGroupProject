@@ -6,13 +6,11 @@ import {
 	TextField,
 	MenuItem,
 	IconButton,
-	Paper,
-	Divider,
 } from '@mui/material';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import EditIcon from '@mui/icons-material/Edit';
 
-import states from '../../data/states'; // TODO: consider replacing with npm package such as react-select-us-states
+import states from '../../data/states';
 
 
 function AddressInput() {
@@ -77,7 +75,6 @@ function AddressInput() {
 	// functions to change the address
 	const handleStreetAddressChange = (event) => {
 		const newValue = event.target.value;
-		// TODO: check value against regex to set error value
 		if (!newValue || newValue == '') {
 			setStreetAddressError(true);
 		} else {
@@ -87,7 +84,6 @@ function AddressInput() {
 	};
 	const handleCityChange = (event) => {
 		const newValue = event.target.value;
-		// TODO: check value against regex to set error value
 		if (!newValue || newValue == '') {
 			setCityError(true);
 		} else {
@@ -97,7 +93,6 @@ function AddressInput() {
 	};
 	const handleStateChange = (event) => {
 		const newValue = event.target.value;
-		// TODO: check value against regex to set error value
 		if (!newValue || newValue == '') {
 			setStateError(true);
 		} else {

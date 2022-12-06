@@ -172,9 +172,6 @@ apiRouter.get("/representatives/:address", (req, res) => {
     });
 });
 
-// TODO: Write other internal API routues for specific queries to the APIs EX: a route that returns the top 5 polling locations as the response
-
-// TODO: '/electionname/:address' - Get the election name
 
 apiRouter.get("/electionname/:address", (req, res) => {
   const address = req.params.address; // takes the address that was given from the user as input
@@ -199,7 +196,6 @@ apiRouter.get("/electionname/:address", (req, res) => {
     });
 });
 
-// TODO: '/contests/:address' - Get the contests and respond in the form [ballotTitle : {office, position, referrendumTitle, referrendumUrl,[candidateName : {party, phone, email}]}, ...]
 
 apiRouter.get("/contests/:address", (req, res) => {
   const address = req.params.address; // takes the address that was given from the user as input
@@ -247,7 +243,6 @@ apiRouter.get("/contests/:address", (req, res) => {
     });
 });
 
-// TODO: '/votinginformation/:address' - Get everything but the source from pollingLocations and early voting sites in the form [locationName : {address, [dropOffLocations], startDate, endDate}]
 
 apiRouter.get("/votinginformation/:address", (req, res) => {
   const address = req.params.address; // takes the address that was given from the user as input
@@ -290,10 +285,6 @@ apiRouter.get("/votinginformation/:address", (req, res) => {
       res.send(err); // send an HTTP error code along with the error if something fails
     });
 });
-
-// TODO: '/helpfulurls/:address' - {electionInfo, electionRegistration, electionRegistrationConfirmation, absenteeVoting, votingLocationFinder, ballotInfo}
-
-// TODO: '/representatives/:address' - [{position, official},...] where official has format {name, party, phones, urls, photoUrl, emails}
 
 // Use different router objects for different routes
 app.use("/api", apiRouter); // use the apiRouter for all routes starting with /api

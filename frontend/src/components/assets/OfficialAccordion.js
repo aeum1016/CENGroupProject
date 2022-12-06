@@ -4,9 +4,7 @@ import {
 	Box,
 	Stack,
 	IconButton,
-	Link,
 	Divider,
-	Toolbar,
 	Tooltip,
 } from '@mui/material';
 
@@ -92,7 +90,6 @@ export default function OfficialAccordion ({ representatives }) {
     
 
 	const RepresentativeAccordian = ({ representative}) => {
-		//console.log(contest);
 		let office = representative['office'];
 		const official = representative['official'];
 
@@ -121,8 +118,6 @@ export default function OfficialAccordion ({ representatives }) {
 
 	const RepresentativeAccordians = ({ representatives }) => {
 	
-        //console.log(representatives);
-
 		const accordians = Array.isArray(representatives) ? (representatives.map((representative) => {
 			return <RepresentativeAccordian representative={representative} />; 
 		})) : null;
