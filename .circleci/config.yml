@@ -2,17 +2,25 @@ version: 2.1
 
 jobs:
   build:
+    executor: node/default # use the default executor defined within the orb
     docker:
       - image: cimg/base:stable
     steps:
       - checkout
+      - node/install-packages:
+          pkg-manager: npm
       - run:
-          name: Install dependencies and build project
-          command: npm install
+          command: npm run dev
+          name: Build app
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - .
       - sonarcloud/scan
 
 orbs:
   sonarcloud: sonarsource/sonarcloud@1.0.3
+  node: circleci/node@5.0.2
 
 workflows:
   main:
