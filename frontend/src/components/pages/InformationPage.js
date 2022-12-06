@@ -2,9 +2,6 @@ import { React, useEffect, useState } from 'react';
 import { Container, Box, CircularProgress, Typography } from '@mui/material';
 import { Stack } from '@mui/system';
 
-import axios from 'axios';
-
-
 import { useSelector } from 'react-redux';
 import { selectAddress } from '../assets/addressSlice';
 import Dashboard from '../assets/Dashboard';

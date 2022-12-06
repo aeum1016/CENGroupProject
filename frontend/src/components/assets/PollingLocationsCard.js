@@ -84,6 +84,7 @@ const LocationCard = ({ location }) => {
 		</Container>
 	);
 };
+
 const LocationCards = ({ locations }) => {
 	const locationCards = Array.isArray(locations) ? locations.map((location) => {
 		return <LocationCard location={location} />;
