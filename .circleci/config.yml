@@ -13,7 +13,9 @@ jobs:
           command: cd frontend && npm install --force && npm run build
           name: Build app
       - run:
-          command: cd ../backend && npm install && npm run start
+          environment:
+              CI: "false"
+          command: cd backend && npm install && npm run start
           name: Build app
       - persist_to_workspace:
           root: ~/project
