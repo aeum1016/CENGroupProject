@@ -8,6 +8,8 @@ jobs:
       - node/install-packages:
           pkg-manager: npm
       - run:
+          environment:
+              CI: "false"
           command: cd frontend && npm install --force && npm run build
           name: Build app
       - run:
