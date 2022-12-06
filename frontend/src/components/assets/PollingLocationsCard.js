@@ -12,6 +12,7 @@ import {
 import MapIcon from '@mui/icons-material/Map';
 
 import DashboardCard from './DashboardCard';
+import PollingLocationsAccordion from './PollingLocationsAccordion'
 
 const LocationIconButton = ({ line1, city, state, zipCode }) => {
 	let URL = `https://www.google.com/maps/place/${line1}, ${city}, ${state} ${zipCode}/`;
@@ -33,7 +34,6 @@ const LocationCard = ({ location }) => {
 		return newStr.charAt(0).toUpperCase() + newStr.slice(1);
 	};
 	const titleCase = (str) => {
-		console.log(str);
 		let newStr = str.toLowerCase();
 		let newTokenizedStr = newStr.split(' ');
 
@@ -85,9 +85,9 @@ const LocationCard = ({ location }) => {
 	);
 };
 const LocationCards = ({ locations }) => {
-	const locationCards = locations.map((location) => {
+	const locationCards = Array.isArray(locations) ? locations.map((location) => {
 		return <LocationCard location={location} />;
-	});
+	}) : null;
 
 	return <Box>{locationCards}</Box>;
 };

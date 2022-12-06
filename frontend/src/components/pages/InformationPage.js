@@ -31,7 +31,6 @@ function InformationPage() {
 
 	// Show the loading circle if the info and contests is null
 	useEffect(() => {
-		console.log(address + " address")
 		if(address == "607 Carpenter Way Auburn, AL") {
 			setVoterInfo(alabamaInfo);
 			setContests(alabamaContests);
@@ -58,7 +57,6 @@ function InformationPage() {
 	}, [voterInfo, contests, representatives, address]);
 
 	const display = () => {
-		console.log(address)
 		if (isLoading) {
 			return <LoadingWheel />;
 		} else {

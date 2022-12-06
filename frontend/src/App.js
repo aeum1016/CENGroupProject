@@ -14,7 +14,7 @@ import LandingPage from './components/pages/LandingPage';
 import store from './data/store'
 
 function App() {
-	const [user, setUser] = useState(null); // profile object from google sign in
+	const [user, setUser] = useState(); // profile object from google sign in
 
 	const CLIENT_ID = process.env.REACT_APP_CLIENT_ID; // client id for google login
 

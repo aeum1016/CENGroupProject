@@ -18,15 +18,13 @@ const ResourceLink = ({ text, link }) => {
 
 function HelpfulLinksCard({ links }) {
 	const content = (
-		<>
-			{links?.map((link) => {
+			links?.map((link) => {
 				return (
 					<div>
 						<ResourceLink text={link} link={link} />
 					</div>
 				);
-			})}
-		</>
+			})
 	);
 	return <DashboardCard title={'Helpful Links'} content={content} />;
 }

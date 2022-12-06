@@ -8,10 +8,11 @@ import PollingLocationsCard from './PollingLocationsCard';
 import HelpfulLinksCard from './HelpfulLinksCard';
 
 function Dashboard({ voterInfo, contests, representatives }) {
-	const links = Object.values(voterInfo['helpfulUrls']);
+	var links = null;
+	if(voterInfo['helpfulUrls']) links = Object.values(voterInfo['helpfulUrls']);
 	const locations = voterInfo['votingInformation'];
-	const pollingLocations = locations['pollingLocations'];
-	const dropOffLocations = locations['dropOffLocations'];
+	const pollingLocations = locations ? locations['pollingLocations'] : 'NA';
+	const dropOffLocations = locations ? locations['dropOffLocations'] : 'NA';
 
 	const grid = (
 		<Box
@@ -30,7 +31,7 @@ function Dashboard({ voterInfo, contests, representatives }) {
 				<ElectionsCard contests={contests} />
 			</Box>
 			<Stack spacing={1} sx={{ gridArea: 'right' }}>
-				<OfficialsCard />
+				<OfficialsCard representatives={representatives} />
 				<PollingLocationsCard locations={pollingLocations} />
 			</Stack>
 		</Box>
