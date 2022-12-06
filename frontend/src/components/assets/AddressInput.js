@@ -19,19 +19,28 @@ function AddressInput() {
 	const dispatch = useDispatch();
 
 	// state for the different address components
+	// 4286 Esperanza Way Oceanside, CA
 	const [streetAddress, setStreetAddress] = useState(
-		localStorage['streetAddress']
+		localStorage['streetAddress'] ? localStorage['streetAddress'] : "4286 Esperanza Way"
 	);
 	const [streetAddressError, setStreetAddressError] = useState(false);
 
-	const [city, setCity] = useState(localStorage['city']);
+	const [city, setCity] = useState(
+		localStorage['city'] ? localStorage['city'] : "Oceanside"
+		);
 	const [cityError, setCityError] = useState(false);
 
-	const [state, setState] = useState(localStorage['state']);
+	const [state, setState] = useState(
+		localStorage['state'] ? localStorage['state'] : "CA"
+		);
 	const [stateError, setStateError] = useState(false);
 
 	// state for overall adress component
-	const [address, setAddress] = useState(localStorage['address']);
+	const [address, setAddress] = useState(
+		localStorage['address'] ? localStorage['address'] : "4286 Esperanza Way Oceanside, CA"
+		);
+
+	dispatch(update(address))
 
 	// state for making the form disabled
 	const [isDisabled, setIsDisabled] = useState(false);
