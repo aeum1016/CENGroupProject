@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Link } from '@mui/material';
+import { Link } from '@mui/material';
 import DashboardCard from './DashboardCard';
 
 const ResourceLink = ({ text, link }) => {

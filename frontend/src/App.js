@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { gapi } from 'gapi-script';
 
-import { Container, Box, Typography, CssBaseline } from '@mui/material';
+import { Container, CssBaseline } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 
 import DefaultTheme from './themes/DefaultTheme';

@@ -12,7 +12,6 @@ import {
 import MapIcon from '@mui/icons-material/Map';
 
 import DashboardCard from './DashboardCard';
-import PollingLocationsAccordion from './PollingLocationsAccordion'
 
 const LocationIconButton = ({ line1, city, state, zipCode }) => {
 	let URL = `https://www.google.com/maps/place/${line1}, ${city}, ${state} ${zipCode}/`;
@@ -50,9 +49,6 @@ const LocationCard = ({ location }) => {
 		return newStr;
 	};
 
-	// TODO: Polling hours for CA includes this information so leaving it out until needed
-	// const startDate = location['startDate'];
-	// const endDate = location['endDate'];
 
 	const locationName = titleCase(addressObject['locationName']);
 	const line1 = titleCase(addressObject['line1']);

@@ -4,9 +4,7 @@ import {
 	Box,
 	Stack,
 	IconButton,
-	Link,
 	Divider,
-	Toolbar,
 	Tooltip,
 } from '@mui/material';
 
@@ -112,8 +110,6 @@ export default function PollingLocationsAccordion ({ locations }) {
     
 
 	const AddressDetails = ({ location }) => {
-		//console.log(contest);
-		//let office = address['office'];
 		const address = location['address'];
         
         return <PollingLocationsAccordian address={address} location={ location }/>;

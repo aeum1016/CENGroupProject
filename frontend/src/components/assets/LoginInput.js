@@ -1,13 +1,10 @@
 import React from 'react';
 import {
-	Box,
 	Button,
 	TextField,
 	Stack,
 	Typography,
-	Paper,
 } from '@mui/material';
-import { Link } from 'react-router-dom';
 import { GoogleLogin } from 'react-google-login';
 
 function LoginInput({ clientId, setUser }) {

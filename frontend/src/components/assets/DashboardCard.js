@@ -2,15 +2,11 @@ import React from 'react';
 import {
 	Card,
 	CardHeader,
-	CardMedia,
 	CardContent,
-	CardActions,
-	IconButton,
 	Typography,
 	Container,
 	Divider,
 } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function DashboardCard({ title, subheader, content }) {
 	const card = (

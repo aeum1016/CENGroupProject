@@ -1,5 +1,5 @@
 import React from 'react';
-import { Stack, Box, Grid, Typography, IconButton } from '@mui/material';
+import { Stack, Box } from '@mui/material';
 
 
 import ElectionsCard from './ElectionsCard';
@@ -8,11 +8,10 @@ import PollingLocationsCard from './PollingLocationsCard';
 import HelpfulLinksCard from './HelpfulLinksCard';
 
 function Dashboard({ voterInfo, contests, representatives }) {
-	var links = null;
+	let links = null;
 	if(voterInfo['helpfulUrls']) links = Object.values(voterInfo['helpfulUrls']);
 	const locations = voterInfo['votingInformation'];
 	const pollingLocations = locations ? locations['pollingLocations'] : 'NA';
-	const dropOffLocations = locations ? locations['dropOffLocations'] : 'NA';
 
 	const grid = (
 		<Box
