@@ -34,7 +34,7 @@ export default [
 				'https://en.wikipedia.org/wiki/Richard_Shelby',
 			],
 			photoUrl:
-				'http://bioguide.congress.gov/bioguide/photo/S/S000320.jpg',
+				'https//bioguide.congress.gov/bioguide/photo/S/S000320.jpg',
 		},
 	},
 	{
@@ -60,7 +60,7 @@ export default [
 				'https://en.wikipedia.org/wiki/Mike_D._Rogers',
 			],
 			photoUrl:
-				'http://bioguide.congress.gov/bioguide/photo/R/R000575.jpg',
+				'https//bioguide.congress.gov/bioguide/photo/R/R000575.jpg',
 		},
 	},
 	{
@@ -74,7 +74,7 @@ export default [
 				'https://en.wikipedia.org/wiki/Kay_Ivey',
 			],
 			photoUrl:
-				'http://governor.alabama.gov/uploads/images/_size/Portrait.jpeg',
+				'https//governor.alabama.gov/uploads/images/_size/Portrait.jpeg',
 			emails: ['constituent.services@governor.alabama.gov'],
 		},
 	},
@@ -98,7 +98,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 242-7010'],
 			urls: [
-				'http://auditor.alabama.gov/',
+				'https//auditor.alabama.gov/',
 				'https://en.wikipedia.org/wiki/Jim_Zeigler',
 			],
 			emails: ['jim.zeigler@auditor.alabama.gov'],
@@ -124,7 +124,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 242-7200'],
 			urls: [
-				'http://sos.alabama.gov/',
+				'https//sos.alabama.gov/',
 				'https://en.wikipedia.org/wiki/John_Merrill_%28American_politician%29',
 			],
 			emails: ['john.merrill@sos.alabama.gov'],
@@ -137,7 +137,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 240-7100'],
 			urls: [
-				'http://agi.alabama.gov/',
+				'https//agi.alabama.gov/',
 				'https://en.wikipedia.org/wiki/Rick_Pate',
 			],
 			emails: ['rick.pate@agi.alabama.gov'],
@@ -163,7 +163,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 242-5297'],
 			urls: [
-				'http://www.psc.alabama.gov/Cavanaugh/commissionercavanaugh.htm',
+				'https//www.psc.alabama.gov/Cavanaugh/commissionercavanaugh.htm',
 			],
 			emails: ['twinkle.cavanaugh@psc.alabama.gov'],
 		},
@@ -174,7 +174,7 @@ export default [
 			name: 'Chip Beeker',
 			party: 'Republican Party',
 			phones: ['(334) 242-5191'],
-			urls: ['http://www.psc.alabama.gov/Beeker/commissionerBeeker.htm'],
+			urls: ['https//www.psc.alabama.gov/Beeker/commissionerBeeker.htm'],
 			emails: ['chip.beeker@psc.alabama.gov'],
 		},
 	},
@@ -185,7 +185,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 242-5203'],
 			urls: [
-				'http://www.psc.alabama.gov/Oden/CommissionerOden.htm',
+				'https//www.psc.alabama.gov/Oden/CommissionerOden.htm',
 				'https://en.wikipedia.org/wiki/Jeremy_Oden',
 			],
 			emails: ['jeremy.oden@psc.alabama.gov'],
@@ -202,7 +202,7 @@ export default [
 				'https://en.wikipedia.org/wiki/Tom_Whatley',
 			],
 			photoUrl:
-				'http://www.legislature.state.al.us/ALISWWW/Senate/Senator%20Pictures/Whatley_27.jpeg',
+				'https//www.legislature.state.al.us/ALISWWW/Senate/Senator%20Pictures/Whatley_27.jpeg',
 			emails: ['tom.whatley@alsenate.gov'],
 		},
 	},
@@ -216,7 +216,7 @@ export default [
 				'https://alison.legislature.state.al.us/house-leaders-members?tab=1',
 			],
 			photoUrl:
-				'http://www.legislature.state.al.us/ALISWWW/House/Representative%20Pictures/Lovvorn_79.jpeg',
+				'https//www.legislature.state.al.us/ALISWWW/House/Representative%20Pictures/Lovvorn_79.jpeg',
 			emails: ['joe.lovvorn@alhouse.gov'],
 		},
 	},
@@ -227,7 +227,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 229-0700'],
 			urls: [
-				'http://judicial.alabama.gov/Appellate/SupremeCourt',
+				'https//judicial.alabama.gov/Appellate/SupremeCourt',
 				'https://en.wikipedia.org/wiki/Alisa_Kelli_Wise',
 			],
 		},
@@ -239,7 +239,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 229-0700'],
 			urls: [
-				'http://judicial.alabama.gov/Appellate/SupremeCourt',
+				'https//judicial.alabama.gov/Appellate/SupremeCourt',
 				'https://en.wikipedia.org/wiki/Brady_E._Mendheim_Jr.',
 			],
 		},
@@ -251,7 +251,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 229-0700'],
 			urls: [
-				'http://judicial.alabama.gov/Appellate/SupremeCourt',
+				'https//judicial.alabama.gov/Appellate/SupremeCourt',
 				'https://en.wikipedia.org/wiki/Greg_Shaw_%28judge%29',
 			],
 		},
@@ -263,7 +263,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 229-0700'],
 			urls: [
-				'http://judicial.alabama.gov/Appellate/SupremeCourt',
+				'https//judicial.alabama.gov/Appellate/SupremeCourt',
 				'https://en.wikipedia.org/wiki/Jay_Mitchell_%28judge%29',
 			],
 		},
@@ -275,7 +275,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 229-0700'],
 			urls: [
-				'http://judicial.alabama.gov/Appellate/SupremeCourt',
+				'https//judicial.alabama.gov/Appellate/SupremeCourt',
 				'https://en.wikipedia.org/wiki/Michael_F._Bolin',
 			],
 		},
@@ -287,7 +287,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 229-0700'],
 			urls: [
-				'http://judicial.alabama.gov/Appellate/SupremeCourt',
+				'https//judicial.alabama.gov/Appellate/SupremeCourt',
 				'https://en.wikipedia.org/wiki/Sarah_Hicks_Stewart',
 			],
 		},
@@ -299,7 +299,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 229-0700'],
 			urls: [
-				'http://judicial.alabama.gov/Appellate/SupremeCourt',
+				'https//judicial.alabama.gov/Appellate/SupremeCourt',
 				'https://en.wikipedia.org/wiki/Tommy_Bryan',
 			],
 		},
@@ -311,7 +311,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 229-0700'],
 			urls: [
-				'http://judicial.alabama.gov/Appellate/SupremeCourt',
+				'https//judicial.alabama.gov/Appellate/SupremeCourt',
 				'https://en.wikipedia.org/wiki/Will_Sellers',
 			],
 		},
@@ -323,7 +323,7 @@ export default [
 			party: 'Republican Party',
 			phones: ['(334) 229-0700'],
 			urls: [
-				'http://judicial.alabama.gov/Appellate/SupremeCourt',
+				'https//judicial.alabama.gov/Appellate/SupremeCourt',
 				'https://en.wikipedia.org/wiki/Tom_Parker_%28judge%29',
 			],
 		},
@@ -334,7 +334,7 @@ export default [
 			name: 'Bill English',
 			party: 'Republican Party',
 			phones: ['(334) 737-3670'],
-			urls: ['http://www.leeco.us/government/probate_judge/index.php'],
+			urls: ['https//www.leeco.us/government/probate_judge/index.php'],
 			emails: ['probatejudge@mindspring.com'],
 		},
 	},
@@ -353,7 +353,7 @@ export default [
 			name: 'Jay Jones',
 			party: 'Republican Party',
 			phones: ['(334) 749-5651'],
-			urls: ['http://leecountysheriff.org/'],
+			urls: ['https//leecountysheriff.org/'],
 			emails: ['lcso@leecountysheriff.org'],
 		},
 	},
@@ -374,7 +374,7 @@ export default [
 			party: 'Unknown',
 			phones: ['(334) 737-3660'],
 			urls: [
-				'http://www.leeco.us/government/county_commission/index.php',
+				'https//www.leeco.us/government/county_commission/index.php',
 			],
 		},
 	},

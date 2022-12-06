@@ -34,7 +34,7 @@ export default [
 				'https://en.wikipedia.org/wiki/Marco_Rubio',
 			],
 			photoUrl:
-				'http://bioguide.congress.gov/bioguide/photo/R/R000595.jpg',
+				'https//bioguide.congress.gov/bioguide/photo/R/R000595.jpg',
 		},
 	},
 	{
@@ -48,7 +48,7 @@ export default [
 				'https://en.wikipedia.org/wiki/Rick_Scott',
 			],
 			photoUrl:
-				'http://www.flgov.com/wp-content/uploads/2013/05/GovernorNEW-682x1024.jpg',
+				'https//www.flgov.com/wp-content/uploads/2013/05/GovernorNEW-682x1024.jpg',
 			emails: ['Rick.scott@eog.myflorida.com'],
 		},
 	},
@@ -154,7 +154,7 @@ export default [
 				'https://en.wikipedia.org/wiki/Chuck_Clemons',
 			],
 			photoUrl:
-				'http://www.myfloridahouse.gov/FileStores/Web/Imaging/Member/4655.jpg',
+				'https//www.myfloridahouse.gov/FileStores/Web/Imaging/Member/4655.jpg',
 			emails: ['charles.clemons@myfloridahouse.gov'],
 		},
 	},

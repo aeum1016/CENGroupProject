@@ -46,7 +46,7 @@ export default [
 				'https://en.wikipedia.org/wiki/Dianne_Feinstein',
 			],
 			photoUrl:
-				'http://bioguide.congress.gov/bioguide/photo/F/F000062.jpg',
+				'https//bioguide.congress.gov/bioguide/photo/F/F000062.jpg',
 		},
 	},
 	{
@@ -71,7 +71,7 @@ export default [
 				'https://www.gov.ca.gov/',
 				'https://en.wikipedia.org/wiki/Gavin_Newsom',
 			],
-			photoUrl: 'http://www.ltg.ca.gov/images/newsimages/i2.png',
+			photoUrl: 'https//www.ltg.ca.gov/images/newsimages/i2.png',
 		},
 	},
 	{
@@ -153,7 +153,7 @@ export default [
 			party: 'Democratic Party',
 			phones: ['(800) 927-4357'],
 			urls: [
-				'http://www.insurance.ca.gov/',
+				'https//www.insurance.ca.gov/',
 				'https://en.wikipedia.org/wiki/Ricardo_Lara',
 			],
 		},
@@ -169,7 +169,7 @@ export default [
 				'https://en.wikipedia.org/wiki/Patricia_Bates',
 			],
 			photoUrl:
-				'http://senate.ca.gov/sites/senate.ca.gov/files/senator_photos/bates-patricia.jpg',
+				'https//senate.ca.gov/sites/senate.ca.gov/files/senator_photos/bates-patricia.jpg',
 			emails: ['senator.bates@sen.ca.gov'],
 		},
 	},
