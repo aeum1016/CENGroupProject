@@ -8,7 +8,7 @@ jobs:
       - node/install-packages:
           pkg-manager: npm
       - run:
-          command: cd frontend && npm install && npm run build
+          command: cd frontend && npm install --force && npm run build
           name: Build app
       - persist_to_workspace:
           root: ~/project
