@@ -121,10 +121,10 @@ export default function OfficialAccordion ({ representatives }) {
 
 	const RepresentativeAccordians = ({ representatives }) => {
 	
-        console.log(representatives);
+        //console.log(representatives);
 
 		const accordians = representatives.map((representative) => {
-			return <RepresentativeAccordian representative={representative} />;
+			return <RepresentativeAccordian representative={representative} />; 
 		});
 
 		return accordians;

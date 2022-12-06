@@ -157,7 +157,7 @@ export default function ElectionAccordions({ contests }) {
 		const filteredContests = contests.filter((contest) => {
 			return contest['candidates'].length > 0;
 		});
-		console.log(filteredContests);
+		//console.log(filteredContests);
 
 		const accordians = filteredContests.map((contest) => {
 		
