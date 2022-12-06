@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
 import { gapi } from 'gapi-script';
 
 import { Container, Box, Typography, CssBaseline } from '@mui/material';
@@ -10,9 +11,10 @@ import AppBar from './components/assets/AppBar';
 import AccountPage from './components/pages/AccountPage';
 import InformationPage from './components/pages/InformationPage';
 import LandingPage from './components/pages/LandingPage';
+import store from './data/store'
 
 function App() {
-	const [user, setUser] = useState(null); // profile object from google sign in
+	const [user, setUser] = useState(); // profile object from google sign in
 
 	const CLIENT_ID = process.env.REACT_APP_CLIENT_ID; // client id for google login
 
@@ -36,18 +38,20 @@ function App() {
 
 	return (
 		<div className='App'>
-			<ThemeProvider theme={DefaultTheme}>
-				<CssBaseline />
-				<AppBar user={user} />
-				<Container>
-					<Router>
-						<Routes>
-							<Route path='/' element={mainPage} />
-							<Route path='/account' element={<AccountPage />} />
-						</Routes>
-					</Router>
-				</Container>
-			</ThemeProvider>
+			<Provider store={store}>
+				<ThemeProvider theme={DefaultTheme}>
+					<CssBaseline />
+					<AppBar user={user} />
+					<Container>
+						<Router>
+							<Routes>
+								<Route path='/' element={mainPage} />
+								<Route path='/account' element={<AccountPage />} />
+							</Routes>
+						</Router>
+					</Container>
+				</ThemeProvider>
+			</Provider>
 		</div>
 	);
 }

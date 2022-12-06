@@ -1,0 +1,6444 @@
+{
+	"pollingLocations": [
+		{
+			"name": "JOHN LANDES COMMUNITY CTR-MTG RM",
+			"address": {
+				"locationName": "JOHN LANDES COMMUNITY CTR-MTG RM",
+				"line1": "2855 CEDAR RD ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92056"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VISTA INNOVATION CENTER-MPR",
+			"address": {
+				"locationName": "VISTA INNOVATION CENTER-MPR",
+				"line1": "836 OLIVE AVE ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92083"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "TEMPLE HEIGHTS ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "TEMPLE HEIGHTS ELEM SCHOOL-MPR",
+				"line1": "1550 TEMPLE HEIGHTS DR ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92056"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LIFE CHRISTIAN CHURCH VISTA",
+			"address": {
+				"locationName": "LIFE CHRISTIAN CHURCH VISTA",
+				"line1": "1130 N MELROSE DR ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92083"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ROOSEVELT MIDDLE SCHOOL-LIBRARY",
+			"address": {
+				"locationName": "ROOSEVELT MIDDLE SCHOOL-LIBRARY",
+				"line1": "850 SAGEWOOD DR SCHL",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92057"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EL CORAZON SENIOR CENTER - CLASSROOMS",
+			"address": {
+				"locationName": "EL CORAZON SENIOR CENTER - CLASSROOMS",
+				"line1": "3302 SENIOR CENTER DR ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92056"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MARTIN L KING JR MID SCHOOL-MPR",
+			"address": {
+				"locationName": "MARTIN L KING JR MID SCHOOL-MPR",
+				"line1": "1290 IVEY RANCH RD ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92057"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MIRA COSTA COMM COLL - BLDG T200",
+			"address": {
+				"locationName": "MIRA COSTA COMM COLL - BLDG T200",
+				"line1": "1 BARNARD DR CLG",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92056"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CALAVERA HILLS MIDDLE SCHOOL-GYM",
+			"address": {
+				"locationName": "CALAVERA HILLS MIDDLE SCHOOL-GYM",
+				"line1": "4100 TAMARACK AVE SCHL",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92010"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VISTA CIVIC CENTER - VANCE COMMUNITY RM",
+			"address": {
+				"locationName": "VISTA CIVIC CENTER - VANCE COMMUNITY RM",
+				"line1": "200 CIVIC CENTER DR ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92084"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BREEZE HILL ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "BREEZE HILL ELEM SCHOOL-MPR",
+				"line1": "1111 MELROSE WAY ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92081"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MADISON MIDDLE SCHOOL-MPR",
+			"address": {
+				"locationName": "MADISON MIDDLE SCHOOL-MPR",
+				"line1": "4930 LAKE BLVD SCHL",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92056"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GLORIA MC CLELLAN SENIOR CTR-JASMINE RM",
+			"address": {
+				"locationName": "GLORIA MC CLELLAN SENIOR CTR-JASMINE RM",
+				"line1": "1400 VALE TERRACE DR ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92084"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "1ST PRESBYTERIAN CHURCH-GREAT HALL",
+			"address": {
+				"locationName": "1ST PRESBYTERIAN CHURCH-GREAT HALL",
+				"line1": "2001 EL CAMINO REAL ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92054"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CALAVERA COMMUNITY PARK-ACTIVITY RM",
+			"address": {
+				"locationName": "CALAVERA COMMUNITY PARK-ACTIVITY RM",
+				"line1": "2997 GLASGOW DR ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92010"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FOOTHILL OAK ELEMENTARY SCHOOL-MPR",
+			"address": {
+				"locationName": "FOOTHILL OAK ELEMENTARY SCHOOL-MPR",
+				"line1": "1370 OAK DR ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92084"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MISSION VISTA HIGH SCHOOL - THEATER",
+			"address": {
+				"locationName": "MISSION VISTA HIGH SCHOOL - THEATER",
+				"line1": "1306 MELROSE DR ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92057"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LIBBY ELEMENTARY SCHOOL-MPR",
+			"address": {
+				"locationName": "LIBBY ELEMENTARY SCHOOL-MPR",
+				"line1": "423 W REDONDO DR ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92057"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BONSALL WEST ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "BONSALL WEST ELEM SCHOOL-MPR",
+				"line1": "5050 EL MIRLO DR ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92057"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OCEANSIDE UNIFIED SCH DIST-BOARD ROOM",
+			"address": {
+				"locationName": "OCEANSIDE UNIFIED SCH DIST-BOARD ROOM",
+				"line1": "2111 MISSION AVE ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92058"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO BUENA VISTA HIGH SCH-STAFF LOUNGE",
+			"address": {
+				"locationName": "RANCHO BUENA VISTA HIGH SCH-STAFF LOUNGE",
+				"line1": "1601 LONGHORN DR SCHL",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92081"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LINCOLN MIDDLE SCHOOL-MPR",
+			"address": {
+				"locationName": "LINCOLN MIDDLE SCHOOL-MPR",
+				"line1": "2000 CALIFORNIA ST ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92054"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JOE BALDERRAMA COMMUNITY CENTER",
+			"address": {
+				"locationName": "JOE BALDERRAMA COMMUNITY CENTER",
+				"line1": "709 SAN DIEGO ST ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92058"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "STONEBROOKE CHURCH-FELLOWSHIP HALL",
+			"address": {
+				"locationName": "STONEBROOKE CHURCH-FELLOWSHIP HALL",
+				"line1": "145 HANNALEI DR ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92083"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WOMENS CLUB OF OCEANSIDE",
+			"address": {
+				"locationName": "WOMENS CLUB OF OCEANSIDE",
+				"line1": "1606 MISSOURI AVE ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92054"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PINE AVE COMMUNITY CENTER-GYM",
+			"address": {
+				"locationName": "PINE AVE COMMUNITY CENTER-GYM",
+				"line1": "3209 HARDING ST ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92008"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ALGA NORTE COMMUNITY PARK-MEETING RM 301",
+			"address": {
+				"locationName": "ALGA NORTE COMMUNITY PARK-MEETING RM 301",
+				"line1": "6565 ALICANTE RD ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92009"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "AVIARA OAKS ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "AVIARA OAKS ELEM SCHOOL-AUDITORIUM",
+				"line1": "6900 AMBROSIA LN SCHL",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92011"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JOLI ANN LEICHTAG ELEM SCHL-MPR",
+			"address": {
+				"locationName": "JOLI ANN LEICHTAG ELEM SCHL-MPR",
+				"line1": "653 POINSETTIA  AVE ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92081"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PACIFIC RIM ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "PACIFIC RIM ELEM SCHOOL-AUDITORIUM",
+				"line1": "1100 CAMINO DE LAS ONDAS ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92009"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARRILLO ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "CARRILLO ELEM SCHOOL-MPR",
+				"line1": "2875 POINSETTIA LN ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92009"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BONSALL COMMUNITY CTR-MAIN RM",
+			"address": {
+				"locationName": "BONSALL COMMUNITY CTR-MAIN RM",
+				"line1": "31505 OLD RIVER RD ",
+				"city": "BONSALL",
+				"state": "CA",
+				"zip": "92003"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "TWIN OAKS ELEM SCHOOL-CAFETERIA",
+			"address": {
+				"locationName": "TWIN OAKS ELEM SCHOOL-CAFETERIA",
+				"line1": "1 CASSOU RD ",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92069"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EL CAMINO CREEK SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "EL CAMINO CREEK SCHOOL-AUDITORIUM",
+				"line1": "7885 PASEO ALISO ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92009"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DISCOVERY ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "DISCOVERY ELEM SCHOOL-MPR",
+				"line1": "730 APPLEWILDE DR ",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92078"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PAUL ECKE CENTRAL SCHOOL-MPR",
+			"address": {
+				"locationName": "PAUL ECKE CENTRAL SCHOOL-MPR",
+				"line1": "185 UNION ST SCHL",
+				"city": "ENCINITAS",
+				"state": "CA",
+				"zip": "92024"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN MARCOS CITY HALL-VLY OF DISCOVERY RM",
+			"address": {
+				"locationName": "SAN MARCOS CITY HALL-VLY OF DISCOVERY RM",
+				"line1": "1 CIVIC CENTER DR ",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92069"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "STAGECOACH COMMUNITY CENTER-ACTIVITY RM",
+			"address": {
+				"locationName": "STAGECOACH COMMUNITY CENTER-ACTIVITY RM",
+				"line1": "3420 CAMINO DE LOS COCHES ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92009"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ENCINITAS COMMUNITY CENTER-MAPLE RM",
+			"address": {
+				"locationName": "ENCINITAS COMMUNITY CENTER-MAPLE RM",
+				"line1": "1140 OAKCREST PARK DR ",
+				"city": "ENCINITAS",
+				"state": "CA",
+				"zip": "92024"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN ELIJO REC CTR-TERRACE RM",
+			"address": {
+				"locationName": "SAN ELIJO REC CTR-TERRACE RM",
+				"line1": "1105 ELFIN FOREST  RD E ",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92078"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CSU SAN MARCOS-MCMAHAN HOUSE-GREAT RM",
+			"address": {
+				"locationName": "CSU SAN MARCOS-MCMAHAN HOUSE-GREAT RM",
+				"line1": "333 S TWIN OAKS VALLEY RD L",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92078"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MASONIC LODGE #317 - MEMORIAL DINING RM",
+			"address": {
+				"locationName": "MASONIC LODGE #317 - MEMORIAL DINING RM",
+				"line1": "203 ROCKY CREST RD ",
+				"city": "FALLBROOK",
+				"state": "CA",
+				"zip": "92028"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ADA W HARRIS ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "ADA W HARRIS ELEM SCHOOL-MPR",
+				"line1": "1508 WINDSOR RD ",
+				"city": "CARDIFF BY THE SEA",
+				"state": "CA",
+				"zip": "92007"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PARK DALE LANE ELEM SCHOOL - MPR",
+			"address": {
+				"locationName": "PARK DALE LANE ELEM SCHOOL - MPR",
+				"line1": "2050 PARK DALE LN SCHL",
+				"city": "ENCINITAS",
+				"state": "CA",
+				"zip": "92024"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "REIDY CREEK ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "REIDY CREEK ELEM SCHOOL-MPR",
+				"line1": "2869 N BROADWAY ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92026"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "KNOB HILL ELEM SCHOOL-CAFETERIA",
+			"address": {
+				"locationName": "KNOB HILL ELEM SCHOOL-CAFETERIA",
+				"line1": "1825 KNOB HILL RD SCHL",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92069"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FALLBROOK COMMUNITY CTR-NORTH RM",
+			"address": {
+				"locationName": "FALLBROOK COMMUNITY CTR-NORTH RM",
+				"line1": "341 HEALD LN ",
+				"city": "FALLBROOK",
+				"state": "CA",
+				"zip": "92028"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ROCK SPRINGS ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "ROCK SPRINGS ELEM SCHOOL-AUDITORIUM",
+				"line1": "1155 DEODAR RD SCHL",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92026"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VALLEY CENTER COMMUNITY HALL",
+			"address": {
+				"locationName": "VALLEY CENTER COMMUNITY HALL",
+				"line1": "28246 LILAC RD ",
+				"city": "VALLEY CENTER",
+				"state": "CA",
+				"zip": "92082"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RINCON MIDDLE SCHOOL-MPR",
+			"address": {
+				"locationName": "RINCON MIDDLE SCHOOL-MPR",
+				"line1": "925 LEHNER AVE SCHL",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92026"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SKYLINE ELEMENTARY SCHOOL-THEATER",
+			"address": {
+				"locationName": "SKYLINE ELEMENTARY SCHOOL-THEATER",
+				"line1": "606 LOMAS SANTA FE DR SCHL",
+				"city": "SOLANA BEACH",
+				"state": "CA",
+				"zip": "92075"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PARK AVENUE COMMUNITY CENTER-OAK RM",
+			"address": {
+				"locationName": "PARK AVENUE COMMUNITY CENTER-OAK RM",
+				"line1": "728 N BROADWAY ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92025"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VALLEY CENTER PAUMA STAFF LOUNGE-RM 1",
+			"address": {
+				"locationName": "VALLEY CENTER PAUMA STAFF LOUNGE-RM 1",
+				"line1": "28751 COLE GRADE RD ",
+				"city": "VALLEY CENTER",
+				"state": "CA",
+				"zip": "92082"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ROSE ELEMENTARY SCHOOL-RM 24",
+			"address": {
+				"locationName": "ROSE ELEMENTARY SCHOOL-RM 24",
+				"line1": "906 N ROSE ST ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92027"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "R ROGER ROWE SCHOOL-GYM",
+			"address": {
+				"locationName": "R ROGER ROWE SCHOOL-GYM",
+				"line1": "5927 LA GRANADA ",
+				"city": "RANCHO SANTA FE",
+				"state": "CA",
+				"zip": "92067"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DEL LAGO ACADEMY-DANCE RM B203",
+			"address": {
+				"locationName": "DEL LAGO ACADEMY-DANCE RM B203",
+				"line1": "1740 SCENIC TRAILS WAY ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92029"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CENTRAL ELEM SCHOOL-FAMILY RESOURCE RM",
+			"address": {
+				"locationName": "CENTRAL ELEM SCHOOL-FAMILY RESOURCE RM",
+				"line1": "122 W 4TH AVE ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92025"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OAK HILL ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "OAK HILL ELEM SCHOOL-MPR",
+				"line1": "1820 OAK HILL DR ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92027"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ORANGE GLEN HIGH SCHOOL-SMALL GYM",
+			"address": {
+				"locationName": "ORANGE GLEN HIGH SCHOOL-SMALL GYM",
+				"line1": "2200 GLENRIDGE RD ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92027"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DEL MAR HILLS ACADEMY-PAC",
+			"address": {
+				"locationName": "DEL MAR HILLS ACADEMY-PAC",
+				"line1": "14085 MANGO DR SCHL",
+				"city": "DEL MAR",
+				"state": "CA",
+				"zip": "92014"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VALLEY CENTER HIGH SCHOOL-MAXINE THEATRE",
+			"address": {
+				"locationName": "VALLEY CENTER HIGH SCHOOL-MAXINE THEATRE",
+				"line1": "31322 COLE GRADE RD ",
+				"city": "VALLEY CENTER",
+				"state": "CA",
+				"zip": "92082"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARMEL VALLEY REC CENTER - MPR RM 1",
+			"address": {
+				"locationName": "CARMEL VALLEY REC CENTER - MPR RM 1",
+				"line1": "3777 TOWNSGATE DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92130"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WESTFIELD NORTH COUNTY - COMMUNITY ROOM",
+			"address": {
+				"locationName": "WESTFIELD NORTH COUNTY - COMMUNITY ROOM",
+				"line1": "272 E VIA RANCHO PKWY ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92025"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO SANTA FE FIRE STN #2-TRAINING RM",
+			"address": {
+				"locationName": "RANCHO SANTA FE FIRE STN #2-TRAINING RM",
+				"line1": "16930 FOUR GEE RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92127"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PALA TRIBAL COMMUNITY HALL-OLD HALL",
+			"address": {
+				"locationName": "PALA TRIBAL COMMUNITY HALL-OLD HALL",
+				"line1": "999000 RES-PALA ",
+				"city": "PALA",
+				"state": "CA",
+				"zip": "92059"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PACIFIC HIGHLANDS RANCH REC-MPR NORTH",
+			"address": {
+				"locationName": "PACIFIC HIGHLANDS RANCH REC-MPR NORTH",
+				"line1": "5977 VILLAGE CENTER LOOP RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92130"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO BERNARDO REC CENTER - GYM",
+			"address": {
+				"locationName": "RANCHO BERNARDO REC CENTER - GYM",
+				"line1": "18448 W BERNARDO DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92127"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OCEAN AIR RECREATION CTR-ACTIVITY RM 100",
+			"address": {
+				"locationName": "OCEAN AIR RECREATION CTR-ACTIVITY RM 100",
+				"line1": "4770 FAIRPORT WAY ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92130"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WESTVIEW HIGH SCHOOL-DANCE ROOM",
+			"address": {
+				"locationName": "WESTVIEW HIGH SCHOOL-DANCE ROOM",
+				"line1": "13500 CAMINO DEL SUR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92129"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO BERNARDO BRANCH LIB-COMMUNITY RM",
+			"address": {
+				"locationName": "RANCHO BERNARDO BRANCH LIB-COMMUNITY RM",
+				"line1": "17110 BERNARDO CENTER DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92128"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HOPE UNITED METHODIST CHR-COVENANT HL 4",
+			"address": {
+				"locationName": "HOPE UNITED METHODIST CHR-COVENANT HL 4",
+				"line1": "16550 BERNARDO HEIGHTS PKWY ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92128"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "UCSD GEISEL LIBRARY - SEUSS ROOM",
+			"address": {
+				"locationName": "UCSD GEISEL LIBRARY - SEUSS ROOM",
+				"line1": "9500 GILMAN DR POLL",
+				"city": "LA JOLLA",
+				"state": "CA",
+				"zip": "92093"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LA JOLLA RECREATION CENTER",
+			"address": {
+				"locationName": "LA JOLLA RECREATION CENTER",
+				"line1": "615 PROSPECT ST ",
+				"city": "LA JOLLA",
+				"state": "CA",
+				"zip": "92037"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO PENASQUITOS LIBRARY-MEETING ROOM",
+			"address": {
+				"locationName": "RANCHO PENASQUITOS LIBRARY-MEETING ROOM",
+				"line1": "13330 SALMON RIVER RD POLL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92129"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CANYONSIDE REC CENTER-MPR",
+			"address": {
+				"locationName": "CANYONSIDE REC CENTER-MPR",
+				"line1": "12350 BLACK MOUNTAIN RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92129"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LOS PENASQUITOS ELEM SCHOOL- EB-30",
+			"address": {
+				"locationName": "LOS PENASQUITOS ELEM SCHOOL- EB-30",
+				"line1": "14125 CUCA ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92129"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO BERNARDO HS-PERF ARTS CTR",
+			"address": {
+				"locationName": "RANCHO BERNARDO HS-PERF ARTS CTR",
+				"line1": "13010 PASEO LUCIDO SCHL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92128"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DOYLE RECREATION CENTER-DANCE ROOM",
+			"address": {
+				"locationName": "DOYLE RECREATION CENTER-DANCE ROOM",
+				"line1": "8175 REGENTS RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92122"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CHALLENGER MID SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "CHALLENGER MID SCHOOL-AUDITORIUM",
+				"line1": "10810 PARKDALE AVE SCHL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92126"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARMEL MOUNTAIN RANCH REC CTR-MPR RM 103",
+			"address": {
+				"locationName": "CARMEL MOUNTAIN RANCH REC CTR-MPR RM 103",
+				"line1": "10152 RANCHO CARMEL DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92128"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MIRA MESA REC CTR-GAME RM",
+			"address": {
+				"locationName": "MIRA MESA REC CTR-GAME RM",
+				"line1": "8575 NEW SALEM ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92126"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "STANDLEY PARK & REC CTR - CRAFT RM",
+			"address": {
+				"locationName": "STANDLEY PARK & REC CTR - CRAFT RM",
+				"line1": "3585 GOVERNOR DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92122"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HAGE ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "HAGE ELEM SCHOOL-AUDITORIUM",
+				"line1": "9750 GALVIN AVE SCHL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92126"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "POWAY HIGH SCHOOL-K1",
+			"address": {
+				"locationName": "POWAY HIGH SCHOOL-K1",
+				"line1": "15500 ESPOLA RD SCHL",
+				"city": "POWAY",
+				"state": "CA",
+				"zip": "92064"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ALCOTT ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "ALCOTT ELEM SCHOOL-AUDITORIUM",
+				"line1": "4680 HIDALGO AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92117"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DINGEMAN ELEM SCH-AUDITORIUM",
+			"address": {
+				"locationName": "DINGEMAN ELEM SCH-AUDITORIUM",
+				"line1": "11840 SCRIPPS CREEK DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92131"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN DIEGO MIRAMAR COLLEGE-ROOM K-107",
+			"address": {
+				"locationName": "SAN DIEGO MIRAMAR COLLEGE-ROOM K-107",
+				"line1": "10440 BLACK MOUNTAIN RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92126"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PACIFIC BEACH RECREATION CENTER-CRAFT RM",
+			"address": {
+				"locationName": "PACIFIC BEACH RECREATION CENTER-CRAFT RM",
+				"line1": "1405 DIAMOND ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92109"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "TWIN PEAKS MID SCH-LITTLE THEATER STAGE",
+			"address": {
+				"locationName": "TWIN PEAKS MID SCH-LITTLE THEATER STAGE",
+				"line1": "14640 TIERRA BONITA RD ",
+				"city": "POWAY",
+				"state": "CA",
+				"zip": "92064"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EARL & BIRDIE TAYLOR LIBRARY",
+			"address": {
+				"locationName": "EARL & BIRDIE TAYLOR LIBRARY",
+				"line1": "4275 CASS ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92109"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NORTH CLAIREMONT REC CTR-MEETING RM 2",
+			"address": {
+				"locationName": "NORTH CLAIREMONT REC CTR-MEETING RM 2",
+				"line1": "4421 BANNOCK AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92117"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MICKEY CAFAGNA COMM CTR-WILLOW RM301/302",
+			"address": {
+				"locationName": "MICKEY CAFAGNA COMM CTR-WILLOW RM301/302",
+				"line1": "13094 CIVIC CENTER DR ",
+				"city": "POWAY",
+				"state": "CA",
+				"zip": "92064"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MISSION BAY HIGH SCHOOL-AUDITORIUM FOYER",
+			"address": {
+				"locationName": "MISSION BAY HIGH SCHOOL-AUDITORIUM FOYER",
+				"line1": "2475 GRAND AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92109"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SEQUOIA ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "SEQUOIA ELEM SCHOOL-AUDITORIUM",
+				"line1": "4690 LIMERICK AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92117"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SOUTH CLAIREMONT REC CTR-CRAFT RM",
+			"address": {
+				"locationName": "SOUTH CLAIREMONT REC CTR-CRAFT RM",
+				"line1": "3605 CLAIREMONT DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92117"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SCRIPPS RANCH ESTATES CROWN PT-CLUBHOUSE",
+			"address": {
+				"locationName": "SCRIPPS RANCH ESTATES CROWN PT-CLUBHOUSE",
+				"line1": "11441 CAMINITO MAGNIFICA ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92131"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ISLAMIC CENTER OF SAN DIEGO - MPR",
+			"address": {
+				"locationName": "ISLAMIC CENTER OF SAN DIEGO - MPR",
+				"line1": "7050 ECKSTROM AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92111"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BAY PARK ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "BAY PARK ELEM SCHOOL-AUDITORIUM",
+				"line1": "2433 DENVER ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92110"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ROBB FIELD, JIM HOWARD HALL",
+			"address": {
+				"locationName": "ROBB FIELD, JIM HOWARD HALL",
+				"line1": "2525 BACON ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92107"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "REGISTRAR OF VOTERS",
+			"address": {
+				"locationName": "REGISTRAR OF VOTERS",
+				"line1": "5600 OVERLAND AVE 100",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92123"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CORREIA MIDDLE SCH-BUNGALOW 1",
+			"address": {
+				"locationName": "CORREIA MIDDLE SCH-BUNGALOW 1",
+				"line1": "4302 VALETA ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92107"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "KEARNY MESA REC CTR-MEETING ROOM",
+			"address": {
+				"locationName": "KEARNY MESA REC CTR-MEETING ROOM",
+				"line1": "3170 ARMSTRONG ST POLL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92111"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "USD - DEGHERI ALUMNI CTR RM 113",
+			"address": {
+				"locationName": "USD - DEGHERI ALUMNI CTR RM 113",
+				"line1": "5998 ALCALA PARK POLL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92110"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LINDA VISTA RECREATION CTR-AUDITORIUM",
+			"address": {
+				"locationName": "LINDA VISTA RECREATION CTR-AUDITORIUM",
+				"line1": "7064 LEVANT ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92111"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RAMONA BRANCH LIBRARY-COMMUNITY ROOM",
+			"address": {
+				"locationName": "RAMONA BRANCH LIBRARY-COMMUNITY ROOM",
+				"line1": "1275 MAIN ST ",
+				"city": "RAMONA",
+				"state": "CA",
+				"zip": "92065"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DANA MID SCHOOL-CLASSROOM 121",
+			"address": {
+				"locationName": "DANA MID SCHOOL-CLASSROOM 121",
+				"line1": "1775 CHATSWORTH BLVD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92107"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RAMONA UNIFIED SCH DIST - WILSON GYM",
+			"address": {
+				"locationName": "RAMONA UNIFIED SCH DIST - WILSON GYM",
+				"line1": "720 9TH ST ",
+				"city": "RAMONA",
+				"state": "CA",
+				"zip": "92065"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARSON ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "CARSON ELEM SCHOOL-AUDITORIUM",
+				"line1": "6905 KRAMER ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92111"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FATHER JUNIPERO SERRA HALL",
+			"address": {
+				"locationName": "FATHER JUNIPERO SERRA HALL",
+				"line1": "2540 SAN DIEGO AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92110"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SERRA MESA REC CENTER-GYM",
+			"address": {
+				"locationName": "SERRA MESA REC CENTER-GYM",
+				"line1": "9020 VILLAGE GLEN DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92123"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "TIERRASANTA REC CENTER-MEETING RM 2 & 3",
+			"address": {
+				"locationName": "TIERRASANTA REC CENTER-MEETING RM 2 & 3",
+				"line1": "11220 CLAIREMONT MESA BLVD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92124"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SPRECKELS MASONIC TEMPLE - DINING HALL",
+			"address": {
+				"locationName": "SPRECKELS MASONIC TEMPLE - DINING HALL",
+				"line1": "3858 FRONT ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92103"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN DIEGO LGBT COMMUNITY CENTER",
+			"address": {
+				"locationName": "SAN DIEGO LGBT COMMUNITY CENTER",
+				"line1": "3909 CENTRE ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92103"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARE CENTER CREMATION AND BURIAL",
+			"address": {
+				"locationName": "CARE CENTER CREMATION AND BURIAL",
+				"line1": "7403 PRINCESS VIEW DR E",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92120"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SYCAMORE CANYON SCHOOL-MPR",
+			"address": {
+				"locationName": "SYCAMORE CANYON SCHOOL-MPR",
+				"line1": "10201 SETTLE RD ",
+				"city": "SANTEE",
+				"state": "CA",
+				"zip": "92071"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MISSION TRAILS CHURCH-FELLOWSHIP HALL",
+			"address": {
+				"locationName": "MISSION TRAILS CHURCH-FELLOWSHIP HALL",
+				"line1": "4880 ZION AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92120"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ALLIED GARDENS REC CENTER-GYM",
+			"address": {
+				"locationName": "ALLIED GARDENS REC CENTER-GYM",
+				"line1": "5155 GREENBRIER AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92120"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NORTH PARK RECREATION CENTER-MEETING RM",
+			"address": {
+				"locationName": "NORTH PARK RECREATION CENTER-MEETING RM",
+				"line1": "4044 IDAHO ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92104"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WASHINGTON ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "WASHINGTON ELEM SCHOOL-AUDITORIUM",
+				"line1": "1789 STATE ST SCHL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92101"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WEST HILLS HIGH SCHOOL - GYM FOYER",
+			"address": {
+				"locationName": "WEST HILLS HIGH SCHOOL - GYM FOYER",
+				"line1": "8756 MAST BLVD ",
+				"city": "SANTEE",
+				"state": "CA",
+				"zip": "92071"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NORMAL HEIGHTS ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "NORMAL HEIGHTS ELEM SCHOOL-MPR",
+				"line1": "3750 WARD RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92116"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN DIEGO CITY COLLEGE - P BLDG FLEX RM",
+			"address": {
+				"locationName": "SAN DIEGO CITY COLLEGE - P BLDG FLEX RM",
+				"line1": "1480 PARK BLVD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92101"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WILSON MIDDLE SCHOOL-MEETING RM 129",
+			"address": {
+				"locationName": "WILSON MIDDLE SCHOOL-MEETING RM 129",
+				"line1": "3838 ORANGE AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92105"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WARNER SPRINGS COMMUNITY RESOURCE CENTER",
+			"address": {
+				"locationName": "WARNER SPRINGS COMMUNITY RESOURCE CENTER",
+				"line1": "30950 HWY 79 ",
+				"city": "WARNER SPRINGS",
+				"state": "CA",
+				"zip": "92086"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CAJON PARK SCHOOL-MPR",
+			"address": {
+				"locationName": "CAJON PARK SCHOOL-MPR",
+				"line1": "10300 N MAGNOLIA AVE SCHL",
+				"city": "SANTEE",
+				"state": "CA",
+				"zip": "92071"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "UC SAN DIEGO PARK & MARKET",
+			"address": {
+				"locationName": "UC SAN DIEGO PARK & MARKET",
+				"line1": "1100 MARKET ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92101"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GOLDEN HILL RECREATION CTR-GYM",
+			"address": {
+				"locationName": "GOLDEN HILL RECREATION CTR-GYM",
+				"line1": "2600 GOLF COURSE DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92102"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CORONADO PUBLIC LIBRARY-WINN ROOM",
+			"address": {
+				"locationName": "CORONADO PUBLIC LIBRARY-WINN ROOM",
+				"line1": "640 ORANGE AVE ",
+				"city": "CORONADO",
+				"state": "CA",
+				"zip": "92118"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HOOVER HIGH SCHOOL-800 BLDG JROTC RM",
+			"address": {
+				"locationName": "HOOVER HIGH SCHOOL-800 BLDG JROTC RM",
+				"line1": "4474 EL CAJON BLVD BUS.",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92115"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MC KINLEY ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "MC KINLEY ELEM SCHOOL-AUDITORIUM",
+				"line1": "3045 FELTON ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92104"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JAMES DUKES ELEM SCHOOL-MULTIPURPOSE CTR",
+			"address": {
+				"locationName": "JAMES DUKES ELEM SCHOOL-MULTIPURPOSE CTR",
+				"line1": "24908 ABALAR WAY ",
+				"city": "RAMONA",
+				"state": "CA",
+				"zip": "92065"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SDSU AZTEC STUDENT UNION-TEMPLO MAYOR",
+			"address": {
+				"locationName": "SDSU AZTEC STUDENT UNION-TEMPLO MAYOR",
+				"line1": "5500 CAMPANILE DR POLL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92182"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CITY HEIGHTS RECREATION CTR-TENNIS RM",
+			"address": {
+				"locationName": "CITY HEIGHTS RECREATION CTR-TENNIS RM",
+				"line1": "4380 LANDIS ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92105"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PRIDE ACADEMY AT PROSPECT AVE-MEDIA CTR",
+			"address": {
+				"locationName": "PRIDE ACADEMY AT PROSPECT AVE-MEDIA CTR",
+				"line1": "9303 PROSPECT AVE ",
+				"city": "SANTEE",
+				"state": "CA",
+				"zip": "92071"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GROSSMONT COLLEGE-GRIFFIN GATE",
+			"address": {
+				"locationName": "GROSSMONT COLLEGE-GRIFFIN GATE",
+				"line1": "8800 GROSSMONT COLLEGE DR CLG",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92020"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "COLINA DEL SOL REC CENTER-MEETING RM",
+			"address": {
+				"locationName": "COLINA DEL SOL REC CENTER-MEETING RM",
+				"line1": "5319 ORANGE AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92115"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN CARLOS REC CENTER-SAN CARLOS ROOM",
+			"address": {
+				"locationName": "SAN CARLOS REC CENTER-SAN CARLOS ROOM",
+				"line1": "6445 LAKE BADIN AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92119"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SUMMIT UNITARIAN UNIVERSALIST FELLOWSHIP",
+			"address": {
+				"locationName": "SUMMIT UNITARIAN UNIVERSALIST FELLOWSHIP",
+				"line1": "8778 COTTONWOOD AVE ",
+				"city": "SANTEE",
+				"state": "CA",
+				"zip": "92071"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CLAY ELEMENTARY SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "CLAY ELEMENTARY SCHOOL-AUDITORIUM",
+				"line1": "6506 SOLITA AVE SCHL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92115"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "COLUMBUS CLUB OF SD-ASSEMBLY HALL",
+			"address": {
+				"locationName": "COLUMBUS CLUB OF SD-ASSEMBLY HALL",
+				"line1": "4425 HOME AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92105"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MARYLAND AVENUE ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "MARYLAND AVENUE ELEM SCHOOL-AUDITORIUM",
+				"line1": "5400 MARYLAND AVE ",
+				"city": "LA MESA",
+				"state": "CA",
+				"zip": "91942"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DOLORES MAGDALENO MEM REC CTR-MEETING RM",
+			"address": {
+				"locationName": "DOLORES MAGDALENO MEM REC CTR-MEETING RM",
+				"line1": "2902 MARCY AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92113"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WILLOWBROOK GOLF COURSE - EVENTS ROOM",
+			"address": {
+				"locationName": "WILLOWBROOK GOLF COURSE - EVENTS ROOM",
+				"line1": "11905 RIVERSIDE DR ",
+				"city": "LAKESIDE",
+				"state": "CA",
+				"zip": "92040"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "UNITED CHURCH OF CHRIST OF LA MESA-HALL",
+			"address": {
+				"locationName": "UNITED CHURCH OF CHRIST OF LA MESA-HALL",
+				"line1": "5940 KELTON AVE ",
+				"city": "LA MESA",
+				"state": "CA",
+				"zip": "91942"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OAK PARK ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "OAK PARK ELEM SCHOOL-AUDITORIUM",
+				"line1": "2606 54TH ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92105"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PARKWAY MIDDLE SCHOOL-RM 28",
+			"address": {
+				"locationName": "PARKWAY MIDDLE SCHOOL-RM 28",
+				"line1": "9009 PARK PLAZA DR SCHL",
+				"city": "LA MESA",
+				"state": "CA",
+				"zip": "91942"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HILLSIDE COMMUNITY CENTER-MEETING RM",
+			"address": {
+				"locationName": "HILLSIDE COMMUNITY CENTER-MEETING RM",
+				"line1": "840 BUENA TER ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92020"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LAKESIDE COMMUNITY CENTER-MEYER HALL",
+			"address": {
+				"locationName": "LAKESIDE COMMUNITY CENTER-MEYER HALL",
+				"line1": "9841 VINE ST ",
+				"city": "LAKESIDE",
+				"state": "CA",
+				"zip": "92040"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RIVERVIEW ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "RIVERVIEW ELEM SCHOOL-MPR",
+				"line1": "9308 WINTER GARDENS BLVD ",
+				"city": "LAKESIDE",
+				"state": "CA",
+				"zip": "92040"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MOUNTAIN VIEW COMM CTR-BACK MEETING RM",
+			"address": {
+				"locationName": "MOUNTAIN VIEW COMM CTR-BACK MEETING RM",
+				"line1": "641 S BOUNDARY ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92113"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HELIX CHARTER HIGH SCHOOL-PAC FOYER",
+			"address": {
+				"locationName": "HELIX CHARTER HIGH SCHOOL-PAC FOYER",
+				"line1": "7323 UNIVERSITY AVE ",
+				"city": "LA MESA",
+				"state": "CA",
+				"zip": "91942"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SOUTHCREST REC CTR-MEETING RM 1",
+			"address": {
+				"locationName": "SOUTHCREST REC CTR-MEETING RM 1",
+				"line1": "4149 NEWTON AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92113"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VALENCIA PARK / MALCOLM X LIBRARY",
+			"address": {
+				"locationName": "VALENCIA PARK / MALCOLM X LIBRARY",
+				"line1": "5148 MARKET ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92114"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MAGNOLIA ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "MAGNOLIA ELEM SCHOOL-AUDITORIUM",
+				"line1": "650 GREENFIELD DR ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EPIPHANY WOMEN IN FOCUS",
+			"address": {
+				"locationName": "EPIPHANY WOMEN IN FOCUS",
+				"line1": "5081 LOGAN AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92113"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ENCANTO RECREATION CTR-MEETING RM",
+			"address": {
+				"locationName": "ENCANTO RECREATION CTR-MEETING RM",
+				"line1": "6508 WUNDERLIN AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92114"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "W D HALL ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "W D HALL ELEM SCHOOL-AUDITORIUM",
+				"line1": "1376 PEPPER DR ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NARANCA ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "NARANCA ELEM SCHOOL-MPR",
+				"line1": "1030 NARANCA AVE ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EL TOYON RECREATION CTR-CLASSRM",
+			"address": {
+				"locationName": "EL TOYON RECREATION CTR-CLASSRM",
+				"line1": "2005 E 4TH ST ",
+				"city": "NATIONAL CITY",
+				"state": "CA",
+				"zip": "91950"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MARTIN LUTHER KING JR COMM CTR-MAIN HALL",
+			"address": {
+				"locationName": "MARTIN LUTHER KING JR COMM CTR-MAIN HALL",
+				"line1": "140 E 12TH ST ",
+				"city": "NATIONAL CITY",
+				"state": "CA",
+				"zip": "91950"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WELLS PARK",
+			"address": {
+				"locationName": "WELLS PARK",
+				"line1": "1153 E MADISON AVE ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BOSTONIA GLOBAL HIGH SCHOOL-ROOM 604",
+			"address": {
+				"locationName": "BOSTONIA GLOBAL HIGH SCHOOL-ROOM 604",
+				"line1": "1221 EMERALD AVE SCHL",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92020"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MARTIN LUTHER KING JR REC CTR-MEETING RM",
+			"address": {
+				"locationName": "MARTIN LUTHER KING JR REC CTR-MEETING RM",
+				"line1": "6401 SKYLINE DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92114"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LEMON BLOSSOM HALL",
+			"address": {
+				"locationName": "LEMON BLOSSOM HALL",
+				"line1": "8235 MT VERNON ST ",
+				"city": "LEMON GROVE",
+				"state": "CA",
+				"zip": "91945"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JULIAN TOWN HALL - UPSTAIRS",
+			"address": {
+				"locationName": "JULIAN TOWN HALL - UPSTAIRS",
+				"line1": "2129 MAIN ST ",
+				"city": "JULIAN",
+				"state": "CA",
+				"zip": "92036"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FAITH CHAPEL-STUDENT CENTER",
+			"address": {
+				"locationName": "FAITH CHAPEL-STUDENT CENTER",
+				"line1": "9400 CAMPO RD ",
+				"city": "SPRING VALLEY",
+				"state": "CA",
+				"zip": "91977"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CAMACHO RECREATION CENTER - GYM",
+			"address": {
+				"locationName": "CAMACHO RECREATION CENTER - GYM",
+				"line1": "1810 E 22ND ST ",
+				"city": "NATIONAL CITY",
+				"state": "CA",
+				"zip": "91950"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NEW SEASONS CHURCH - YOUTH CENTER",
+			"address": {
+				"locationName": "NEW SEASONS CHURCH - YOUTH CENTER",
+				"line1": "2300 BANCROFT DR ",
+				"city": "SPRING VALLEY",
+				"state": "CA",
+				"zip": "91977"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "AUDUBON SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "AUDUBON SCHOOL-AUDITORIUM",
+				"line1": "8111 SAN VICENTE ST SCHL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92114"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RIOS ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "RIOS ELEM SCHOOL-MPR",
+				"line1": "14314 RIOS CANYON RD ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GRANGER JR HIGH SCHOOL-LIBRARY",
+			"address": {
+				"locationName": "GRANGER JR HIGH SCHOOL-LIBRARY",
+				"line1": "2020 VAN NESS AVE ",
+				"city": "NATIONAL CITY",
+				"state": "CA",
+				"zip": "91950"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "KENNEDY REC CENTER-MEETING RM",
+			"address": {
+				"locationName": "KENNEDY REC CENTER-MEETING RM",
+				"line1": "1675 E MADISON AVE ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92019"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EL CAJON ELKS LODGE #1812 - MEETING RM",
+			"address": {
+				"locationName": "EL CAJON ELKS LODGE #1812 - MEETING RM",
+				"line1": "1400 E WASHINGTON AVE ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92019"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HIGHLANDS ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "HIGHLANDS ELEM SCHOOL-MPR",
+				"line1": "3131 S BARCELONA ST ",
+				"city": "SPRING VALLEY",
+				"state": "CA",
+				"zip": "91977"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SKYLINE HILLS BRANCH LIBRARY-MPR",
+			"address": {
+				"locationName": "SKYLINE HILLS BRANCH LIBRARY-MPR",
+				"line1": "7900 PARADISE VALLEY RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92139"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PENN ATHLETIC FIELD-MEETING RM",
+			"address": {
+				"locationName": "PENN ATHLETIC FIELD-MEETING RM",
+				"line1": "2555 DUSK DR POLL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92139"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "AVOCADO ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "AVOCADO ELEM SCHOOL-AUDITORIUM",
+				"line1": "3845 AVOCADO SCHOOL RD SCHL",
+				"city": "LA MESA",
+				"state": "CA",
+				"zip": "91941"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SPRING VALLEY COMMUNITY CTR-OLSEN RM",
+			"address": {
+				"locationName": "SPRING VALLEY COMMUNITY CTR-OLSEN RM",
+				"line1": "8735 JAMACHA BLVD ",
+				"city": "SPRING VALLEY",
+				"state": "CA",
+				"zip": "91977"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CHULA VISTA CITY HALL",
+			"address": {
+				"locationName": "CHULA VISTA CITY HALL",
+				"line1": "276 4TH AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ROSEBANK ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "ROSEBANK ELEM SCHOOL-AUDITORIUM",
+				"line1": "80 FLOWER ST ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LOS COCHES CREEK MIDDLE SCHOOL-DRAMA RM",
+			"address": {
+				"locationName": "LOS COCHES CREEK MIDDLE SCHOOL-DRAMA RM",
+				"line1": "9669 DUNBAR LN ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CHULA VISTA MIDDLE SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "CHULA VISTA MIDDLE SCHOOL-AUDITORIUM",
+				"line1": "415 5TH AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO SAN DIEGO ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "RANCHO SAN DIEGO ELEM SCHOOL-MPR",
+				"line1": "12151 CALLE ALBARA ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92019"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VISTA GRANDE SCHL-MEDIA CENTER",
+			"address": {
+				"locationName": "VISTA GRANDE SCHL-MEDIA CENTER",
+				"line1": "1908 VISTA GRANDE RD SCHL",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92019"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BONITA-SUNNYSIDE BRANCH LIBRARY-COMM RM",
+			"address": {
+				"locationName": "BONITA-SUNNYSIDE BRANCH LIBRARY-COMM RM",
+				"line1": "4375 BONITA RD ",
+				"city": "BONITA",
+				"state": "CA",
+				"zip": "91902"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HILLTOP HIGH SCHOOL-CAFETERIA",
+			"address": {
+				"locationName": "HILLTOP HIGH SCHOOL-CAFETERIA",
+				"line1": "555 CLAIRE AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SHADOW MTN COMM CHR-FIRESIDE RM",
+			"address": {
+				"locationName": "SHADOW MTN COMM CHR-FIRESIDE RM",
+				"line1": "960 5TH AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91911"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SBUSD ED CENTER-BURRESS AUDITORIUM",
+			"address": {
+				"locationName": "SBUSD ED CENTER-BURRESS AUDITORIUM",
+				"line1": "601 ELM AVE ",
+				"city": "IMPERIAL BEACH",
+				"state": "CA",
+				"zip": "91932"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BAY VIEW BAPTIST CHURCH",
+			"address": {
+				"locationName": "BAY VIEW BAPTIST CHURCH",
+				"line1": "210 JAMUL AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91911"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MAAC COMMUNITY CENTER",
+			"address": {
+				"locationName": "MAAC COMMUNITY CENTER",
+				"line1": "1387 3RD AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91911"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BONITA VISTA MIDDLE SCHOOL-CAFETERIA",
+			"address": {
+				"locationName": "BONITA VISTA MIDDLE SCHOOL-CAFETERIA",
+				"line1": "650 OTAY LAKES RD ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ROBERT EGGER REC CTR-MTG RM",
+			"address": {
+				"locationName": "ROBERT EGGER REC CTR-MTG RM",
+				"line1": "1885 CORONADO AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92154"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ALPINE BRANCH LIBRARY-RESOURCE ROOM",
+			"address": {
+				"locationName": "ALPINE BRANCH LIBRARY-RESOURCE ROOM",
+				"line1": "1752 ALPINE BLVD ",
+				"city": "ALPINE",
+				"state": "CA",
+				"zip": "91901"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LIBERTY ELEMENTARY SCHOOL-MPR",
+			"address": {
+				"locationName": "LIBERTY ELEMENTARY SCHOOL-MPR",
+				"line1": "2175 PROCTOR VALLEY RD ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91914"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SWC - FORMER FIRE STATION",
+			"address": {
+				"locationName": "SWC - FORMER FIRE STATION",
+				"line1": "861 ELMHURST ST ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91913"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SOUTHWEST HIGH SCHOOL-CAFETERIA",
+			"address": {
+				"locationName": "SOUTHWEST HIGH SCHOOL-CAFETERIA",
+				"line1": "1685 HOLLISTER ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92154"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FRED H ROHR ELEM SCHOOL-CAFETERIA",
+			"address": {
+				"locationName": "FRED H ROHR ELEM SCHOOL-CAFETERIA",
+				"line1": "1540 MALTA AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91911"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MONTGOMERY WALLER REC CTR-MEETING RM",
+			"address": {
+				"locationName": "MONTGOMERY WALLER REC CTR-MEETING RM",
+				"line1": "3020 CORONADO AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92154"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BORREGO SPRINGS HIGH SCHOOL-COMM RM",
+			"address": {
+				"locationName": "BORREGO SPRINGS HIGH SCHOOL-COMM RM",
+				"line1": "2281 DIEGUENO RD ",
+				"city": "BORREGO SPRINGS",
+				"state": "CA",
+				"zip": "92004"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HEDENKAMP ELEM SCHOOL-MPR HALF",
+			"address": {
+				"locationName": "HEDENKAMP ELEM SCHOOL-MPR HALF",
+				"line1": "930 E PALOMAR ST ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91913"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JUAREZ-LINCOLN ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "JUAREZ-LINCOLN ELEM SCHOOL-MPR",
+				"line1": "849 TWINING AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92154"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OTAY RANCH HIGH SCHL-GYM",
+			"address": {
+				"locationName": "OTAY RANCH HIGH SCHL-GYM",
+				"line1": "1250 OLYMPIC PKWY ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91913"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EASTLAKE HIGH SCHOOL-ROOM 1604",
+			"address": {
+				"locationName": "EASTLAKE HIGH SCHOOL-ROOM 1604",
+				"line1": "1120 EASTLAKE PKWY ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91915"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EASTLAKE MIDDLE SCHOOL-LIBRARY",
+			"address": {
+				"locationName": "EASTLAKE MIDDLE SCHOOL-LIBRARY",
+				"line1": "900 DUNCAN RANCH RD ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91914"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "COLONEL IRVING SALOMON COMM CTR-GAME RM",
+			"address": {
+				"locationName": "COLONEL IRVING SALOMON COMM CTR-GAME RM",
+				"line1": "179 DIZA RD ",
+				"city": "SAN YSIDRO",
+				"state": "CA",
+				"zip": "92173"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FAHARI L JEFFERS ELEM SCHOOL-MPR 600",
+			"address": {
+				"locationName": "FAHARI L JEFFERS ELEM SCHOOL-MPR 600",
+				"line1": "1145 CAMINO PRADO ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91913"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN YSIDRO LIBRARY-COMMUNITY ROOM",
+			"address": {
+				"locationName": "SAN YSIDRO LIBRARY-COMMUNITY ROOM",
+				"line1": "4235 BEYER BLVD ",
+				"city": "SAN YSIDRO",
+				"state": "CA",
+				"zip": "92173"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CAMARENA, ENRIQUE S ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "CAMARENA, ENRIQUE S ELEM SCHOOL-MPR",
+				"line1": "1650 EXPLORATION FALLS DR ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91915"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN YSIDRO HIGH SCHL-PERF ARTS CTR FOYER",
+			"address": {
+				"locationName": "SAN YSIDRO HIGH SCHL-PERF ARTS CTR FOYER",
+				"line1": "5353 AIRWAY RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92154"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OUR LADY OF LIGHT CATHOLIC CHR-COMM RM",
+			"address": {
+				"locationName": "OUR LADY OF LIGHT CATHOLIC CHR-COMM RM",
+				"line1": "9136 RIVERSIDE DR ",
+				"city": "DESCANSO",
+				"state": "CA",
+				"zip": "91916"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PINE VALLEY COMMUNITY CLUBHOUSE",
+			"address": {
+				"locationName": "PINE VALLEY COMMUNITY CLUBHOUSE",
+				"line1": "28890 OLD HWY 80 ",
+				"city": "PINE VALLEY",
+				"state": "CA",
+				"zip": "91962"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MOUNTAIN EMPIRE HIGH SCHOOL-GYM",
+			"address": {
+				"locationName": "MOUNTAIN EMPIRE HIGH SCHOOL-GYM",
+				"line1": "3305 BUCKMAN SPRINGS RD ",
+				"city": "PINE VALLEY",
+				"state": "CA",
+				"zip": "91962"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "POTRERO COMMUNITY CENTER-MAIN HALL",
+			"address": {
+				"locationName": "POTRERO COMMUNITY CENTER-MAIN HALL",
+				"line1": "24550 HWY 94 ",
+				"city": "POTRERO",
+				"state": "CA",
+				"zip": "91963"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MOUNTAIN HEALTH COMM CTR-MAIN HALL",
+			"address": {
+				"locationName": "MOUNTAIN HEALTH COMM CTR-MAIN HALL",
+				"line1": "976 SHERIDAN RD ",
+				"city": "CAMPO",
+				"state": "CA",
+				"zip": "91906"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BACK COUNTRY RESOURCE CENTER",
+			"address": {
+				"locationName": "BACK COUNTRY RESOURCE CENTER",
+				"line1": "39919 RIBBONWOOD RD ",
+				"city": "BOULEVARD",
+				"state": "CA",
+				"zip": "91905"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RINCON TRIBAL HALL",
+			"address": {
+				"locationName": "RINCON TRIBAL HALL",
+				"line1": "1 WEST TRIBAL RD ",
+				"city": "VALLEY CENTER",
+				"state": "CA",
+				"zip": "92082"
+			},
+			"startDate": "2022-11-08",
+			"endDate": "2022-11-08"
+		}
+	],
+	"dropOffLocations": [
+		{
+			"name": "JOHN LANDES COMMUNITY CTR-MTG RM",
+			"address": {
+				"locationName": "JOHN LANDES COMMUNITY CTR-MTG RM",
+				"line1": "2855 CEDAR RD ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92056"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DOG DAYZ OF CALIFORNIA",
+			"address": {
+				"locationName": "DOG DAYZ OF CALIFORNIA",
+				"line1": "1995 PEACOCK BLVD ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92056"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VISTA INNOVATION CENTER-MPR",
+			"address": {
+				"locationName": "VISTA INNOVATION CENTER-MPR",
+				"line1": "836 OLIVE AVE ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92083"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "TEMPLE HEIGHTS ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "TEMPLE HEIGHTS ELEM SCHOOL-MPR",
+				"line1": "1550 TEMPLE HEIGHTS DR ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92056"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LIFE CHRISTIAN CHURCH VISTA",
+			"address": {
+				"locationName": "LIFE CHRISTIAN CHURCH VISTA",
+				"line1": "1130 N MELROSE DR ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92083"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ROOSEVELT MIDDLE SCHOOL-LIBRARY",
+			"address": {
+				"locationName": "ROOSEVELT MIDDLE SCHOOL-LIBRARY",
+				"line1": "850 SAGEWOOD DR SCHL",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92057"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EL CORAZON SENIOR CENTER - CLASSROOMS",
+			"address": {
+				"locationName": "EL CORAZON SENIOR CENTER - CLASSROOMS",
+				"line1": "3302 SENIOR CENTER DR ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92056"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HHSA NORTH COASTAL LIVE WELL CENTER",
+			"address": {
+				"locationName": "HHSA NORTH COASTAL LIVE WELL CENTER",
+				"line1": "3708 OCEAN RANCH BLVD ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92056"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MARTIN L KING JR MID SCHOOL-MPR",
+			"address": {
+				"locationName": "MARTIN L KING JR MID SCHOOL-MPR",
+				"line1": "1290 IVEY RANCH RD ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92057"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MIRA COSTA COMM COLL - BLDG T200",
+			"address": {
+				"locationName": "MIRA COSTA COMM COLL - BLDG T200",
+				"line1": "1 BARNARD DR CLG",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92056"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FRAZIER FARMS",
+			"address": {
+				"locationName": "FRAZIER FARMS",
+				"line1": "225 VISTA VILLAGE DR ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92083"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CALAVERA HILLS MIDDLE SCHOOL-GYM",
+			"address": {
+				"locationName": "CALAVERA HILLS MIDDLE SCHOOL-GYM",
+				"line1": "4100 TAMARACK AVE SCHL",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92010"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VISTA CIVIC CENTER - VANCE COMMUNITY RM",
+			"address": {
+				"locationName": "VISTA CIVIC CENTER - VANCE COMMUNITY RM",
+				"line1": "200 CIVIC CENTER DR ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92084"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BREEZE HILL ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "BREEZE HILL ELEM SCHOOL-MPR",
+				"line1": "1111 MELROSE WAY ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92081"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MADISON MIDDLE SCHOOL-MPR",
+			"address": {
+				"locationName": "MADISON MIDDLE SCHOOL-MPR",
+				"line1": "4930 LAKE BLVD SCHL",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92056"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GLORIA MC CLELLAN SENIOR CTR-JASMINE RM",
+			"address": {
+				"locationName": "GLORIA MC CLELLAN SENIOR CTR-JASMINE RM",
+				"line1": "1400 VALE TERRACE DR ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92084"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "1ST PRESBYTERIAN CHURCH-GREAT HALL",
+			"address": {
+				"locationName": "1ST PRESBYTERIAN CHURCH-GREAT HALL",
+				"line1": "2001 EL CAMINO REAL ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92054"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CALAVERA COMMUNITY PARK-ACTIVITY RM",
+			"address": {
+				"locationName": "CALAVERA COMMUNITY PARK-ACTIVITY RM",
+				"line1": "2997 GLASGOW DR ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92010"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FOOTHILL OAK ELEMENTARY SCHOOL-MPR",
+			"address": {
+				"locationName": "FOOTHILL OAK ELEMENTARY SCHOOL-MPR",
+				"line1": "1370 OAK DR ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92084"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MISSION VISTA HIGH SCHOOL - THEATER",
+			"address": {
+				"locationName": "MISSION VISTA HIGH SCHOOL - THEATER",
+				"line1": "1306 MELROSE DR ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92057"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "KING OF KINGS LUTHERAN CHURCH",
+			"address": {
+				"locationName": "KING OF KINGS LUTHERAN CHURCH",
+				"line1": "2993 MAC DONALD ST ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92054"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LIBBY ELEMENTARY SCHOOL-MPR",
+			"address": {
+				"locationName": "LIBBY ELEMENTARY SCHOOL-MPR",
+				"line1": "423 W REDONDO DR ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92057"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BONSALL WEST ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "BONSALL WEST ELEM SCHOOL-MPR",
+				"line1": "5050 EL MIRLO DR ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92057"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OCEANSIDE UNIFIED SCH DIST-BOARD ROOM",
+			"address": {
+				"locationName": "OCEANSIDE UNIFIED SCH DIST-BOARD ROOM",
+				"line1": "2111 MISSION AVE ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92058"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO BUENA VISTA HIGH SCH-STAFF LOUNGE",
+			"address": {
+				"locationName": "RANCHO BUENA VISTA HIGH SCH-STAFF LOUNGE",
+				"line1": "1601 LONGHORN DR SCHL",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92081"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LINCOLN MIDDLE SCHOOL-MPR",
+			"address": {
+				"locationName": "LINCOLN MIDDLE SCHOOL-MPR",
+				"line1": "2000 CALIFORNIA ST ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92054"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FRAZIER FARMS",
+			"address": {
+				"locationName": "FRAZIER FARMS",
+				"line1": "1820 OCEANSIDE BLVD ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92054"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JOE BALDERRAMA COMMUNITY CENTER",
+			"address": {
+				"locationName": "JOE BALDERRAMA COMMUNITY CENTER",
+				"line1": "709 SAN DIEGO ST ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92058"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GROCERY OUTLET",
+			"address": {
+				"locationName": "GROCERY OUTLET",
+				"line1": "1527 MISSION AVE ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92058"
+			}
+		},
+		{
+			"name": "STONEBROOKE CHURCH-FELLOWSHIP HALL",
+			"address": {
+				"locationName": "STONEBROOKE CHURCH-FELLOWSHIP HALL",
+				"line1": "145 HANNALEI DR ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92083"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WOMENS CLUB OF OCEANSIDE",
+			"address": {
+				"locationName": "WOMENS CLUB OF OCEANSIDE",
+				"line1": "1606 MISSOURI AVE ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92054"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GEORGINA COLE LIBRARY",
+			"address": {
+				"locationName": "GEORGINA COLE LIBRARY",
+				"line1": "1250 CARLSBAD VILLAGE DR ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92008"
+			},
+			"startDate": "2022-10-12",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OCEANSIDE PUBLIC LIBRARY",
+			"address": {
+				"locationName": "OCEANSIDE PUBLIC LIBRARY",
+				"line1": "330 N COAST HWY ",
+				"city": "OCEANSIDE",
+				"state": "CA",
+				"zip": "92054"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARLSBAD CITY LIBRARY LEARNING CENTER",
+			"address": {
+				"locationName": "CARLSBAD CITY LIBRARY LEARNING CENTER",
+				"line1": "3368 EUREKA PL ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92008"
+			},
+			"startDate": "2022-10-12",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PINE AVE COMMUNITY CENTER-GYM",
+			"address": {
+				"locationName": "PINE AVE COMMUNITY CENTER-GYM",
+				"line1": "3209 HARDING ST ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92008"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ALGA NORTE COMMUNITY PARK-MEETING RM 301",
+			"address": {
+				"locationName": "ALGA NORTE COMMUNITY PARK-MEETING RM 301",
+				"line1": "6565 ALICANTE RD ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92009"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "AVIARA OAKS ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "AVIARA OAKS ELEM SCHOOL-AUDITORIUM",
+				"line1": "6900 AMBROSIA LN SCHL",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92011"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JOLI ANN LEICHTAG ELEM SCHL-MPR",
+			"address": {
+				"locationName": "JOLI ANN LEICHTAG ELEM SCHL-MPR",
+				"line1": "653 POINSETTIA  AVE ",
+				"city": "VISTA",
+				"state": "CA",
+				"zip": "92081"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARLSBAD CITY LIBRARY",
+			"address": {
+				"locationName": "CARLSBAD CITY LIBRARY",
+				"line1": "1775 DOVE LN ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92011"
+			},
+			"startDate": "2022-10-12",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PACIFIC RIM ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "PACIFIC RIM ELEM SCHOOL-AUDITORIUM",
+				"line1": "1100 CAMINO DE LAS ONDAS ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92009"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARRILLO ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "CARRILLO ELEM SCHOOL-MPR",
+				"line1": "2875 POINSETTIA LN ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92009"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BONSALL COMMUNITY CTR-MAIN RM",
+			"address": {
+				"locationName": "BONSALL COMMUNITY CTR-MAIN RM",
+				"line1": "31505 OLD RIVER RD ",
+				"city": "BONSALL",
+				"state": "CA",
+				"zip": "92003"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "TWIN OAKS ELEM SCHOOL-CAFETERIA",
+			"address": {
+				"locationName": "TWIN OAKS ELEM SCHOOL-CAFETERIA",
+				"line1": "1 CASSOU RD ",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92069"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DANIELS MARKET",
+			"address": {
+				"locationName": "DANIELS MARKET",
+				"line1": "5256 S MISSION RD 701",
+				"city": "BONSALL",
+				"state": "CA",
+				"zip": "92003"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EL CAMINO CREEK SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "EL CAMINO CREEK SCHOOL-AUDITORIUM",
+				"line1": "7885 PASEO ALISO ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92009"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DISCOVERY ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "DISCOVERY ELEM SCHOOL-MPR",
+				"line1": "730 APPLEWILDE DR ",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92078"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ENCINITAS CHAMBER OF COMMERCE",
+			"address": {
+				"locationName": "ENCINITAS CHAMBER OF COMMERCE",
+				"line1": "535 ENCINITAS BLVD 116",
+				"city": "ENCINITAS",
+				"state": "CA",
+				"zip": "92024"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PAUL ECKE CENTRAL SCHOOL-MPR",
+			"address": {
+				"locationName": "PAUL ECKE CENTRAL SCHOOL-MPR",
+				"line1": "185 UNION ST SCHL",
+				"city": "ENCINITAS",
+				"state": "CA",
+				"zip": "92024"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN MARCOS CITY HALL-VLY OF DISCOVERY RM",
+			"address": {
+				"locationName": "SAN MARCOS CITY HALL-VLY OF DISCOVERY RM",
+				"line1": "1 CIVIC CENTER DR ",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92069"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ASSESSOR/RECORDER/COUNTY CLERK",
+			"address": {
+				"locationName": "ASSESSOR/RECORDER/COUNTY CLERK",
+				"line1": "141 E CARMEL ST ",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92078"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "STAGECOACH COMMUNITY CENTER-ACTIVITY RM",
+			"address": {
+				"locationName": "STAGECOACH COMMUNITY CENTER-ACTIVITY RM",
+				"line1": "3420 CAMINO DE LOS COCHES ",
+				"city": "CARLSBAD",
+				"state": "CA",
+				"zip": "92009"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ENCINITAS COMMUNITY CENTER-MAPLE RM",
+			"address": {
+				"locationName": "ENCINITAS COMMUNITY CENTER-MAPLE RM",
+				"line1": "1140 OAKCREST PARK DR ",
+				"city": "ENCINITAS",
+				"state": "CA",
+				"zip": "92024"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN ELIJO REC CTR-TERRACE RM",
+			"address": {
+				"locationName": "SAN ELIJO REC CTR-TERRACE RM",
+				"line1": "1105 ELFIN FOREST  RD E ",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92078"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CSUSM UNIVERSITY STUDENT UNION",
+			"address": {
+				"locationName": "CSUSM UNIVERSITY STUDENT UNION",
+				"line1": "595 CAMPUS VIEW DR ",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92069"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WOODLAND VILLAGE",
+			"address": {
+				"locationName": "WOODLAND VILLAGE",
+				"line1": "975 WOODLAND PKWY ",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92069"
+			}
+		},
+		{
+			"name": "CSU SAN MARCOS-MCMAHAN HOUSE-GREAT RM",
+			"address": {
+				"locationName": "CSU SAN MARCOS-MCMAHAN HOUSE-GREAT RM",
+				"line1": "333 S TWIN OAKS VALLEY RD L",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92078"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MASONIC LODGE #317 - MEMORIAL DINING RM",
+			"address": {
+				"locationName": "MASONIC LODGE #317 - MEMORIAL DINING RM",
+				"line1": "203 ROCKY CREST RD ",
+				"city": "FALLBROOK",
+				"state": "CA",
+				"zip": "92028"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ADA W HARRIS ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "ADA W HARRIS ELEM SCHOOL-MPR",
+				"line1": "1508 WINDSOR RD ",
+				"city": "CARDIFF BY THE SEA",
+				"state": "CA",
+				"zip": "92007"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARDIFF-BY-THE-SEA BRANCH LIBRARY",
+			"address": {
+				"locationName": "CARDIFF-BY-THE-SEA BRANCH LIBRARY",
+				"line1": "2081 NEWCASTLE AVE ",
+				"city": "CARDIFF BY THE SEA",
+				"state": "CA",
+				"zip": "92007"
+			}
+		},
+		{
+			"name": "PARK DALE LANE ELEM SCHOOL - MPR",
+			"address": {
+				"locationName": "PARK DALE LANE ELEM SCHOOL - MPR",
+				"line1": "2050 PARK DALE LN SCHL",
+				"city": "ENCINITAS",
+				"state": "CA",
+				"zip": "92024"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "REIDY CREEK ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "REIDY CREEK ELEM SCHOOL-MPR",
+				"line1": "2869 N BROADWAY ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92026"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "KNOB HILL ELEM SCHOOL-CAFETERIA",
+			"address": {
+				"locationName": "KNOB HILL ELEM SCHOOL-CAFETERIA",
+				"line1": "1825 KNOB HILL RD SCHL",
+				"city": "SAN MARCOS",
+				"state": "CA",
+				"zip": "92069"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FALLBROOK COMMUNITY CTR-NORTH RM",
+			"address": {
+				"locationName": "FALLBROOK COMMUNITY CTR-NORTH RM",
+				"line1": "341 HEALD LN ",
+				"city": "FALLBROOK",
+				"state": "CA",
+				"zip": "92028"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ROCK SPRINGS ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "ROCK SPRINGS ELEM SCHOOL-AUDITORIUM",
+				"line1": "1155 DEODAR RD SCHL",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92026"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VALLEY CENTER COMMUNITY HALL",
+			"address": {
+				"locationName": "VALLEY CENTER COMMUNITY HALL",
+				"line1": "28246 LILAC RD ",
+				"city": "VALLEY CENTER",
+				"state": "CA",
+				"zip": "92082"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RINCON MIDDLE SCHOOL-MPR",
+			"address": {
+				"locationName": "RINCON MIDDLE SCHOOL-MPR",
+				"line1": "925 LEHNER AVE SCHL",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92026"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SKYLINE ELEMENTARY SCHOOL-THEATER",
+			"address": {
+				"locationName": "SKYLINE ELEMENTARY SCHOOL-THEATER",
+				"line1": "606 LOMAS SANTA FE DR SCHL",
+				"city": "SOLANA BEACH",
+				"state": "CA",
+				"zip": "92075"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HHSA NORTH INLAND LIVE WELL CENTER",
+			"address": {
+				"locationName": "HHSA NORTH INLAND LIVE WELL CENTER",
+				"line1": "649 W MISSION AVE 3",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92025"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PARK AVENUE COMMUNITY CENTER-OAK RM",
+			"address": {
+				"locationName": "PARK AVENUE COMMUNITY CENTER-OAK RM",
+				"line1": "728 N BROADWAY ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92025"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VALLEY CENTER PAUMA STAFF LOUNGE-RM 1",
+			"address": {
+				"locationName": "VALLEY CENTER PAUMA STAFF LOUNGE-RM 1",
+				"line1": "28751 COLE GRADE RD ",
+				"city": "VALLEY CENTER",
+				"state": "CA",
+				"zip": "92082"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ROSE ELEMENTARY SCHOOL-RM 24",
+			"address": {
+				"locationName": "ROSE ELEMENTARY SCHOOL-RM 24",
+				"line1": "906 N ROSE ST ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92027"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "R ROGER ROWE SCHOOL-GYM",
+			"address": {
+				"locationName": "R ROGER ROWE SCHOOL-GYM",
+				"line1": "5927 LA GRANADA ",
+				"city": "RANCHO SANTA FE",
+				"state": "CA",
+				"zip": "92067"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO SANTA FE BRANCH LIBRARY",
+			"address": {
+				"locationName": "RANCHO SANTA FE BRANCH LIBRARY",
+				"line1": "17040 AVENIDA DE ACACIAS ",
+				"city": "RANCHO SANTA FE",
+				"state": "CA",
+				"zip": "92067"
+			}
+		},
+		{
+			"name": "VALLEY CENTER BRANCH LIBRARY",
+			"address": {
+				"locationName": "VALLEY CENTER BRANCH LIBRARY",
+				"line1": "29200 COLE GRADE RD ",
+				"city": "VALLEY CENTER",
+				"state": "CA",
+				"zip": "92082"
+			}
+		},
+		{
+			"name": "ESCONDIDO PUBLIC LIBRARY",
+			"address": {
+				"locationName": "ESCONDIDO PUBLIC LIBRARY",
+				"line1": "239 S KALMIA ST ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92025"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DEL LAGO ACADEMY-DANCE RM B203",
+			"address": {
+				"locationName": "DEL LAGO ACADEMY-DANCE RM B203",
+				"line1": "1740 SCENIC TRAILS WAY ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92029"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CENTRAL ELEM SCHOOL-FAMILY RESOURCE RM",
+			"address": {
+				"locationName": "CENTRAL ELEM SCHOOL-FAMILY RESOURCE RM",
+				"line1": "122 W 4TH AVE ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92025"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DEL MAR BRANCH LIBRARY",
+			"address": {
+				"locationName": "DEL MAR BRANCH LIBRARY",
+				"line1": "1309 CAMINO DEL MAR ",
+				"city": "DEL MAR",
+				"state": "CA",
+				"zip": "92014"
+			}
+		},
+		{
+			"name": "DEL MAR CIVIC CENTER",
+			"address": {
+				"locationName": "DEL MAR CIVIC CENTER",
+				"line1": "1050 CAMINO DEL MAR ",
+				"city": "DEL MAR",
+				"state": "CA",
+				"zip": "92014"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO SANTA FE FIRE PROTECTION DISTRICT",
+			"address": {
+				"locationName": "RANCHO SANTA FE FIRE PROTECTION DISTRICT",
+				"line1": "18027 CALLE AMBIENTE ",
+				"city": "RANCHO SANTA FE",
+				"state": "CA",
+				"zip": "92067"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OAK HILL ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "OAK HILL ELEM SCHOOL-MPR",
+				"line1": "1820 OAK HILL DR ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92027"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MAJOR MARKET",
+			"address": {
+				"locationName": "MAJOR MARKET",
+				"line1": "1855 S CENTRE CITY PKWY ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92025"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ORANGE GLEN HIGH SCHOOL-SMALL GYM",
+			"address": {
+				"locationName": "ORANGE GLEN HIGH SCHOOL-SMALL GYM",
+				"line1": "2200 GLENRIDGE RD ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92027"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DEL MAR HILLS ACADEMY-PAC",
+			"address": {
+				"locationName": "DEL MAR HILLS ACADEMY-PAC",
+				"line1": "14085 MANGO DR SCHL",
+				"city": "DEL MAR",
+				"state": "CA",
+				"zip": "92014"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VALLEY CENTER HIGH SCHOOL-MAXINE THEATRE",
+			"address": {
+				"locationName": "VALLEY CENTER HIGH SCHOOL-MAXINE THEATRE",
+				"line1": "31322 COLE GRADE RD ",
+				"city": "VALLEY CENTER",
+				"state": "CA",
+				"zip": "92082"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARMEL VALLEY LIBRARY",
+			"address": {
+				"locationName": "CARMEL VALLEY LIBRARY",
+				"line1": "3919 TOWNSGATE DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92130"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARMEL VALLEY REC CENTER - MPR RM 1",
+			"address": {
+				"locationName": "CARMEL VALLEY REC CENTER - MPR RM 1",
+				"line1": "3777 TOWNSGATE DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92130"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OAKMONT OF ESCONDIDO HILLS",
+			"address": {
+				"locationName": "OAKMONT OF ESCONDIDO HILLS",
+				"line1": "3012 BEAR VALLEY PKWY S ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92025"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WESTFIELD NORTH COUNTY - COMMUNITY ROOM",
+			"address": {
+				"locationName": "WESTFIELD NORTH COUNTY - COMMUNITY ROOM",
+				"line1": "272 E VIA RANCHO PKWY ",
+				"city": "ESCONDIDO",
+				"state": "CA",
+				"zip": "92025"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO SANTA FE FIRE STN #2-TRAINING RM",
+			"address": {
+				"locationName": "RANCHO SANTA FE FIRE STN #2-TRAINING RM",
+				"line1": "16930 FOUR GEE RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92127"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PALA TRIBAL COMMUNITY HALL-OLD HALL",
+			"address": {
+				"locationName": "PALA TRIBAL COMMUNITY HALL-OLD HALL",
+				"line1": "999000 RES-PALA ",
+				"city": "PALA",
+				"state": "CA",
+				"zip": "92059"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PACIFIC HIGHLANDS RANCH REC-MPR NORTH",
+			"address": {
+				"locationName": "PACIFIC HIGHLANDS RANCH REC-MPR NORTH",
+				"line1": "5977 VILLAGE CENTER LOOP RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92130"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO BERNARDO REC CENTER - GYM",
+			"address": {
+				"locationName": "RANCHO BERNARDO REC CENTER - GYM",
+				"line1": "18448 W BERNARDO DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92127"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OCEAN AIR RECREATION CTR-ACTIVITY RM 100",
+			"address": {
+				"locationName": "OCEAN AIR RECREATION CTR-ACTIVITY RM 100",
+				"line1": "4770 FAIRPORT WAY ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92130"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WESTVIEW HIGH SCHOOL-DANCE ROOM",
+			"address": {
+				"locationName": "WESTVIEW HIGH SCHOOL-DANCE ROOM",
+				"line1": "13500 CAMINO DEL SUR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92129"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO BERNARDO BRANCH LIB-COMMUNITY RM",
+			"address": {
+				"locationName": "RANCHO BERNARDO BRANCH LIB-COMMUNITY RM",
+				"line1": "17110 BERNARDO CENTER DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92128"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO BERNARDO LIBRARY",
+			"address": {
+				"locationName": "RANCHO BERNARDO LIBRARY",
+				"line1": "17110 BERNARDO CENTER DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92128"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HOPE UNITED METHODIST CHR-COVENANT HL 4",
+			"address": {
+				"locationName": "HOPE UNITED METHODIST CHR-COVENANT HL 4",
+				"line1": "16550 BERNARDO HEIGHTS PKWY ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92128"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "UCSD GEISEL LIBRARY - SEUSS ROOM",
+			"address": {
+				"locationName": "UCSD GEISEL LIBRARY - SEUSS ROOM",
+				"line1": "9500 GILMAN DR POLL",
+				"city": "LA JOLLA",
+				"state": "CA",
+				"zip": "92093"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "UCSD PRICE CENTER LOOP",
+			"address": {
+				"locationName": "UCSD PRICE CENTER LOOP",
+				"line1": "999000 MATTHEWS LN ",
+				"city": "LA JOLLA",
+				"state": "CA",
+				"zip": "92093"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LA JOLLA RECREATION CENTER",
+			"address": {
+				"locationName": "LA JOLLA RECREATION CENTER",
+				"line1": "615 PROSPECT ST ",
+				"city": "LA JOLLA",
+				"state": "CA",
+				"zip": "92037"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LA JOLLA/RIFORD LIBRARY",
+			"address": {
+				"locationName": "LA JOLLA/RIFORD LIBRARY",
+				"line1": "7555 DRAPER AVE ",
+				"city": "LA JOLLA",
+				"state": "CA",
+				"zip": "92037"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO PENASQUITOS LIBRARY",
+			"address": {
+				"locationName": "RANCHO PENASQUITOS LIBRARY",
+				"line1": "13330 SALMON RIVER RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92129"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO PENASQUITOS LIBRARY-MEETING ROOM",
+			"address": {
+				"locationName": "RANCHO PENASQUITOS LIBRARY-MEETING ROOM",
+				"line1": "13330 SALMON RIVER RD POLL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92129"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LAWRENCE FAMILY JEWISH COMMUNITY CENTER",
+			"address": {
+				"locationName": "LAWRENCE FAMILY JEWISH COMMUNITY CENTER",
+				"line1": "4126 EXECUTIVE DR ",
+				"city": "LA JOLLA",
+				"state": "CA",
+				"zip": "92037"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CANYONSIDE REC CENTER-MPR",
+			"address": {
+				"locationName": "CANYONSIDE REC CENTER-MPR",
+				"line1": "12350 BLACK MOUNTAIN RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92129"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LOS PENASQUITOS ELEM SCHOOL- EB-30",
+			"address": {
+				"locationName": "LOS PENASQUITOS ELEM SCHOOL- EB-30",
+				"line1": "14125 CUCA ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92129"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO BERNARDO HS-PERF ARTS CTR",
+			"address": {
+				"locationName": "RANCHO BERNARDO HS-PERF ARTS CTR",
+				"line1": "13010 PASEO LUCIDO SCHL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92128"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DOYLE RECREATION CENTER-DANCE ROOM",
+			"address": {
+				"locationName": "DOYLE RECREATION CENTER-DANCE ROOM",
+				"line1": "8175 REGENTS RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92122"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CHALLENGER MID SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "CHALLENGER MID SCHOOL-AUDITORIUM",
+				"line1": "10810 PARKDALE AVE SCHL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92126"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARMEL MOUNTAIN RANCH REC CTR-MPR RM 103",
+			"address": {
+				"locationName": "CARMEL MOUNTAIN RANCH REC CTR-MPR RM 103",
+				"line1": "10152 RANCHO CARMEL DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92128"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARMEL MOUNTAIN RANCH LIBRARY",
+			"address": {
+				"locationName": "CARMEL MOUNTAIN RANCH LIBRARY",
+				"line1": "12095 WORLD TRADE DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92128"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MIRA MESA LIBRARY",
+			"address": {
+				"locationName": "MIRA MESA LIBRARY",
+				"line1": "8405 NEW SALEM ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92126"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NORTH UNIVERSITY COMMUNITY LIBRARY",
+			"address": {
+				"locationName": "NORTH UNIVERSITY COMMUNITY LIBRARY",
+				"line1": "8820 JUDICIAL DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92122"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MIRA MESA REC CTR-GAME RM",
+			"address": {
+				"locationName": "MIRA MESA REC CTR-GAME RM",
+				"line1": "8575 NEW SALEM ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92126"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "STANDLEY PARK & REC CTR - CRAFT RM",
+			"address": {
+				"locationName": "STANDLEY PARK & REC CTR - CRAFT RM",
+				"line1": "3585 GOVERNOR DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92122"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HAGE ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "HAGE ELEM SCHOOL-AUDITORIUM",
+				"line1": "9750 GALVIN AVE SCHL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92126"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "UNIVERSITY COMMUNITY LIBRARY",
+			"address": {
+				"locationName": "UNIVERSITY COMMUNITY LIBRARY",
+				"line1": "4155 GOVERNOR DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92122"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "POWAY HIGH SCHOOL-K1",
+			"address": {
+				"locationName": "POWAY HIGH SCHOOL-K1",
+				"line1": "15500 ESPOLA RD SCHL",
+				"city": "POWAY",
+				"state": "CA",
+				"zip": "92064"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ALCOTT ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "ALCOTT ELEM SCHOOL-AUDITORIUM",
+				"line1": "4680 HIDALGO AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92117"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DINGEMAN ELEM SCH-AUDITORIUM",
+			"address": {
+				"locationName": "DINGEMAN ELEM SCH-AUDITORIUM",
+				"line1": "11840 SCRIPPS CREEK DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92131"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN DIEGO MIRAMAR COLLEGE-ROOM K-107",
+			"address": {
+				"locationName": "SAN DIEGO MIRAMAR COLLEGE-ROOM K-107",
+				"line1": "10440 BLACK MOUNTAIN RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92126"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PACIFIC BEACH RECREATION CENTER-CRAFT RM",
+			"address": {
+				"locationName": "PACIFIC BEACH RECREATION CENTER-CRAFT RM",
+				"line1": "1405 DIAMOND ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92109"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "TWIN PEAKS MID SCH-LITTLE THEATER STAGE",
+			"address": {
+				"locationName": "TWIN PEAKS MID SCH-LITTLE THEATER STAGE",
+				"line1": "14640 TIERRA BONITA RD ",
+				"city": "POWAY",
+				"state": "CA",
+				"zip": "92064"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PACIFIC BEACH/TAYLOR LIBRARY",
+			"address": {
+				"locationName": "PACIFIC BEACH/TAYLOR LIBRARY",
+				"line1": "4275 CASS ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92109"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EARL & BIRDIE TAYLOR LIBRARY",
+			"address": {
+				"locationName": "EARL & BIRDIE TAYLOR LIBRARY",
+				"line1": "4275 CASS ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92109"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NORTH CLAIREMONT LIBRARY",
+			"address": {
+				"locationName": "NORTH CLAIREMONT LIBRARY",
+				"line1": "4616 CLAIREMONT DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92117"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SCRIPPS MIRAMAR RANCH LIBRARY",
+			"address": {
+				"locationName": "SCRIPPS MIRAMAR RANCH LIBRARY",
+				"line1": "10301 SCRIPPS LAKE DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92131"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NORTH CLAIREMONT REC CTR-MEETING RM 2",
+			"address": {
+				"locationName": "NORTH CLAIREMONT REC CTR-MEETING RM 2",
+				"line1": "4421 BANNOCK AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92117"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MICKEY CAFAGNA COMM CTR-WILLOW RM301/302",
+			"address": {
+				"locationName": "MICKEY CAFAGNA COMM CTR-WILLOW RM301/302",
+				"line1": "13094 CIVIC CENTER DR ",
+				"city": "POWAY",
+				"state": "CA",
+				"zip": "92064"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MISSION BAY HIGH SCHOOL-AUDITORIUM FOYER",
+			"address": {
+				"locationName": "MISSION BAY HIGH SCHOOL-AUDITORIUM FOYER",
+				"line1": "2475 GRAND AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92109"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SEQUOIA ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "SEQUOIA ELEM SCHOOL-AUDITORIUM",
+				"line1": "4690 LIMERICK AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92117"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SOUTH CLAIREMONT REC CTR-CRAFT RM",
+			"address": {
+				"locationName": "SOUTH CLAIREMONT REC CTR-CRAFT RM",
+				"line1": "3605 CLAIREMONT DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92117"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SCRIPPS RANCH ESTATES CROWN PT-CLUBHOUSE",
+			"address": {
+				"locationName": "SCRIPPS RANCH ESTATES CROWN PT-CLUBHOUSE",
+				"line1": "11441 CAMINITO MAGNIFICA ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92131"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BALBOA LIBRARY",
+			"address": {
+				"locationName": "BALBOA LIBRARY",
+				"line1": "4255 MT ABERNATHY AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92117"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ISLAMIC CENTER OF SAN DIEGO - MPR",
+			"address": {
+				"locationName": "ISLAMIC CENTER OF SAN DIEGO - MPR",
+				"line1": "7050 ECKSTROM AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92111"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BAY PARK ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "BAY PARK ELEM SCHOOL-AUDITORIUM",
+				"line1": "2433 DENVER ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92110"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ROBB FIELD, JIM HOWARD HALL",
+			"address": {
+				"locationName": "ROBB FIELD, JIM HOWARD HALL",
+				"line1": "2525 BACON ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92107"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CLAIREMONT LIBRARY",
+			"address": {
+				"locationName": "CLAIREMONT LIBRARY",
+				"line1": "2920 BURGENER BLVD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92110"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OCEAN BEACH LIBRARY",
+			"address": {
+				"locationName": "OCEAN BEACH LIBRARY",
+				"line1": "4801 SANTA MONICA AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92107"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "REGISTRAR OF VOTERS",
+			"address": {
+				"locationName": "REGISTRAR OF VOTERS",
+				"line1": "5600 OVERLAND AVE 100",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92123"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "24/7 LIBRARY KIOSK COUNTY OPERATIONS CTR",
+			"address": {
+				"locationName": "24/7 LIBRARY KIOSK COUNTY OPERATIONS CTR",
+				"line1": "5500 OVERLAND AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92123"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CORREIA MIDDLE SCH-BUNGALOW 1",
+			"address": {
+				"locationName": "CORREIA MIDDLE SCH-BUNGALOW 1",
+				"line1": "4302 VALETA ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92107"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GROCERY OUTLET",
+			"address": {
+				"locationName": "GROCERY OUTLET",
+				"line1": "3948 W POINT LOMA BLVD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92110"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "KEARNY MESA REC CTR-MEETING ROOM",
+			"address": {
+				"locationName": "KEARNY MESA REC CTR-MEETING ROOM",
+				"line1": "3170 ARMSTRONG ST POLL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92111"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ASSESSOR/RECORDER/COUNTY CLERK",
+			"address": {
+				"locationName": "ASSESSOR/RECORDER/COUNTY CLERK",
+				"line1": "9225 CLAIREMONT MESA BLVD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92123"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "USD - DEGHERI ALUMNI CTR RM 113",
+			"address": {
+				"locationName": "USD - DEGHERI ALUMNI CTR RM 113",
+				"line1": "5998 ALCALA PARK POLL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92110"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LINDA VISTA RECREATION CTR-AUDITORIUM",
+			"address": {
+				"locationName": "LINDA VISTA RECREATION CTR-AUDITORIUM",
+				"line1": "7064 LEVANT ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92111"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RAMONA BRANCH LIBRARY-COMMUNITY ROOM",
+			"address": {
+				"locationName": "RAMONA BRANCH LIBRARY-COMMUNITY ROOM",
+				"line1": "1275 MAIN ST ",
+				"city": "RAMONA",
+				"state": "CA",
+				"zip": "92065"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "POINT LOMA/HERVEY LIBRARY",
+			"address": {
+				"locationName": "POINT LOMA/HERVEY LIBRARY",
+				"line1": "3701 VOLTAIRE ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92107"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DANA MID SCHOOL-CLASSROOM 121",
+			"address": {
+				"locationName": "DANA MID SCHOOL-CLASSROOM 121",
+				"line1": "1775 CHATSWORTH BLVD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92107"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN DIEGO HUMANE SOCIETY",
+			"address": {
+				"locationName": "SAN DIEGO HUMANE SOCIETY",
+				"line1": "5480 GAINES ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92110"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LINDA VISTA LIBRARY",
+			"address": {
+				"locationName": "LINDA VISTA LIBRARY",
+				"line1": "2160 ULRIC ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92111"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RAMONA UNIFIED SCH DIST - WILSON GYM",
+			"address": {
+				"locationName": "RAMONA UNIFIED SCH DIST - WILSON GYM",
+				"line1": "720 9TH ST ",
+				"city": "RAMONA",
+				"state": "CA",
+				"zip": "92065"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SERRA MESA-KEARNY MESA LIBRARY",
+			"address": {
+				"locationName": "SERRA MESA-KEARNY MESA LIBRARY",
+				"line1": "9005 AERO DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92123"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARSON ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "CARSON ELEM SCHOOL-AUDITORIUM",
+				"line1": "6905 KRAMER ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92111"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FATHER JUNIPERO SERRA HALL",
+			"address": {
+				"locationName": "FATHER JUNIPERO SERRA HALL",
+				"line1": "2540 SAN DIEGO AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92110"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SERRA MESA REC CENTER-GYM",
+			"address": {
+				"locationName": "SERRA MESA REC CENTER-GYM",
+				"line1": "9020 VILLAGE GLEN DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92123"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "TIERRASANTA REC CENTER-MEETING RM 2 & 3",
+			"address": {
+				"locationName": "TIERRASANTA REC CENTER-MEETING RM 2 & 3",
+				"line1": "11220 CLAIREMONT MESA BLVD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92124"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "TIERRASANTA LIBRARY",
+			"address": {
+				"locationName": "TIERRASANTA LIBRARY",
+				"line1": "4985 LA CUENTA DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92124"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MISSION HILLS-HILLCREST/KNOX LIBRARY",
+			"address": {
+				"locationName": "MISSION HILLS-HILLCREST/KNOX LIBRARY",
+				"line1": "215 W WASHINGTON ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92103"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SPRECKELS MASONIC TEMPLE - DINING HALL",
+			"address": {
+				"locationName": "SPRECKELS MASONIC TEMPLE - DINING HALL",
+				"line1": "3858 FRONT ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92103"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MISSION VALLEY LIBRARY",
+			"address": {
+				"locationName": "MISSION VALLEY LIBRARY",
+				"line1": "2123 FENTON PKWY ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92108"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "UNIVERSITY HEIGHTS LIBRARY",
+			"address": {
+				"locationName": "UNIVERSITY HEIGHTS LIBRARY",
+				"line1": "4193 PARK BLVD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92103"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN DIEGO LGBT COMMUNITY CENTER",
+			"address": {
+				"locationName": "SAN DIEGO LGBT COMMUNITY CENTER",
+				"line1": "3909 CENTRE ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92103"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CARE CENTER CREMATION AND BURIAL",
+			"address": {
+				"locationName": "CARE CENTER CREMATION AND BURIAL",
+				"line1": "7403 PRINCESS VIEW DR E",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92120"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SYCAMORE CANYON SCHOOL-MPR",
+			"address": {
+				"locationName": "SYCAMORE CANYON SCHOOL-MPR",
+				"line1": "10201 SETTLE RD ",
+				"city": "SANTEE",
+				"state": "CA",
+				"zip": "92071"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MISSION TRAILS CHURCH-FELLOWSHIP HALL",
+			"address": {
+				"locationName": "MISSION TRAILS CHURCH-FELLOWSHIP HALL",
+				"line1": "4880 ZION AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92120"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ALLIED GARDENS REC CENTER-GYM",
+			"address": {
+				"locationName": "ALLIED GARDENS REC CENTER-GYM",
+				"line1": "5155 GREENBRIER AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92120"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NORTH PARK RECREATION CENTER-MEETING RM",
+			"address": {
+				"locationName": "NORTH PARK RECREATION CENTER-MEETING RM",
+				"line1": "4044 IDAHO ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92104"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WASHINGTON ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "WASHINGTON ELEM SCHOOL-AUDITORIUM",
+				"line1": "1789 STATE ST SCHL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92101"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN DIEGO FIREHOUSE MUSEUM",
+			"address": {
+				"locationName": "SAN DIEGO FIREHOUSE MUSEUM",
+				"line1": "1572 COLUMBIA ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92101"
+			}
+		},
+		{
+			"name": "ALLIED GARDENS/BENJAMIN LIBRARY",
+			"address": {
+				"locationName": "ALLIED GARDENS/BENJAMIN LIBRARY",
+				"line1": "5188 ZION AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92120"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "THE OLD GLOBE",
+			"address": {
+				"locationName": "THE OLD GLOBE",
+				"line1": "1363 OLD GLOBE WAY ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92101"
+			}
+		},
+		{
+			"name": "WEST HILLS HIGH SCHOOL - GYM FOYER",
+			"address": {
+				"locationName": "WEST HILLS HIGH SCHOOL - GYM FOYER",
+				"line1": "8756 MAST BLVD ",
+				"city": "SANTEE",
+				"state": "CA",
+				"zip": "92071"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NORMAL HEIGHTS ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "NORMAL HEIGHTS ELEM SCHOOL-MPR",
+				"line1": "3750 WARD RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92116"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NORTH PARK LIBRARY",
+			"address": {
+				"locationName": "NORTH PARK LIBRARY",
+				"line1": "3795 31ST ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92104"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "KENSINGTON-NORMAL HEIGHTS LIBRARY",
+			"address": {
+				"locationName": "KENSINGTON-NORMAL HEIGHTS LIBRARY",
+				"line1": "4121 ADAMS AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92116"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN DIEGO CITY COLLEGE - P BLDG FLEX RM",
+			"address": {
+				"locationName": "SAN DIEGO CITY COLLEGE - P BLDG FLEX RM",
+				"line1": "1480 PARK BLVD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92101"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WILSON MIDDLE SCHOOL-MEETING RM 129",
+			"address": {
+				"locationName": "WILSON MIDDLE SCHOOL-MEETING RM 129",
+				"line1": "3838 ORANGE AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92105"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SANTEE CITY HALL",
+			"address": {
+				"locationName": "SANTEE CITY HALL",
+				"line1": "10601 N MAGNOLIA AVE ",
+				"city": "SANTEE",
+				"state": "CA",
+				"zip": "92071"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WARNER SPRINGS COMMUNITY RESOURCE CENTER",
+			"address": {
+				"locationName": "WARNER SPRINGS COMMUNITY RESOURCE CENTER",
+				"line1": "30950 HWY 79 ",
+				"city": "WARNER SPRINGS",
+				"state": "CA",
+				"zip": "92086"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CAJON PARK SCHOOL-MPR",
+			"address": {
+				"locationName": "CAJON PARK SCHOOL-MPR",
+				"line1": "10300 N MAGNOLIA AVE SCHL",
+				"city": "SANTEE",
+				"state": "CA",
+				"zip": "92071"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "UC SAN DIEGO PARK & MARKET",
+			"address": {
+				"locationName": "UC SAN DIEGO PARK & MARKET",
+				"line1": "1100 MARKET ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92101"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GOLDEN HILL RECREATION CTR-GYM",
+			"address": {
+				"locationName": "GOLDEN HILL RECREATION CTR-GYM",
+				"line1": "2600 GOLF COURSE DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92102"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CORONADO PUBLIC LIBRARY",
+			"address": {
+				"locationName": "CORONADO PUBLIC LIBRARY",
+				"line1": "640 ORANGE AVE ",
+				"city": "CORONADO",
+				"state": "CA",
+				"zip": "92118"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CORONADO PUBLIC LIBRARY-WINN ROOM",
+			"address": {
+				"locationName": "CORONADO PUBLIC LIBRARY-WINN ROOM",
+				"line1": "640 ORANGE AVE ",
+				"city": "CORONADO",
+				"state": "CA",
+				"zip": "92118"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HOOVER HIGH SCHOOL-800 BLDG JROTC RM",
+			"address": {
+				"locationName": "HOOVER HIGH SCHOOL-800 BLDG JROTC RM",
+				"line1": "4474 EL CAJON BLVD BUS.",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92115"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MC KINLEY ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "MC KINLEY ELEM SCHOOL-AUDITORIUM",
+				"line1": "3045 FELTON ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92104"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CENTRAL LIBRARY",
+			"address": {
+				"locationName": "CENTRAL LIBRARY",
+				"line1": "330 PARK BLVD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92101"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN CARLOS LIBRARY",
+			"address": {
+				"locationName": "SAN CARLOS LIBRARY",
+				"line1": "7265 JACKSON DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92119"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SDSU BOOKSTORE",
+			"address": {
+				"locationName": "SDSU BOOKSTORE",
+				"line1": "999000 EAST COMMONS CAMPANILE DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92182"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JAMES DUKES ELEM SCHOOL-MULTIPURPOSE CTR",
+			"address": {
+				"locationName": "JAMES DUKES ELEM SCHOOL-MULTIPURPOSE CTR",
+				"line1": "24908 ABALAR WAY ",
+				"city": "RAMONA",
+				"state": "CA",
+				"zip": "92065"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SDSU AZTEC STUDENT UNION-TEMPLO MAYOR",
+			"address": {
+				"locationName": "SDSU AZTEC STUDENT UNION-TEMPLO MAYOR",
+				"line1": "5500 CAMPANILE DR POLL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92182"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CITY HEIGHTS/WEINGART LIBRARY",
+			"address": {
+				"locationName": "CITY HEIGHTS/WEINGART LIBRARY",
+				"line1": "3795 FAIRMOUNT AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92105"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CITY HEIGHTS RECREATION CTR-TENNIS RM",
+			"address": {
+				"locationName": "CITY HEIGHTS RECREATION CTR-TENNIS RM",
+				"line1": "4380 LANDIS ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92105"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PRIDE ACADEMY AT PROSPECT AVE-MEDIA CTR",
+			"address": {
+				"locationName": "PRIDE ACADEMY AT PROSPECT AVE-MEDIA CTR",
+				"line1": "9303 PROSPECT AVE ",
+				"city": "SANTEE",
+				"state": "CA",
+				"zip": "92071"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CORONADO CITY HALL",
+			"address": {
+				"locationName": "CORONADO CITY HALL",
+				"line1": "1825 STRAND WAY ",
+				"city": "CORONADO",
+				"state": "CA",
+				"zip": "92118"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GROSSMONT COLLEGE-GRIFFIN GATE",
+			"address": {
+				"locationName": "GROSSMONT COLLEGE-GRIFFIN GATE",
+				"line1": "8800 GROSSMONT COLLEGE DR CLG",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92020"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ASSESSOR/RECORDER/COUNTY CLERK",
+			"address": {
+				"locationName": "ASSESSOR/RECORDER/COUNTY CLERK",
+				"line1": "10144 MISSION GORGE RD ",
+				"city": "SANTEE",
+				"state": "CA",
+				"zip": "92071"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "COLINA DEL SOL REC CENTER-MEETING RM",
+			"address": {
+				"locationName": "COLINA DEL SOL REC CENTER-MEETING RM",
+				"line1": "5319 ORANGE AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92115"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN CARLOS REC CENTER-SAN CARLOS ROOM",
+			"address": {
+				"locationName": "SAN CARLOS REC CENTER-SAN CARLOS ROOM",
+				"line1": "6445 LAKE BADIN AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92119"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "COLLEGE-ROLANDO LIBRARY",
+			"address": {
+				"locationName": "COLLEGE-ROLANDO LIBRARY",
+				"line1": "6600 MONTEZUMA RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92115"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BARRIO STATION",
+			"address": {
+				"locationName": "BARRIO STATION",
+				"line1": "2175 NEWTON AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92113"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SUMMIT UNITARIAN UNIVERSALIST FELLOWSHIP",
+			"address": {
+				"locationName": "SUMMIT UNITARIAN UNIVERSALIST FELLOWSHIP",
+				"line1": "8778 COTTONWOOD AVE ",
+				"city": "SANTEE",
+				"state": "CA",
+				"zip": "92071"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CLAY ELEMENTARY SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "CLAY ELEMENTARY SCHOOL-AUDITORIUM",
+				"line1": "6506 SOLITA AVE SCHL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92115"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "COLUMBUS CLUB OF SD-ASSEMBLY HALL",
+			"address": {
+				"locationName": "COLUMBUS CLUB OF SD-ASSEMBLY HALL",
+				"line1": "4425 HOME AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92105"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LOGAN HEIGHTS LIBRARY",
+			"address": {
+				"locationName": "LOGAN HEIGHTS LIBRARY",
+				"line1": "567 S 28TH ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92113"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MARYLAND AVENUE ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "MARYLAND AVENUE ELEM SCHOOL-AUDITORIUM",
+				"line1": "5400 MARYLAND AVE ",
+				"city": "LA MESA",
+				"state": "CA",
+				"zip": "91942"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DOLORES MAGDALENO MEM REC CTR-MEETING RM",
+			"address": {
+				"locationName": "DOLORES MAGDALENO MEM REC CTR-MEETING RM",
+				"line1": "2902 MARCY AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92113"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WILLOWBROOK GOLF COURSE - EVENTS ROOM",
+			"address": {
+				"locationName": "WILLOWBROOK GOLF COURSE - EVENTS ROOM",
+				"line1": "11905 RIVERSIDE DR ",
+				"city": "LAKESIDE",
+				"state": "CA",
+				"zip": "92040"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OAK PARK LIBRARY",
+			"address": {
+				"locationName": "OAK PARK LIBRARY",
+				"line1": "2802 54TH ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92105"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "UNITED CHURCH OF CHRIST OF LA MESA-HALL",
+			"address": {
+				"locationName": "UNITED CHURCH OF CHRIST OF LA MESA-HALL",
+				"line1": "5940 KELTON AVE ",
+				"city": "LA MESA",
+				"state": "CA",
+				"zip": "91942"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FLETCHER HILLS BRANCH LIBRARY",
+			"address": {
+				"locationName": "FLETCHER HILLS BRANCH LIBRARY",
+				"line1": "576 GARFIELD AVE ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92020"
+			}
+		},
+		{
+			"name": "OAK PARK ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "OAK PARK ELEM SCHOOL-AUDITORIUM",
+				"line1": "2606 54TH ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92105"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "THE SALVATION ARMY KROC CENTER",
+			"address": {
+				"locationName": "THE SALVATION ARMY KROC CENTER",
+				"line1": "6845 UNIVERSITY AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92115"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PARKWAY MIDDLE SCHOOL-RM 28",
+			"address": {
+				"locationName": "PARKWAY MIDDLE SCHOOL-RM 28",
+				"line1": "9009 PARK PLAZA DR SCHL",
+				"city": "LA MESA",
+				"state": "CA",
+				"zip": "91942"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HILLSIDE COMMUNITY CENTER-MEETING RM",
+			"address": {
+				"locationName": "HILLSIDE COMMUNITY CENTER-MEETING RM",
+				"line1": "840 BUENA TER ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92020"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LAKESIDE COMMUNITY CENTER-MEYER HALL",
+			"address": {
+				"locationName": "LAKESIDE COMMUNITY CENTER-MEYER HALL",
+				"line1": "9841 VINE ST ",
+				"city": "LAKESIDE",
+				"state": "CA",
+				"zip": "92040"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FRAZIER FARMS",
+			"address": {
+				"locationName": "FRAZIER FARMS",
+				"line1": "8401 FLETCHER PKWY ",
+				"city": "LA MESA",
+				"state": "CA",
+				"zip": "91942"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HHSA SOUTHEAST FAMILY RESOURCE CENTER",
+			"address": {
+				"locationName": "HHSA SOUTHEAST FAMILY RESOURCE CENTER",
+				"line1": "4588 MARKET ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92102"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RIVERVIEW ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "RIVERVIEW ELEM SCHOOL-MPR",
+				"line1": "9308 WINTER GARDENS BLVD ",
+				"city": "LAKESIDE",
+				"state": "CA",
+				"zip": "92040"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MOUNTAIN VIEW COMM CTR-BACK MEETING RM",
+			"address": {
+				"locationName": "MOUNTAIN VIEW COMM CTR-BACK MEETING RM",
+				"line1": "641 S BOUNDARY ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92113"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HELIX CHARTER HIGH SCHOOL-PAC FOYER",
+			"address": {
+				"locationName": "HELIX CHARTER HIGH SCHOOL-PAC FOYER",
+				"line1": "7323 UNIVERSITY AVE ",
+				"city": "LA MESA",
+				"state": "CA",
+				"zip": "91942"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MOUNTAIN VIEW/BECKWOURTH LIBRARY",
+			"address": {
+				"locationName": "MOUNTAIN VIEW/BECKWOURTH LIBRARY",
+				"line1": "721 SAN PASQUAL ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92113"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SOUTHCREST REC CTR-MEETING RM 1",
+			"address": {
+				"locationName": "SOUTHCREST REC CTR-MEETING RM 1",
+				"line1": "4149 NEWTON AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92113"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VALENCIA PARK / MALCOLM X LIBRARY",
+			"address": {
+				"locationName": "VALENCIA PARK / MALCOLM X LIBRARY",
+				"line1": "5148 MARKET ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92114"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VALENCIA PARK/MALCOLM X LIBRARY",
+			"address": {
+				"locationName": "VALENCIA PARK/MALCOLM X LIBRARY",
+				"line1": "5148 MARKET ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92114"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HHSA LEMON GROVE LIVE WELL CENTER",
+			"address": {
+				"locationName": "HHSA LEMON GROVE LIVE WELL CENTER",
+				"line1": "7065 BROADWAY ",
+				"city": "LEMON GROVE",
+				"state": "CA",
+				"zip": "91945"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MAGNOLIA ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "MAGNOLIA ELEM SCHOOL-AUDITORIUM",
+				"line1": "650 GREENFIELD DR ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EPIPHANY WOMEN IN FOCUS",
+			"address": {
+				"locationName": "EPIPHANY WOMEN IN FOCUS",
+				"line1": "5081 LOGAN AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92113"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JUDY VETERINARY CLINIC",
+			"address": {
+				"locationName": "JUDY VETERINARY CLINIC",
+				"line1": "1764 N 2ND ST ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ENCANTO RECREATION CTR-MEETING RM",
+			"address": {
+				"locationName": "ENCANTO RECREATION CTR-MEETING RM",
+				"line1": "6508 WUNDERLIN AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92114"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "W D HALL ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "W D HALL ELEM SCHOOL-AUDITORIUM",
+				"line1": "1376 PEPPER DR ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NARANCA ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "NARANCA ELEM SCHOOL-MPR",
+				"line1": "1030 NARANCA AVE ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EL TOYON RECREATION CTR-CLASSRM",
+			"address": {
+				"locationName": "EL TOYON RECREATION CTR-CLASSRM",
+				"line1": "2005 E 4TH ST ",
+				"city": "NATIONAL CITY",
+				"state": "CA",
+				"zip": "91950"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MARTIN LUTHER KING JR COMM CTR-MAIN HALL",
+			"address": {
+				"locationName": "MARTIN LUTHER KING JR COMM CTR-MAIN HALL",
+				"line1": "140 E 12TH ST ",
+				"city": "NATIONAL CITY",
+				"state": "CA",
+				"zip": "91950"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BELLA VISTA HEALTH CENTER",
+			"address": {
+				"locationName": "BELLA VISTA HEALTH CENTER",
+				"line1": "7922 PALM ST ",
+				"city": "LEMON GROVE",
+				"state": "CA",
+				"zip": "91945"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NATIONAL CITY PUBLIC LIBRARY",
+			"address": {
+				"locationName": "NATIONAL CITY PUBLIC LIBRARY",
+				"line1": "1401 NATIONAL CITY BLVD ",
+				"city": "NATIONAL CITY",
+				"state": "CA",
+				"zip": "91950"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "WELLS PARK",
+			"address": {
+				"locationName": "WELLS PARK",
+				"line1": "1153 E MADISON AVE ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BOSTONIA GLOBAL HIGH SCHOOL-ROOM 604",
+			"address": {
+				"locationName": "BOSTONIA GLOBAL HIGH SCHOOL-ROOM 604",
+				"line1": "1221 EMERALD AVE SCHL",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92020"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MARTIN LUTHER KING JR REC CTR-MEETING RM",
+			"address": {
+				"locationName": "MARTIN LUTHER KING JR REC CTR-MEETING RM",
+				"line1": "6401 SKYLINE DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92114"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LEMON BLOSSOM HALL",
+			"address": {
+				"locationName": "LEMON BLOSSOM HALL",
+				"line1": "8235 MT VERNON ST ",
+				"city": "LEMON GROVE",
+				"state": "CA",
+				"zip": "91945"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HHSA EL CAJON FAMILY RESOURCE CENTER",
+			"address": {
+				"locationName": "HHSA EL CAJON FAMILY RESOURCE CENTER",
+				"line1": "220 S 1ST ST ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92019"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JULIAN TOWN HALL - UPSTAIRS",
+			"address": {
+				"locationName": "JULIAN TOWN HALL - UPSTAIRS",
+				"line1": "2129 MAIN ST ",
+				"city": "JULIAN",
+				"state": "CA",
+				"zip": "92036"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FAITH CHAPEL-STUDENT CENTER",
+			"address": {
+				"locationName": "FAITH CHAPEL-STUDENT CENTER",
+				"line1": "9400 CAMPO RD ",
+				"city": "SPRING VALLEY",
+				"state": "CA",
+				"zip": "91977"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CAMACHO RECREATION CENTER - GYM",
+			"address": {
+				"locationName": "CAMACHO RECREATION CENTER - GYM",
+				"line1": "1810 E 22ND ST ",
+				"city": "NATIONAL CITY",
+				"state": "CA",
+				"zip": "91950"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "NEW SEASONS CHURCH - YOUTH CENTER",
+			"address": {
+				"locationName": "NEW SEASONS CHURCH - YOUTH CENTER",
+				"line1": "2300 BANCROFT DR ",
+				"city": "SPRING VALLEY",
+				"state": "CA",
+				"zip": "91977"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "AUDUBON SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "AUDUBON SCHOOL-AUDITORIUM",
+				"line1": "8111 SAN VICENTE ST SCHL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92114"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RIOS ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "RIOS ELEM SCHOOL-MPR",
+				"line1": "14314 RIOS CANYON RD ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GRANGER JR HIGH SCHOOL-LIBRARY",
+			"address": {
+				"locationName": "GRANGER JR HIGH SCHOOL-LIBRARY",
+				"line1": "2020 VAN NESS AVE ",
+				"city": "NATIONAL CITY",
+				"state": "CA",
+				"zip": "91950"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FOOTHILLS ADULT EDUCATION CENTER",
+			"address": {
+				"locationName": "FOOTHILLS ADULT EDUCATION CENTER",
+				"line1": "1550 MELODY LN ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92019"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "KENNEDY REC CENTER-MEETING RM",
+			"address": {
+				"locationName": "KENNEDY REC CENTER-MEETING RM",
+				"line1": "1675 E MADISON AVE ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92019"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EL CAJON ELKS LODGE #1812 - MEETING RM",
+			"address": {
+				"locationName": "EL CAJON ELKS LODGE #1812 - MEETING RM",
+				"line1": "1400 E WASHINGTON AVE ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92019"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LINCOLN ACRES BRANCH LIBRARY",
+			"address": {
+				"locationName": "LINCOLN ACRES BRANCH LIBRARY",
+				"line1": "2725 GRANGER AVE ",
+				"city": "NATIONAL CITY",
+				"state": "CA",
+				"zip": "91950"
+			}
+		},
+		{
+			"name": "PARADISE HILLS LIBRARY",
+			"address": {
+				"locationName": "PARADISE HILLS LIBRARY",
+				"line1": "5922 RANCHO HILLS DR ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92139"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HIGHLANDS ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "HIGHLANDS ELEM SCHOOL-MPR",
+				"line1": "3131 S BARCELONA ST ",
+				"city": "SPRING VALLEY",
+				"state": "CA",
+				"zip": "91977"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SKYLINE HILLS BRANCH LIBRARY-MPR",
+			"address": {
+				"locationName": "SKYLINE HILLS BRANCH LIBRARY-MPR",
+				"line1": "7900 PARADISE VALLEY RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92139"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SKYLINE HILLS LIBRARY",
+			"address": {
+				"locationName": "SKYLINE HILLS LIBRARY",
+				"line1": "7900 PARADISE VALLEY RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92139"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PENN ATHLETIC FIELD-MEETING RM",
+			"address": {
+				"locationName": "PENN ATHLETIC FIELD-MEETING RM",
+				"line1": "2555 DUSK DR POLL",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92139"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "AVOCADO ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "AVOCADO ELEM SCHOOL-AUDITORIUM",
+				"line1": "3845 AVOCADO SCHOOL RD SCHL",
+				"city": "LA MESA",
+				"state": "CA",
+				"zip": "91941"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SPRING VALLEY COMMUNITY CTR-OLSEN RM",
+			"address": {
+				"locationName": "SPRING VALLEY COMMUNITY CTR-OLSEN RM",
+				"line1": "8735 JAMACHA BLVD ",
+				"city": "SPRING VALLEY",
+				"state": "CA",
+				"zip": "91977"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CHULA VISTA CITY HALL",
+			"address": {
+				"locationName": "CHULA VISTA CITY HALL",
+				"line1": "276 4TH AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CHULA VISTA PUBLIC LIBRARY CIVIC CTR BRC",
+			"address": {
+				"locationName": "CHULA VISTA PUBLIC LIBRARY CIVIC CTR BRC",
+				"line1": "365 F ST ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ROSEBANK ELEM SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "ROSEBANK ELEM SCHOOL-AUDITORIUM",
+				"line1": "80 FLOWER ST ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LOS COCHES CREEK MIDDLE SCHOOL-DRAMA RM",
+			"address": {
+				"locationName": "LOS COCHES CREEK MIDDLE SCHOOL-DRAMA RM",
+				"line1": "9669 DUNBAR LN ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CHULA VISTA MIDDLE SCHOOL-AUDITORIUM",
+			"address": {
+				"locationName": "CHULA VISTA MIDDLE SCHOOL-AUDITORIUM",
+				"line1": "415 5TH AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN MIGUEL FIRE PROTECTION DISTRICT",
+			"address": {
+				"locationName": "SAN MIGUEL FIRE PROTECTION DISTRICT",
+				"line1": "2850 VIA ORANGE WAY ",
+				"city": "SPRING VALLEY",
+				"state": "CA",
+				"zip": "91978"
+			},
+			"startDate": "2022-11-07",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "RANCHO SAN DIEGO ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "RANCHO SAN DIEGO ELEM SCHOOL-MPR",
+				"line1": "12151 CALLE ALBARA ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92019"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ASSESSOR/RECORDER/COUNTY CLERK",
+			"address": {
+				"locationName": "ASSESSOR/RECORDER/COUNTY CLERK",
+				"line1": "590 3RD AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "VISTA GRANDE SCHL-MEDIA CENTER",
+			"address": {
+				"locationName": "VISTA GRANDE SCHL-MEDIA CENTER",
+				"line1": "1908 VISTA GRANDE RD SCHL",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92019"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CREST BRANCH LIBRARY",
+			"address": {
+				"locationName": "CREST BRANCH LIBRARY",
+				"line1": "105 JUANITA LN ",
+				"city": "EL CAJON",
+				"state": "CA",
+				"zip": "92021"
+			}
+		},
+		{
+			"name": "BONITA-SUNNYSIDE BRANCH LIBRARY-COMM RM",
+			"address": {
+				"locationName": "BONITA-SUNNYSIDE BRANCH LIBRARY-COMM RM",
+				"line1": "4375 BONITA RD ",
+				"city": "BONITA",
+				"state": "CA",
+				"zip": "91902"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HILLTOP HIGH SCHOOL-CAFETERIA",
+			"address": {
+				"locationName": "HILLTOP HIGH SCHOOL-CAFETERIA",
+				"line1": "555 CLAIRE AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BONITA-SUNNYSIDE FIRE PROTECTION DIST",
+			"address": {
+				"locationName": "BONITA-SUNNYSIDE FIRE PROTECTION DIST",
+				"line1": "4900 BONITA RD ",
+				"city": "BONITA",
+				"state": "CA",
+				"zip": "91902"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SHADOW MTN COMM CHR-FIRESIDE RM",
+			"address": {
+				"locationName": "SHADOW MTN COMM CHR-FIRESIDE RM",
+				"line1": "960 5TH AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91911"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SBUSD ED CENTER-BURRESS AUDITORIUM",
+			"address": {
+				"locationName": "SBUSD ED CENTER-BURRESS AUDITORIUM",
+				"line1": "601 ELM AVE ",
+				"city": "IMPERIAL BEACH",
+				"state": "CA",
+				"zip": "91932"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GROCERY OUTLET",
+			"address": {
+				"locationName": "GROCERY OUTLET",
+				"line1": "881 PALM AVE ",
+				"city": "IMPERIAL BEACH",
+				"state": "CA",
+				"zip": "91932"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HHSA CHULA VISTA LIVE WELL CENTER",
+			"address": {
+				"locationName": "HHSA CHULA VISTA LIVE WELL CENTER",
+				"line1": "690 OXFORD ST ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91911"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BAY VIEW BAPTIST CHURCH",
+			"address": {
+				"locationName": "BAY VIEW BAPTIST CHURCH",
+				"line1": "210 JAMUL AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91911"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GROCERY OUTLET",
+			"address": {
+				"locationName": "GROCERY OUTLET",
+				"line1": "1340 3RD AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91911"
+			}
+		},
+		{
+			"name": "SOUTH CHULA VISTA LIBRARY",
+			"address": {
+				"locationName": "SOUTH CHULA VISTA LIBRARY",
+				"line1": "389 ORANGE AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91911"
+			}
+		},
+		{
+			"name": "MAAC COMMUNITY CENTER",
+			"address": {
+				"locationName": "MAAC COMMUNITY CENTER",
+				"line1": "1387 3RD AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91911"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CORPUS CHRISTI CATHOLIC CHURCH",
+			"address": {
+				"locationName": "CORPUS CHRISTI CATHOLIC CHURCH",
+				"line1": "450 CORRAL CANYON RD ",
+				"city": "BONITA",
+				"state": "CA",
+				"zip": "91902"
+			},
+			"startDate": "2022-10-11",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BONITA VISTA MIDDLE SCHOOL-CAFETERIA",
+			"address": {
+				"locationName": "BONITA VISTA MIDDLE SCHOOL-CAFETERIA",
+				"line1": "650 OTAY LAKES RD ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ROBERT EGGER REC CTR-MTG RM",
+			"address": {
+				"locationName": "ROBERT EGGER REC CTR-MTG RM",
+				"line1": "1885 CORONADO AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92154"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "ALPINE BRANCH LIBRARY",
+			"address": {
+				"locationName": "ALPINE BRANCH LIBRARY",
+				"line1": "1752 ALPINE BLVD ",
+				"city": "ALPINE",
+				"state": "CA",
+				"zip": "91901"
+			}
+		},
+		{
+			"name": "ALPINE BRANCH LIBRARY-RESOURCE ROOM",
+			"address": {
+				"locationName": "ALPINE BRANCH LIBRARY-RESOURCE ROOM",
+				"line1": "1752 ALPINE BLVD ",
+				"city": "ALPINE",
+				"state": "CA",
+				"zip": "91901"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "LIBERTY ELEMENTARY SCHOOL-MPR",
+			"address": {
+				"locationName": "LIBERTY ELEMENTARY SCHOOL-MPR",
+				"line1": "2175 PROCTOR VALLEY RD ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91914"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FIRST UNITED METHODIST CH OF CHULA VISTA",
+			"address": {
+				"locationName": "FIRST UNITED METHODIST CH OF CHULA VISTA",
+				"line1": "1200 E H ST ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91910"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BORREGO SPRINGS BRANCH LIBRARY",
+			"address": {
+				"locationName": "BORREGO SPRINGS BRANCH LIBRARY",
+				"line1": "2580 COUNTRY CLUB RD ",
+				"city": "BORREGO SPRINGS",
+				"state": "CA",
+				"zip": "92004"
+			}
+		},
+		{
+			"name": "SWC - FORMER FIRE STATION",
+			"address": {
+				"locationName": "SWC - FORMER FIRE STATION",
+				"line1": "861 ELMHURST ST ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91913"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SOUTHWEST HIGH SCHOOL-CAFETERIA",
+			"address": {
+				"locationName": "SOUTHWEST HIGH SCHOOL-CAFETERIA",
+				"line1": "1685 HOLLISTER ST ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92154"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FRED H ROHR ELEM SCHOOL-CAFETERIA",
+			"address": {
+				"locationName": "FRED H ROHR ELEM SCHOOL-CAFETERIA",
+				"line1": "1540 MALTA AVE ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91911"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MONTGOMERY WALLER REC CTR-MEETING RM",
+			"address": {
+				"locationName": "MONTGOMERY WALLER REC CTR-MEETING RM",
+				"line1": "3020 CORONADO AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92154"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OTAY MESA-NESTOR LIBRARY",
+			"address": {
+				"locationName": "OTAY MESA-NESTOR LIBRARY",
+				"line1": "3003 CORONADO AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92154"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BORREGO SPRINGS HIGH SCHOOL-COMM RM",
+			"address": {
+				"locationName": "BORREGO SPRINGS HIGH SCHOOL-COMM RM",
+				"line1": "2281 DIEGUENO RD ",
+				"city": "BORREGO SPRINGS",
+				"state": "CA",
+				"zip": "92004"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "HEDENKAMP ELEM SCHOOL-MPR HALF",
+			"address": {
+				"locationName": "HEDENKAMP ELEM SCHOOL-MPR HALF",
+				"line1": "930 E PALOMAR ST ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91913"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JUAREZ-LINCOLN ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "JUAREZ-LINCOLN ELEM SCHOOL-MPR",
+				"line1": "849 TWINING AVE ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92154"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JAMUL TRUE VALUE HARDWARE",
+			"address": {
+				"locationName": "JAMUL TRUE VALUE HARDWARE",
+				"line1": "13881 CAMPO RD A-7",
+				"city": "JAMUL",
+				"state": "CA",
+				"zip": "91935"
+			},
+			"startDate": "2022-10-13",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "OTAY RANCH HIGH SCHL-GYM",
+			"address": {
+				"locationName": "OTAY RANCH HIGH SCHL-GYM",
+				"line1": "1250 OLYMPIC PKWY ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91913"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EASTLAKE HIGH SCHOOL-ROOM 1604",
+			"address": {
+				"locationName": "EASTLAKE HIGH SCHOOL-ROOM 1604",
+				"line1": "1120 EASTLAKE PKWY ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91915"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "EASTLAKE MIDDLE SCHOOL-LIBRARY",
+			"address": {
+				"locationName": "EASTLAKE MIDDLE SCHOOL-LIBRARY",
+				"line1": "900 DUNCAN RANCH RD ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91914"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "COLONEL IRVING SALOMON COMM CTR-GAME RM",
+			"address": {
+				"locationName": "COLONEL IRVING SALOMON COMM CTR-GAME RM",
+				"line1": "179 DIZA RD ",
+				"city": "SAN YSIDRO",
+				"state": "CA",
+				"zip": "92173"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "FAHARI L JEFFERS ELEM SCHOOL-MPR 600",
+			"address": {
+				"locationName": "FAHARI L JEFFERS ELEM SCHOOL-MPR 600",
+				"line1": "1145 CAMINO PRADO ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91913"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN YSIDRO LIBRARY",
+			"address": {
+				"locationName": "SAN YSIDRO LIBRARY",
+				"line1": "4235 BEYER BLVD ",
+				"city": "SAN YSIDRO",
+				"state": "CA",
+				"zip": "92173"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "SAN YSIDRO LIBRARY-COMMUNITY ROOM",
+			"address": {
+				"locationName": "SAN YSIDRO LIBRARY-COMMUNITY ROOM",
+				"line1": "4235 BEYER BLVD ",
+				"city": "SAN YSIDRO",
+				"state": "CA",
+				"zip": "92173"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CASA FAMILIAR-SAN YSIDRO REC & COMM CTR",
+			"address": {
+				"locationName": "CASA FAMILIAR-SAN YSIDRO REC & COMM CTR",
+				"line1": "268 E PARK AVE ",
+				"city": "SAN YSIDRO",
+				"state": "CA",
+				"zip": "92173"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CHULA VISTA PUBLIC LIBRARY",
+			"address": {
+				"locationName": "CHULA VISTA PUBLIC LIBRARY",
+				"line1": "2015 BIRCH RD 409",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91915"
+			},
+			"startDate": "2022-10-10",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "CAMARENA, ENRIQUE S ELEM SCHOOL-MPR",
+			"address": {
+				"locationName": "CAMARENA, ENRIQUE S ELEM SCHOOL-MPR",
+				"line1": "1650 EXPLORATION FALLS DR ",
+				"city": "CHULA VISTA",
+				"state": "CA",
+				"zip": "91915"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "GROCERY OUTLET",
+			"address": {
+				"locationName": "GROCERY OUTLET",
+				"line1": "444 E SAN YSIDRO BLVD ",
+				"city": "SAN YSIDRO",
+				"state": "CA",
+				"zip": "92173"
+			}
+		},
+		{
+			"name": "SAN YSIDRO HIGH SCHL-PERF ARTS CTR FOYER",
+			"address": {
+				"locationName": "SAN YSIDRO HIGH SCHL-PERF ARTS CTR FOYER",
+				"line1": "5353 AIRWAY RD ",
+				"city": "SAN DIEGO",
+				"state": "CA",
+				"zip": "92154"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "DESCANSO BRANCH LIBRARY",
+			"address": {
+				"locationName": "DESCANSO BRANCH LIBRARY",
+				"line1": "9545 RIVER DR ",
+				"city": "DESCANSO",
+				"state": "CA",
+				"zip": "91916"
+			}
+		},
+		{
+			"name": "OUR LADY OF LIGHT CATHOLIC CHR-COMM RM",
+			"address": {
+				"locationName": "OUR LADY OF LIGHT CATHOLIC CHR-COMM RM",
+				"line1": "9136 RIVERSIDE DR ",
+				"city": "DESCANSO",
+				"state": "CA",
+				"zip": "91916"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "PINE VALLEY BRANCH LIBRARY",
+			"address": {
+				"locationName": "PINE VALLEY BRANCH LIBRARY",
+				"line1": "28804 OLD HWY 80 ",
+				"city": "PINE VALLEY",
+				"state": "CA",
+				"zip": "91962"
+			}
+		},
+		{
+			"name": "PINE VALLEY COMMUNITY CLUBHOUSE",
+			"address": {
+				"locationName": "PINE VALLEY COMMUNITY CLUBHOUSE",
+				"line1": "28890 OLD HWY 80 ",
+				"city": "PINE VALLEY",
+				"state": "CA",
+				"zip": "91962"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "MOUNTAIN EMPIRE HIGH SCHOOL-GYM",
+			"address": {
+				"locationName": "MOUNTAIN EMPIRE HIGH SCHOOL-GYM",
+				"line1": "3305 BUCKMAN SPRINGS RD ",
+				"city": "PINE VALLEY",
+				"state": "CA",
+				"zip": "91962"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "POTRERO COMMUNITY CENTER-MAIN HALL",
+			"address": {
+				"locationName": "POTRERO COMMUNITY CENTER-MAIN HALL",
+				"line1": "24550 HWY 94 ",
+				"city": "POTRERO",
+				"state": "CA",
+				"zip": "91963"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "POTRERO BRANCH LIBRARY",
+			"address": {
+				"locationName": "POTRERO BRANCH LIBRARY",
+				"line1": "24883 POTRERO VALLEY RD ",
+				"city": "POTRERO",
+				"state": "CA",
+				"zip": "91963"
+			}
+		},
+		{
+			"name": "CAMPO-MORENA VILLAGE BRANCH LIBRARY",
+			"address": {
+				"locationName": "CAMPO-MORENA VILLAGE BRANCH LIBRARY",
+				"line1": "31356 HWY 94 ",
+				"city": "CAMPO",
+				"state": "CA",
+				"zip": "91906"
+			}
+		},
+		{
+			"name": "MOUNTAIN HEALTH COMM CTR-MAIN HALL",
+			"address": {
+				"locationName": "MOUNTAIN HEALTH COMM CTR-MAIN HALL",
+				"line1": "976 SHERIDAN RD ",
+				"city": "CAMPO",
+				"state": "CA",
+				"zip": "91906"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "BACK COUNTRY RESOURCE CENTER",
+			"address": {
+				"locationName": "BACK COUNTRY RESOURCE CENTER",
+				"line1": "39919 RIBBONWOOD RD ",
+				"city": "BOULEVARD",
+				"state": "CA",
+				"zip": "91905"
+			},
+			"startDate": "2022-10-29",
+			"endDate": "2022-11-08"
+		},
+		{
+			"name": "JACUMBA BRANCH LIBRARY",
+			"address": {
+				"locationName": "JACUMBA BRANCH LIBRARY",
+				"line1": "44605 OLD HWY 80 ",
+				"city": "JACUMBA",
+				"state": "CA",
+				"zip": "91934"
+			}
+		},
+		{
+			"name": "RINCON TRIBAL HALL",
+			"address": {
+				"locationName": "RINCON TRIBAL HALL",
+				"line1": "1 WEST TRIBAL RD ",
+				"city": "VALLEY CENTER",
+				"state": "CA",
+				"zip": "92082"
+			},
+			"startDate": "2022-11-05",
+			"endDate": "2022-11-08"
+		}
+	]
+}

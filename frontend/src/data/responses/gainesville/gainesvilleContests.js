@@ -1,0 +1,387 @@
+export default [
+	{
+		office: 'President of the United States',
+		official: {
+			name: 'Joseph R. Biden',
+			party: 'Democratic Party',
+			phones: ['(202) 456-1111'],
+			urls: [
+				'https://www.whitehouse.gov/',
+				'https://en.wikipedia.org/wiki/Joe_Biden',
+			],
+		},
+	},
+	{
+		office: 'Vice President of the United States',
+		official: {
+			name: 'Kamala D. Harris',
+			party: 'Democratic Party',
+			phones: ['(202) 456-1111'],
+			urls: [
+				'https://www.whitehouse.gov/',
+				'https://en.wikipedia.org/wiki/Kamala_Harris',
+			],
+		},
+	},
+	{
+		office: 'U.S. Senator',
+		official: {
+			name: 'Marco Rubio',
+			party: 'Republican Party',
+			phones: ['(202) 224-3041'],
+			urls: [
+				'https://www.rubio.senate.gov/',
+				'https://en.wikipedia.org/wiki/Marco_Rubio',
+			],
+			photoUrl:
+				'https//bioguide.congress.gov/bioguide/photo/R/R000595.jpg',
+		},
+	},
+	{
+		office: 'U.S. Senator',
+		official: {
+			name: 'Rick Scott',
+			party: 'Republican Party',
+			phones: ['(202) 224-5274'],
+			urls: [
+				'https://www.rickscott.senate.gov/',
+				'https://en.wikipedia.org/wiki/Rick_Scott',
+			],
+			photoUrl:
+				'https//www.flgov.com/wp-content/uploads/2013/05/GovernorNEW-682x1024.jpg',
+			emails: ['Rick.scott@eog.myflorida.com'],
+		},
+	},
+	{
+		office: 'U.S. Representative',
+		official: {
+			name: 'Kat Cammack',
+			party: 'Republican Party',
+			phones: ['(202) 225-5744'],
+			urls: [
+				'https://cammack.house.gov/',
+				'https://en.wikipedia.org/wiki/Kat_Cammack',
+			],
+		},
+	},
+	{
+		office: 'Governor of Florida',
+		official: {
+			name: 'Ron DeSantis',
+			party: 'Republican Party',
+			phones: ['(850) 717-9337'],
+			urls: [
+				'https://www.flgov.com/',
+				'https://en.wikipedia.org/wiki/Ron_DeSantis',
+			],
+			emails: ['governorron.desantis@eog.myflorida.com'],
+		},
+	},
+	{
+		office: 'Lieutenant Governor of Florida',
+		official: {
+			name: 'Jeanette Nuñez',
+			party: 'Republican Party',
+			phones: ['(850) 488-7146'],
+			urls: [
+				'https://www.flgov.com/lieutenant-governor-jeanette-nunez/',
+				'https://en.wikipedia.org/wiki/Jeanette_Nu%C3%B1ez',
+			],
+			emails: ['ltgovernorjeanette.nunez@eog.myflorida.com'],
+		},
+	},
+	{
+		office: 'FL State Attorney General',
+		official: {
+			name: 'Ashley Moody',
+			party: 'Republican Party',
+			phones: ['(866) 966-7226'],
+			urls: [
+				'https://myfloridalegal.com/',
+				'https://en.wikipedia.org/wiki/Ashley_Moody',
+			],
+		},
+	},
+	{
+		office: 'FL State Chief Financial Officer',
+		official: {
+			name: 'Jimmy Patronis',
+			party: 'Republican Party',
+			phones: ['(850) 413-3100'],
+			urls: [
+				'https://www.myfloridacfo.com/home.html',
+				'https://en.wikipedia.org/wiki/Jimmy_Patronis',
+			],
+			emails: ['cfo.patronis@myfloridacfo.com'],
+		},
+	},
+	{
+		office: 'FL State Commissioner of Agriculture',
+		official: {
+			name: 'Nicole "Nikki" Fried',
+			party: 'Democratic Party',
+			phones: ['(850) 617-7700'],
+			urls: [
+				'https://www.fdacs.gov/',
+				'https://en.wikipedia.org/wiki/Nikki_Fried',
+			],
+			emails: ['nikki.fried@fdacs.gov'],
+		},
+	},
+	{
+		office: 'FL State Senator',
+		official: {
+			name: 'Keith Perry',
+			party: 'Republican Party',
+			phones: ['(850) 487-5008'],
+			urls: [
+				'https://www.flsenate.gov/Senators/S8',
+				'https://en.wikipedia.org/wiki/Keith_Perry_%28politician%29',
+			],
+			photoUrl:
+				'https://www.flsenate.gov/PublishedContent/Senators/2016-2018/Photos/s08_5200.jpg',
+			emails: ['perry.keith.web@flsenate.gov'],
+		},
+	},
+	{
+		office: 'FL State Representative',
+		official: {
+			name: 'Charles Wesley "Chuck" Clemons, Sr.',
+			party: 'Republican Party',
+			phones: ['(850) 717-5021'],
+			urls: [
+				'https://www.myfloridahouse.gov/Sections/Representatives/details.aspx?MemberId=4655&LegislativeTermId=89',
+				'https://en.wikipedia.org/wiki/Chuck_Clemons',
+			],
+			photoUrl:
+				'https//www.myfloridahouse.gov/FileStores/Web/Imaging/Member/4655.jpg',
+			emails: ['charles.clemons@myfloridahouse.gov'],
+		},
+	},
+	{
+		office: 'FL State Supreme Court Justice',
+		official: {
+			name: 'Carlos G. Muñiz',
+			party: 'Nonpartisan',
+			phones: ['(850) 488-0007'],
+			urls: [
+				'https://www.floridasupremecourt.org/Justices/Justice-Carlos-G.-Muniz',
+				'https://en.wikipedia.org/wiki/Carlos_G._Mu%C3%B1iz',
+			],
+			emails: ['publicinformation@flcourts.org'],
+		},
+	},
+	{
+		office: 'FL State Supreme Court Justice',
+		official: {
+			name: 'Charles T. Canady',
+			party: 'Nonpartisan',
+			phones: ['(850) 410-8092'],
+			urls: [
+				'https://www.floridasupremecourt.org/Justices/Chief-Justice-Charles-T.-Canady',
+				'https://en.wikipedia.org/wiki/Charles_T._Canady',
+			],
+			emails: ['publicinformation@flcourts.org'],
+		},
+	},
+	{
+		office: 'FL State Supreme Court Justice',
+		official: {
+			name: 'Jamie R. Grosshans',
+			party: 'Nonpartisan',
+			phones: ['(850) 488-8421'],
+			urls: [
+				'https://www.floridasupremecourt.org/Justices/Justice-Jamie-R.-Grosshans',
+				'https://en.wikipedia.org/wiki/Jamie_Grosshans',
+			],
+			emails: ['publicinformation@flcourts.org'],
+		},
+	},
+	{
+		office: 'FL State Supreme Court Justice',
+		official: {
+			name: 'John D. Couriel',
+			party: 'Nonpartisan',
+			phones: ['(850) 922-5624'],
+			urls: [
+				'https://www.floridasupremecourt.org/Justices/Justice-John-D.-Couriel',
+				'https://en.wikipedia.org/wiki/John_D._Couriel',
+			],
+			emails: ['publicinformation@flcourts.org'],
+		},
+	},
+	{
+		office: 'FL State Supreme Court Justice',
+		official: {
+			name: 'Jorge Labarga',
+			party: 'Nonpartisan',
+			phones: ['(850) 413-8371'],
+			urls: [
+				'https://www.floridasupremecourt.org/Justices/Justice-Jorge-Labarga',
+				'https://en.wikipedia.org/wiki/Jorge_Labarga',
+			],
+			emails: ['publicinformation@flcourts.org'],
+		},
+	},
+	{
+		office: 'FL State Supreme Court Justice',
+		official: {
+			name: 'Renatha Francis',
+			party: 'Nonpartisan',
+			phones: ['(850) 921-1096'],
+			urls: [
+				'https://www.floridasupremecourt.org/Justices/Justice-Renatha-Francis',
+				'https://en.wikipedia.org/wiki/Renatha_Francis',
+			],
+			emails: ['publicinformation@flcourts.org'],
+		},
+	},
+	{
+		office: 'FL State Supreme Court Justice',
+		official: {
+			name: 'Ricky Polston',
+			party: 'Nonpartisan',
+			phones: ['(850) 488-2361'],
+			urls: [
+				'https://www.floridasupremecourt.org/Justices/Justice-Ricky-Polston',
+				'https://en.wikipedia.org/wiki/Ricky_Polston',
+			],
+			emails: ['publicinformation@flcourts.org'],
+		},
+	},
+	{
+		office: 'Alachua County Clerk of Courts',
+		official: {
+			name: 'J.K. "Jess" Irby',
+			party: 'Democratic Party',
+			phones: ['(352) 374-3636'],
+			urls: ['https://alachuacounty.us/Depts/Clerk/Pages/Clerk.aspx'],
+			emails: ['clerk@alachuaclerk.org'],
+		},
+	},
+	{
+		office: 'Alachua County Tax Collector',
+		official: {
+			name: 'John Power',
+			party: 'Democratic Party',
+			phones: ['(352) 374-5236'],
+			urls: ['https://www.alachuacollector.com/'],
+			emails: ['actc@actcfl.org'],
+		},
+	},
+	{
+		office: 'Alachua County Supervisor of Elections',
+		official: {
+			name: 'Kim A. Barton',
+			party: 'Democratic Party',
+			phones: ['(352) 374-5252'],
+			urls: ['https://www.votealachua.com/'],
+			emails: ['kbarton@alachuacounty.us'],
+		},
+	},
+	{
+		office: 'Alachua County Sheriff',
+		official: {
+			name: 'Clovis Watson, Jr.',
+			party: 'Democratic Party',
+			phones: ['(352) 367-4000'],
+			urls: [
+				'https://acso.us/',
+				'https://en.wikipedia.org/wiki/Clovis_Watson_Jr.',
+			],
+		},
+	},
+	{
+		office: 'Alachua County Property Appraiser',
+		official: {
+			name: 'Ayesha Solomon',
+			party: 'Democratic Party',
+			phones: ['(352) 374-5230'],
+			urls: ['https://www.acpafl.org/'],
+			emails: ['acpa@acpafl.org'],
+		},
+	},
+	{
+		office: 'Alachua County Commissioner',
+		official: {
+			name: 'Anna Prizzia',
+			party: 'Democratic Party',
+			phones: ['(352) 264-6900'],
+			urls: ['https://alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx'],
+			emails: ['aprizzia@alachuacounty.us'],
+		},
+	},
+	{
+		office: 'Alachua County Commissioner',
+		official: {
+			name: 'Charles S. "Chuck" Chestnut IV',
+			party: 'Democratic Party',
+			phones: ['(352) 264-6900'],
+			urls: ['https://alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx'],
+			emails: ['cschestnut@alachuacounty.us'],
+		},
+	},
+	{
+		office: 'Alachua County Commissioner',
+		official: {
+			name: 'Ken Cornell',
+			party: 'Republican Party',
+			phones: ['(352) 264-6900'],
+			urls: ['https://alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx'],
+			emails: ['kcornell@alachuacounty.us'],
+		},
+	},
+	{
+		office: 'Alachua County Commissioner',
+		official: {
+			name: 'Marihelen Wheeler',
+			party: 'Democratic Party',
+			phones: ['(352) 264-6900'],
+			urls: ['https://alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx'],
+			emails: ['mwheeler@alachuacounty.us'],
+		},
+	},
+	{
+		office: 'Alachua County Commissioner',
+		official: {
+			name: 'Raemi Eagle-Glenn',
+			party: 'Republican Party',
+			phones: ['(352) 264-6900'],
+			urls: ['https://alachuacounty.us/Depts/BOCC/Pages/BOCC.aspx'],
+			emails: ['reagleglenn@alachuacounty.us'],
+		},
+	},
+	{
+		office: 'Mayor of Gainesville',
+		official: {
+			name: 'Lauren Poe',
+			party: 'Nonpartisan',
+			phones: ['(352) 334-5016'],
+			urls: ['https://www.cityofgainesville.org/CityCommission.aspx'],
+			emails: ['poelb@cityofgainesville.org'],
+		},
+	},
+	{
+		office: 'Gainesville City Commissioner',
+		official: {
+			name: 'Cynthia Chestnut',
+			party: 'Nonpartisan',
+			phones: ['(352) 334-5016'],
+			urls: [
+				'https://www.cityofgainesville.org/CityCommission.aspx',
+				'https://en.wikipedia.org/wiki/Cynthia_M._Chestnut',
+			],
+			emails: ['chestnutcm@cityofgainesville.org'],
+		},
+	},
+	{
+		office: 'Gainesville City Commissioner',
+		official: {
+			name: 'Reina Saco',
+			party: 'Nonpartisan',
+			phones: ['(352) 334-5016'],
+			urls: ['https://www.cityofgainesville.org/CityCommission.aspx'],
+			emails: ['sacore@cityofgainesville.org'],
+		},
+	},
+];
