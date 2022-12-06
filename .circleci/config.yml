@@ -8,7 +8,7 @@ jobs:
       - node/install-packages:
           pkg-manager: npm
       - run:
-          command: nv:CI=$false && cd frontend && npm install --force && npm run build
+          command: $env:CI=$false && cd frontend && npm install --force && npm run build
           name: Build app
       - run:
           command: cd ../backend && npm install && npm run start
