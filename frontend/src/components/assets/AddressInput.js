@@ -19,7 +19,6 @@ function AddressInput() {
 	const dispatch = useDispatch();
 
 	// state for the different address components
-	// 4286 Esperanza Way Oceanside, CA
 	const [streetAddress, setStreetAddress] = useState(
 		localStorage['streetAddress'] ? localStorage['streetAddress'] : "4286 Esperanza Way"
 	);
